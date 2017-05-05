@@ -5,9 +5,9 @@ var bodyz = jQuery('body');
 jQuery(window).bind('mousewheel', function(event) {
   'use strict';
   if (event.originalEvent.wheelDelta >= 0) {
-    bodyz.removeClass('nav-down').addClass('nav-up');
-  } else {
     bodyz.removeClass('nav-up').addClass('nav-down');
+  } else {
+    bodyz.removeClass('nav-down').addClass('nav-up');
   }
 });
 
