@@ -74,7 +74,8 @@ a:hover,
 .mt-radius-5 .mt-coment-nav a,
 .mtc-border-5,
 .mt-radius-5 .post-icon,
-.mt-radius-5 .video-icon  {
+.mt-radius-5 .video-icon,
+.mt-radius-5 .poster .poster-cat  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
