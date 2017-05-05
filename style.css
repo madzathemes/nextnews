@@ -2005,11 +2005,15 @@ h2.heading span {
   right: 10px;
   top: 10px;
 }
-.poster-small .post-icon,
 .poster-small .video-icon {
   right: 0px;
   top: 0px;
   color: white;
+}
+.poster-small .video-icon:before {
+  margin-top: -8px;
+  margin-left: -8px;
+  font-size: 16px;
 }
 .video-icon:before {
   content: "\ea1c";
