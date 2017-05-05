@@ -2882,7 +2882,7 @@ opacity: 0.7
 }
 .share.down li {
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 5px;
 }
 .share.top{
   float:right;
@@ -2891,7 +2891,7 @@ opacity: 0.7
   right: 0px;
 }
 .share.top li {
-  margin-left: 0px;
+  margin-left: 5px;
   margin-right: 0px;
 }
 .share li {
