@@ -78,7 +78,8 @@ a:hover,
 .mt-radius-5 .poster .poster-cat span,
 .mt-radius-5 .poster-data,
 .mt-radius-5 .grid-post .poster-cat span,
-.mt-radius-5 h2.heading span  {
+.mt-radius-5 h2.heading span,
+.mt-radius-5 .poster-large-cat span  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -102,7 +103,8 @@ a:hover,
 .mtc-border-25,
 .mct-box:hover:before,
 .mct-box.active:before,
-.mt-pagepagination a {
+.mt-pagepagination a,
+.mt-radius-25 .poster-large-cat span {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
@@ -2665,7 +2667,6 @@ opacity: 0.7
   padding: 5px 0px 0px;
   text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.33);
   font-weight: 900;
-  text-transform: uppercase;
 }
 .grid-post .post-info {
   color: white;
