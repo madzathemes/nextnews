@@ -72,7 +72,9 @@ a:hover,
 .mt-radius-5 div.sf-menu ul ul li a,
 .mt-radius-5 .df-is-megamenu ul li,
 .mt-radius-5 .mt-coment-nav a,
-.mtc-border-5  {
+.mtc-border-5,
+.mt-radius-5 .post-icon,
+.mt-radius-5 .video-icon  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -87,6 +89,8 @@ a:hover,
 .mt-radius-25 div.sf-menu ul ul li a,
 .mt-radius-25 .df-is-megamenu ul li,
 .mt-radius-25 .mt-coment-nav a,
+.mt-radius-25 .post-icon,
+.mt-radius-25 .video-icon
 .mtc-border-25,
 .mct-box:hover:before,
 .mct-box.active:before,
@@ -1981,7 +1985,8 @@ h2.heading span {
   height: 100%;
   position: absolute;
   z-index: 99;
-  right: 0;
+  right: 10px;
+  top: 10px;
 }
 .video-icon:before {
   content: "\ea1c";
