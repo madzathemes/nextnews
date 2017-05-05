@@ -146,7 +146,7 @@ function nextnews_logo() {
 		</a>
 	<?php } else { ?>
 		<a class="logo"  href="<?php echo esc_url(home_url('/'));?>">
-			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="108" height="21" alt="<?php echo the_title(); ?>" />
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="100" height="15" alt="<?php echo the_title(); ?>" />
 		</a>
 	<?php }
 }
