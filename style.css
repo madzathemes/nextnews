@@ -2597,6 +2597,9 @@ opacity: 0.7
 }
 
 /* Grid Posts */
+.grid-wrap {
+  overflow: hidden;
+}
 .grid-post {
   float:left;
   overflow: hidden;
