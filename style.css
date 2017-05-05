@@ -1920,8 +1920,8 @@ h2.heading span {
 .poster-data {
   display: inline;
   background: white;
-  padding: 3px 6px 3px 0px;
-  font-size: 14px;
+  padding: 3px 0px 3px 10px;
+  font-size: 12px;
 }
 .poster-data span,
 .poster-data .counte {
@@ -1965,7 +1965,7 @@ h2.heading span {
   display: none;
 }
 .poster.normal .poster-data {
-  margin: 0px 15px 0px;
+  margin: 0px 0px 0px;
   color: #222;
 }
 .poster .poster-data {
@@ -2006,7 +2006,7 @@ h2.heading span {
   position: absolute;
   z-index: 99;
   display: block;
-  background: #f5f5f5 !important
+  background: #fff !important
 }
 .normal .video-icon:before {
   content: "\ea1c";
