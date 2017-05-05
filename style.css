@@ -2009,6 +2009,7 @@ h2.heading span {
 .poster-small .video-icon {
   right: 0px;
   top: 0px;
+  color: white;
 }
 .video-icon:before {
   content: "\ea1c";
