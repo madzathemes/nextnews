@@ -2341,7 +2341,7 @@ h2.heading span {
 
 /* Post Carousel */
 .post-carousel {
-  padding-left: 0px;
+  padding-left: 10px;
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -2349,7 +2349,7 @@ h2.heading span {
   z-index: 1;
 }
 .post-carousel .slick-slide {
-  padding-right: 0px;
+  padding-right: 10px;
 }
 .post-carousel .slick-list {
   width: 100%;
