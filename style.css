@@ -5001,6 +5001,13 @@ li.mtc-buy {
 .mt-post-tabs span {
   display: inline-block;
 }
+.mt-post-tabs-nav {
+  background: white;
+  padding: 2px 6px;
+}
+.mt-post-tabs-nav div:first-child {
+  margin-left: 0px;
+}
 .mt-tabc {
   position: relative;
   cursor: pointer;
