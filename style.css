@@ -80,7 +80,8 @@ a:hover,
 .mt-radius-5 .grid-post .poster-cat span,
 .mt-radius-5 h2.heading span,
 .mt-radius-5 .poster-large-cat span,
-.mt-radius-5 .grid-wrap  {
+.mt-radius-5 .grid-wrap,
+.mt-radius-5 .single-cat-wrap .post-categories li a  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -106,7 +107,8 @@ a:hover,
 .mct-box.active:before,
 .mt-pagepagination a,
 .mt-radius-25 .poster-large-cat span,
-.mt-radius-25 .grid-wrap {
+.mt-radius-25 .grid-wrap,
+.mt-radius-25 .single-cat-wrap .post-categories li a {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
