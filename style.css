@@ -1853,7 +1853,7 @@ h2.heading span {
 }
 .trending-normal .poster-data {
   margin-top: 10px;
-  display: block;
+  display: inline-block;
 }
 .poster-carousel-trending .heading {
   padding-bottom: 10px ;
