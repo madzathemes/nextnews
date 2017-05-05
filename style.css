@@ -2582,29 +2582,26 @@ opacity: 0.7
   position: relative;
 }
 .grid-post {
-  width: 49.6%;
+  width: 50%;
   height: 560px;
 }
 .grid-post.style-3 {
-  width: 32.8%;;
+  width: 33.33%;;
 }
 .grid-post.style-3.nr-2 {
-  margin: 0px 0.7%;
+  margin: 0 0;
 }
 .grid-post.nr-2.style-2 {
-  width: 49.6%;
+  width: 50%;
 }
 .grid-post.nr-2.style-1 {
-  width: 49.6%;
+  width: 50%;
   height: 275px;
-  margin-left: 10px;
 }
 .grid-post.style-1.nr-3,
 .grid-post.style-1.nr-4 {
   width: 24.4%;
   height: 275px;
-  margin-left: 10px;
-  margin-top: 10px;
 }
 .grid-post .wrap {
   height: 100%;
