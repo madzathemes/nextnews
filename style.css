@@ -76,7 +76,8 @@ a:hover,
 .mt-radius-5 .post-icon,
 .mt-radius-5 .video-icon,
 .mt-radius-5 .poster .poster-cat span,
-.mt-radius-5 .poster-data  {
+.mt-radius-5 .poster-data,
+.mt-radius-5 .grid-post .poster-cat span  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -95,6 +96,7 @@ a:hover,
 .mt-radius-25 .video-icon,
 .mt-radius-25 .poster .poster-cat span,
 .mt-radius-25 .poster-data,
+.mt-radius-25 .grid-post .poster-cat span,
 .mtc-border-25,
 .mct-box:hover:before,
 .mct-box.active:before,
@@ -1820,7 +1822,7 @@ h2.heading span {
 }
 .size-normal .poster-data {
   margin-top: 10px;
-  display: block;
+  display: inline-block;
 }
 .poster-info {
   background: none !important;
