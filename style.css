@@ -1934,10 +1934,6 @@ h2.heading span {
   color: #222;
   padding: 2px 6px;
 }
-.size-normal .poster-cat span,
-.trending-normal .poster-cat span {
-  padding: 3px !important;
-}
 .poster-data {
   display: inline;
   background: white;
