@@ -2124,12 +2124,16 @@ h2.heading span {
 .poster-small h4 {
   padding-bottom: 0px;
   padding-top: 0px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   display: inline;
 }
 .poster-small .poster-text a {
   display: block;
+  line-height: 1;
+}
+.mt-pl {
+  font-size: 11px!important; 
 }
 .poster-small .poster-text {
   padding-top: 5px;
