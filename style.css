@@ -111,7 +111,8 @@ a:hover,
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
-.grid-post{
+.grid-post,
+.fixed-top a{
   -webkit-border-radius: 0px !important;
   -moz-border-radius: 0px !important;
   border-radius: 0px !important;
