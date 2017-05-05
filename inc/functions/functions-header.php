@@ -68,13 +68,15 @@ else if(!empty($option['menu_background_width'])) {
 
 
 
+
+
+						<div class="head-logo" <?php if(!empty($option['logo_width'])) { ?>  style="width:<?php echo esc_attr($option['logo_width']); ?>px" <?php } ?>><?php nextnews_logo(); ?></div>
+
 						<div class="nav-button mt-radius pointer  <?php if ( false == get_theme_mod( 'mt_menu_small_on', true ) ) { echo "hide-desktop"; } ?>">
 							<div class="mt-m-cool-button">
 								<span class="mt-m-cool-button-line"></span>
 							</div>
 						</div>
-
-						<div class="head-logo" <?php if(!empty($option['logo_width'])) { ?>  style="width:<?php echo esc_attr($option['logo_width']); ?>px" <?php } ?>><?php nextnews_logo(); ?></div>
 
 						<div class="nav mt-radius" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" >
 							<?php nextnews_nav(); ?>
