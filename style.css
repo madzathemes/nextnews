@@ -1397,7 +1397,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   position: absolute;
   width: 130%;
   height: 1px;
-  background: #000;
+  background: #ffd602;
   left: 0;
 }
 .nav-button.active .mt-m-cool-button-line,
@@ -1412,7 +1412,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
     top: 48%;
     width: 22px;
     height: 1px;
-    background: #000;
+    background: #ffd602;
 }
 .hover-menu {
   position: absolute;
