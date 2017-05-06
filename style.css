@@ -3282,9 +3282,9 @@ opacity: 0.7
   display: inline-block;
   position: absolute;
   cursor: pointer;
-  right: -50px;
+  right: -45px;
   top: 0px;
-  padding-left: 0px;
+  padding-left: 5px;
 }
 .single-share-socials:before {
   content: "\67";
