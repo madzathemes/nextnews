@@ -1396,7 +1396,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   content: '';
   position: absolute;
   width: 130%;
-  height: 2px;
+  height: 1px;
   background: #222222;
   left: 0;
 }
@@ -1411,7 +1411,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
     display: block;
     top: 48%;
     width: 22px;
-    height: 2px;
+    height: 1px;
     background: #222222;
 }
 .hover-menu {
