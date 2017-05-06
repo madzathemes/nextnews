@@ -3279,7 +3279,7 @@ opacity: 0.7
   display: inline-block;
   position: absolute;
   cursor: pointer;
-  right: -45px;
+  right: -50px;
   top: 0px;
   padding-left: 0px;
 }
@@ -3302,7 +3302,7 @@ opacity: 0.7
   color: white;
 }
 .single-share .single-share-socials div {
-  padding-top: 0px;
+  padding-top: 5px;
 }
 .single-share:hover .single-share-socials div:before {
   display: block;
@@ -3364,7 +3364,7 @@ opacity: 0.7
   margin-bottom: 20px;
 }
 .single .post-img {
-  padding-right: 45px;
+  padding-right: 50px;
 }
 .form-submit {
   padding: 5px 0px 0px;
