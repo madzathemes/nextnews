@@ -81,7 +81,7 @@ a:hover,
 .mt-radius-5 .grid-wrap,
 .mt-radius-5 .single-cat-wrap .post-categories li a,
 .mt-radius-5 .mt-post-tabs-nav,
-.mt-radius-5 .df-is-megamenu ul .poster-cat span,
+.mt-radius-5 .df-is-megamenu ul .poster-cat,
 .mt-radius-5 .poster .number,
 .mt-radius-5 .entry-meta .author-info  {
   -webkit-border-radius: 5px;
@@ -110,7 +110,7 @@ a:hover,
 .mt-radius-25 .grid-wrap,
 .mt-radius-25 .single-cat-wrap .post-categories li a,
 .mt-radius-25 .mt-post-tabs-nav,
-.mt-radius-25 .df-is-megamenu ul .poster-cat span,
+.mt-radius-25 .df-is-megamenu ul .poster-cat,
 .mt-radius-25 .poster .number,
 .mt-radius-25 .entry-meta .author-info {
   -webkit-border-radius: 25px;
@@ -1021,7 +1021,6 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   display: inline-block;
   padding: 2px 6px;
   text-transform: uppercase;
-  overflow: hidden;
 }
 .mt-megamenu-img {
   height:150px;
