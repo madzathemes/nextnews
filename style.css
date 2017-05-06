@@ -1142,7 +1142,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 }
 .sf-menu > li.current_page_item > a::before,
 .sf-menu > li > a:hover::before {
-  width: 100%;
+  width: 0%;
 }
 
 /*** arrows (for all except IE7) **/
