@@ -1021,6 +1021,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   display: inline-block;
   padding: 2px 6px;
   text-transform: uppercase;
+  overflow: hidden;
 }
 .mt-megamenu-img {
   height:150px;
