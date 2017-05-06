@@ -2392,18 +2392,18 @@ h2.heading span {
   color: #222;
 }
 .poster-next {
-  right: 0px;
+  right: 30px;
   position: absolute;
   bottom: 100%;
-  margin-bottom: -27px;
+  margin-bottom: -57px;
 }
 .poster-next:before {
   content: "\62";
   font-family: "madza";
 }
 .poster-prev {
-  left: 0px;
-  top: 0px;
+  left: 40px;
+  top: 30px;
   position: absolute;
 }
 .poster-prev:before {
