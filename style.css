@@ -82,7 +82,8 @@ a:hover,
 .mt-radius-5 .single-cat-wrap .post-categories li a,
 .mt-radius-5 .mt-post-tabs-nav,
 .mt-radius-5 .df-is-megamenu ul .poster-cat span,
-.mt-radius-5 .poster .number  {
+.mt-radius-5 .poster .number,
+.mt-radius-5 .entry-meta .author-info  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -110,7 +111,8 @@ a:hover,
 .mt-radius-25 .single-cat-wrap .post-categories li a,
 .mt-radius-25 .mt-post-tabs-nav,
 .mt-radius-25 .df-is-megamenu ul .poster-cat span,
-.mt-radius-25 .poster .number {
+.mt-radius-25 .poster .number,
+.mt-radius-25 .entry-meta .author-info {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
@@ -3167,7 +3169,6 @@ opacity: 0.7
 }
 .entry-meta .author-info {
   background: #fff !important;
-  border: 2px solid rgba(205, 206, 209, 0.33) !important;
 }
 .single-media-title .mt-author-soc a:before   {
   color: white;
