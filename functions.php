@@ -53,7 +53,7 @@ function nextnews_theme_setup() {
 		require_once( $locale_file );
 
 	set_post_thumbnail_size( 999, 999, true );
-	add_image_size( 'nextnews_810', 810, 9999, false );
+	add_image_size( 'nextnews_810', 834, 9999, false );
 
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Header Menu', 'nextnews' ),
