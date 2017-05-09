@@ -2749,9 +2749,9 @@ opacity: 0.7
 .single-content p {
     color: #1b1c2a;
 }
-,
 .single-content .entry-content {
   background: white;
+  padding: 40px 40px 20px;
 }
 .single-content .entry-content table {
   margin-bottom: 40px;
