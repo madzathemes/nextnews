@@ -3289,7 +3289,7 @@ opacity: 0.7
   display: inline-block;
   position: absolute;
   cursor: pointer;
-  right: -45px;
+  right: 0px;
   top: 0px;
   padding-left: 5px;
 }
@@ -3374,7 +3374,7 @@ opacity: 0.7
   margin-bottom: 20px;
 }
 .single .post-img {
-  padding-right: 50px;
+  padding-right: 0px;
 }
 .form-submit {
   padding: 5px 0px 0px;
