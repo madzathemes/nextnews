@@ -1,8 +1,0 @@
-.gitignore
-.DS_Store
-gulpfile.js
-package.json
-/node_modules
-*.md
-*.sh
-*.exe
