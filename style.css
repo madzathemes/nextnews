@@ -84,7 +84,8 @@ a:hover,
 .mt-radius-5 .df-is-megamenu ul .poster-cat,
 .mt-radius-5 .poster .number,
 .mt-radius-5 .entry-meta .author-info,
-.mt-radius-5 .single-content .entry-content  {
+.mt-radius-5 .single-content .entry-content,
+.mt-radius-5 .sidebar .advertise  {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -114,7 +115,8 @@ a:hover,
 .mt-radius-25 .df-is-megamenu ul .poster-cat,
 .mt-radius-25 .poster .number,
 .mt-radius-25 .entry-meta .author-info,
-.mt-radius-25 .single-content .entry-content {
+.mt-radius-25 .single-content .entry-content,
+.mt-radius-25 .sidebar .advertise {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
@@ -1654,6 +1656,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 }
 
 /* SIDEBAR */
+.sidebar .advertise { padding: 40px 0px; background: white; }
 
 /* HEADING */
 h2.heading {
@@ -3933,6 +3936,7 @@ opacity: 0.7
   .col-col-3 {
     width: 100% !important;
   }
+
   .column-first,
   .column-second {
     float: none;
