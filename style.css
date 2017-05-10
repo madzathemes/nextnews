@@ -297,7 +297,6 @@ body {
   font-style: normal;
 
 }
-
 [data-icon]:before {
   font-family: "madza" !important;
   content: attr(data-icon);
