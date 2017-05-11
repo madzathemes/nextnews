@@ -37,6 +37,8 @@
     <div class="author-img pull-left">
       <?php global $post; echo get_avatar( $post->post_author, 14 ); ?>
     </div>
+
+    <div class="mt-single-post-author pull-left"><?php the_author_posts_link(); ?></div>
     <div class="mt-author-soc pull-left">
       <?php $twitterHandle = get_the_author_meta('twitter');
       $facebookHandle = get_the_author_meta('facebook');
@@ -55,7 +57,6 @@
       <?php if(!empty($youtubeHandle)) { ?><a class="mt-bio-youtube" href="<?php echo $youtubeHandle; ?>"></a> <?php } ?>
       <?php if(!empty($dribbbleHandle)) { ?><a class="mt-bio-dribbble" href="<?php echo $dribbbleHandle; ?>"></a> <?php } ?>
     </div>
-    <div class="mt-single-post-author pull-left"><?php the_author_posts_link(); ?></div>
     <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
 
     <div class="clearfix"></div>

@@ -3200,6 +3200,7 @@ opacity: 0.7
   color: #888;
   display: block;
   padding: 0 10px 0 0;
+  float: left;
 }
 .single .author-info strong {
   font-size: 13px;
