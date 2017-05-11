@@ -2855,7 +2855,8 @@ opacity: 0.7
     margin: 0px 0 10px 0px;
 }
 .post-statistic {
-  margin: 2px 0 0 18px;
+  margin: 1px 0 0 13px;
+  color: #888888;
 }
 .single-cat-wrap .post-categories {
   list-style: none;
@@ -3205,7 +3206,7 @@ opacity: 0.7
   display: block;
 }
 .stat-shares {
-  padding: 0px 15px 0 20px;
+  padding: 0px 10px 0 20px;
   font-size: 14px;
   display: inline-block;
 }
@@ -3218,7 +3219,7 @@ opacity: 0.7
     margin-left: -16px;
 }
 .stat-views {
-  padding: 0px 15px 0 20px;
+  padding: 0px 10px 0 20px;
   font-size: 14px;
   display: inline-block;
 }
@@ -3236,7 +3237,7 @@ opacity: 0.7
   right: 0px;
 }
 .stat-comments {
-  padding: 12px 0px 0px 23px;
+  padding: 0px 10px 0 20px;
   font-size: 14px;
   display: inline-block;
   display: none;
