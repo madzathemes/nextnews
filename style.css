@@ -2909,7 +2909,6 @@ opacity: 0.7
 .share {
   margin: 0px 0px 40px;
   padding:0px;
-  float:right;
   list-style: none;
 }
 .share.down {
@@ -2921,14 +2920,11 @@ opacity: 0.7
   margin-right: 5px;
 }
 .share.top{
-  float:right;
-  margin: 0px 0px 0px;
-  position: absolute;
-  right: 0px;
+  margin: 20px 0px 0px;
 }
 .share.top li {
-  margin-left: 5px;
-  margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 5px;
 }
 .share li {
   display: inline-block;
@@ -3184,6 +3180,10 @@ opacity: 0.7
 .single-media-title .mt-author-soc a:before   {
   color: white;
 }
+.mt-single-post-date {
+  font-size: 14px;
+  color: #888;
+}
 /*END AUTHOR BIO CHANGES */
 
 .entry-meta .author-info {
@@ -3197,8 +3197,10 @@ opacity: 0.7
   font-size: 15px;
 }
 .single .author-info a {
-  font-size: 12px;
-  color: black;
+  font-size: 14px;
+  color: #888;
+  display: block;
+  padding: 0 10px 0 0;
 }
 .single .author-info strong {
   font-size: 13px;

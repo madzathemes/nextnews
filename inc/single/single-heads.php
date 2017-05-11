@@ -76,8 +76,8 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
           <?php if(!empty($youtubeHandle)) { ?><a class="mt-bio-youtube" href="<?php echo $youtubeHandle; ?>"></a> <?php } ?>
           <?php if(!empty($dribbbleHandle)) { ?><a class="mt-bio-dribbble" href="<?php echo $dribbbleHandle; ?>"></a> <?php } ?>
         </div>
-        <div class="pull-left"><?php the_author_posts_link(); ?></div>
-        <div class="color-silver-light"><?php the_date('M d, Y'); ?></div>
+        <div class="mt-single-post-author pull-left"><?php the_author_posts_link(); ?></div>
+        <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
 
         <div class="clearfix"></div>
       </div>
