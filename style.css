@@ -3132,6 +3132,9 @@ opacity: 0.7
 .mt-author-soc a {
   padding: 0 1px 0 0!important;
 }
+.mt-author-soc a:last-child {
+  padding: 0 10px 0 0!important;
+}
 .mt-author-soc a:before {
   font-size: 12px;
   color: #949494;
