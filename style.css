@@ -57,8 +57,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
 .mt-theme-text,
 a:hover,
 .nav-single .next div:after,
-.nav-single .previous div:before,
-.stat-views:before {
+.nav-single .previous div:before {
   color: #ff0036;
 }
 
@@ -872,7 +871,7 @@ table {
   padding-top: 0px;
 }
 .post-media-wrap {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 .post-media-wrap .video-container {
   padding: 0px!important;
@@ -2852,20 +2851,24 @@ opacity: 0.7
 .comment-reply-title {
   padding-left: 0px !important;
 }
+.single-cat-wrap {
+    margin: 0px 0 10px 0px;
+}
+.post-statistic {
+  margin: 2px 0 0 18px;
+}
 .single-cat-wrap .post-categories {
   list-style: none;
   padding: 0px;
   margin: 0px 0px 10px;
-  display: inline-block
 }
 .single-cat-wrap .post-categories li {
-  display: inline-block;
+  float:left;
   padding-right: 2px;
 }
 .single-cat-wrap .post-categories li a {
   text-transform: uppercase;
   font-size: 11px;
-  display: inline-block;
   padding: 2px 4px;
   font-weight: 700;
 }
@@ -2877,7 +2880,7 @@ opacity: 0.7
   font-weight: 900;
   line-height: 1.1;
   padding: 0px;
-  margin-top: -6px;
+  margin-top: 0px;
 }
 .after-title {
   padding-top: 10px;
@@ -3085,8 +3088,8 @@ opacity: 0.7
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
-  display:inline-block;
-  margin-top: 8px;
+  display: block;
+  margin: 0 5px 0 0;
 }
 .entry-meta .author-avatar img {
   -webkit-border-radius: 35px;
@@ -3097,8 +3100,8 @@ opacity: 0.7
   float: left;
 }
 .author-info {
-  margin-left: 40px;
-  padding-right: 40px;
+  margin-left: 0px;
+  padding-right: 0px;
 }
 .author-description h2 {
   font-size: 24px!important;
@@ -3198,38 +3201,34 @@ opacity: 0.7
 }
 .single .author-info strong {
   font-size: 13px;
-  margin-top: 6px;
+  margin-top: 0px;
   display: block;
 }
 .stat-shares {
-  padding: 8px 20px 10px 20px;
-  font-size: 18px;
+  padding: 0px 15px 0 20px;
+  font-size: 16px;
   display: inline-block;
-  color: #a5ce27;
 }
 .stat-shares:before {
     content: "\67";
     font-family: "madza";
     position: absolute;
     margin-top: 4px;
-    font-size: 16px;
-    margin-left: -24px;
-    color: #a5ce27;
+    font-size: 14px;
+    margin-left: -20px;
 }
 .stat-views {
-  padding: 8px 10px 10px 20px;
-  font-size: 18px;
+  padding: 0px 15px 0 20px;
+  font-size: 16px;
   display: inline-block;
-  color: #ff0036;
 }
 .stat-views:before {
     content: "\e9a9";
     font-family: "madza";
     position: absolute;
     margin-top: 3px;
-    font-size: 16px;
-    margin-left: -24px;
-    color: #ff0036;
+    font-size: 14px;
+    margin-left: -20px;
 }
 .single-stat-comments {
   position: absolute;
