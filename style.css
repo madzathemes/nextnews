@@ -2884,7 +2884,7 @@ opacity: 0.7
   margin-top: 0px;
 }
 .after-title {
-  padding-top: 10px;
+  padding-top: 0px;
   position: relative;
   margin-bottom: 40px;
 }
@@ -3099,6 +3099,8 @@ opacity: 0.7
 .author-info {
   margin-left: 0px;
   padding-right: 0px;
+  float: left;
+  margin: 3px 0px 0px 5px;
 }
 .author-description h2 {
   font-size: 24px!important;
