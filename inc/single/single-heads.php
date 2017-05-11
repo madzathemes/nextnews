@@ -57,10 +57,9 @@
       <?php if(!empty($youtubeHandle)) { ?><a class="mt-bio-youtube" href="<?php echo $youtubeHandle; ?>"></a> <?php } ?>
       <?php if(!empty($dribbbleHandle)) { ?><a class="mt-bio-dribbble" href="<?php echo $dribbbleHandle; ?>"></a> <?php } ?>
     </div>
-    <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
 
-    <div class="clearfix"></div>
   </div>
+  <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
   <div class="clearfix"></div>
 
 <?php } ?>
