@@ -35,7 +35,7 @@
   </div>
   <div class="author-info">
     <div class="author-img pull-left">
-      <?php global $post; echo get_avatar( $post->post_author, 16 ); ?>
+      <?php global $post; echo get_avatar( $post->post_author, 14 ); ?>
     </div>
     <div class="mt-author-soc hidden">
       <?php $twitterHandle = get_the_author_meta('twitter');
