@@ -3206,7 +3206,7 @@ opacity: 0.7
 }
 .stat-shares {
   padding: 0px 15px 0 20px;
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
 }
 .stat-shares:before {
@@ -3214,12 +3214,12 @@ opacity: 0.7
     font-family: "madza";
     position: absolute;
     margin-top: 4px;
-    font-size: 14px;
-    margin-left: -20px;
+    font-size: 12px;
+    margin-left: -16px;
 }
 .stat-views {
   padding: 0px 15px 0 20px;
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
 }
 .stat-views:before {
@@ -3227,8 +3227,8 @@ opacity: 0.7
     font-family: "madza";
     position: absolute;
     margin-top: 3px;
-    font-size: 14px;
-    margin-left: -20px;
+    font-size: 12px;
+    margin-left: -16px;
 }
 .single-stat-comments {
   position: absolute;
