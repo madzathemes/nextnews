@@ -33,10 +33,10 @@ jQuery(document).ready(function() {
   });
 
   jQuery(".nav-search-wrap, .nav-search").on("click",function() {
-    jQuery('.header-menu, .mt-header-mobile').addClass("active");
+    jQuery('.header-menu, .mt-header-mobile').addClass("active-search");
   });
   jQuery(".search-close").on("click",function() {
-    jQuery('.header-menu, .mt-header-mobile').removeClass("active");
+    jQuery('.header-menu, .mt-header-mobile').removeClass("active-search");
   });
 
   jQuery(".mt-tabc").on("click", function() {
