@@ -2741,6 +2741,16 @@ opacity: 0.7
 }
 
 /* SINGLE */
+.mt-fl-on .mt-first-letter {
+  font-size: 68px;
+  border: 0px solid black;
+  line-height: 1;
+  padding: 0px 0px;
+  margin: 0px 20px 0px 0px;
+  display: inline;
+  float: left;
+  font-weight: 900;
+}
 .single-media-top {
   position: relative;
   overflow: hidden;
