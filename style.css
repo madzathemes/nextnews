@@ -3255,7 +3255,7 @@ opacity: 0.7
     margin-left: -16px;
 }
 .single-stat-comments {
-  margin: 0 15px 0 0;
+  margin: 1px 15px 0 0;
   color: #888;
 }
 .stat-comments {
@@ -3267,7 +3267,7 @@ opacity: 0.7
     content: "\e904";
     font-family: "madza";
     position: absolute;
-    margin-top: 0px;
+    margin-top: 3px;
     font-size: 12px;
     margin-left: -16px;
 }
