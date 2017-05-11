@@ -3142,12 +3142,15 @@ opacity: 0.7
 
 .mt-bio-facebook:before {
   content: "\77";
+  color: #4769a8!important;
 }
 .mt-bio-twitter:before {
   content: "\6c";
+  color: #63ccf1!important;
 }
 .mt-bio-google:before {
   content: "\72";
+  color: #d34836!important;
 }
 .mt-bio-instagram:before {
   content: "\6d";
@@ -3157,6 +3160,7 @@ opacity: 0.7
 }
 .mt-bio-pinterest:before {
   content: "\70";
+  color: #c8232c!important;
 }
 .mt-bio-youtube:before {
   content: "\69";
