@@ -30,7 +30,7 @@
     <?php if(!empty($viewes)){ ?><span class="stat-views"><?php echo esc_attr($viewes); ?> <?php echo esc_html($t_p_views); ?></span><?php } ?>
   </div>
   <?php } ?>
-  <div class="single-stat-comments">
+  <div class="single-stat-comments pull-left">
     <?php if (get_comments_number()!="0") { ?><span class="stat-comments"><?php echo get_comments_number(); ?> <?php echo esc_html($t_c_comments); ?></span><?php } ?>
   </div>
   <div class="author-info">
