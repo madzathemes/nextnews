@@ -33,6 +33,33 @@
   <div class="single-stat-comments">
     <?php if (get_comments_number()!="0") { ?><span class="stat-comments"><?php echo get_comments_number(); ?> <?php echo esc_html($t_c_comments); ?></span><?php } ?>
   </div>
+  <div class="author-info">
+    <div class="author-img pull-left">
+      <?php global $post; echo get_avatar( $post->post_author, 16 ); ?>
+    </div>
+    <div class="mt-author-soc hidden">
+      <?php $twitterHandle = get_the_author_meta('twitter');
+      $facebookHandle = get_the_author_meta('facebook');
+      $googleHandle = get_the_author_meta('gplus');
+      $instagramHandle = get_the_author_meta('instagram');
+      $linkedinHandle = get_the_author_meta('linkedin');
+      $pinterestHandle = get_the_author_meta('pinterest');
+      $youtubeHandle = get_the_author_meta('youtube');
+      $dribbbleHandle = get_the_author_meta('dribbble'); ?>
+      <?php if(!empty($twitterHandle)) { ?><a class="mt-bio-twitter" href="<?php echo $twitterHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($facebookHandle)) { ?><a class="mt-bio-facebook" href="<?php echo $facebookHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($googleHandle)) { ?><a class="mt-bio-google" href="<?php echo $googleHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($instagramHandle)) { ?><a class="mt-bio-instagram" href="<?php echo $instagramHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($linkedinHandle)) { ?><a class="mt-bio-linkedin" href="<?php echo $linkedinHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($pinterestHandle)) { ?><a class="mt-bio-pinterest" href="<?php echo $pinterestHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($youtubeHandle)) { ?><a class="mt-bio-youtube" href="<?php echo $youtubeHandle; ?>"></a> <?php } ?>
+      <?php if(!empty($dribbbleHandle)) { ?><a class="mt-bio-dribbble" href="<?php echo $dribbbleHandle; ?>"></a> <?php } ?>
+    </div>
+    <div class="mt-single-post-author pull-left"><?php the_author_posts_link(); ?></div>
+    <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
+
+    <div class="clearfix"></div>
+  </div>
   <div class="clearfix"></div>
 
 <?php } ?>
@@ -54,33 +81,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
 
 ?>
   <div class="after-title">
-      <div class="author-info">
-        <div class="author-img pull-left">
-          <?php global $post; echo get_avatar( $post->post_author, 16 ); ?>
-        </div>
-        <div class="mt-author-soc hidden">
-          <?php $twitterHandle = get_the_author_meta('twitter');
-          $facebookHandle = get_the_author_meta('facebook');
-          $googleHandle = get_the_author_meta('gplus');
-          $instagramHandle = get_the_author_meta('instagram');
-          $linkedinHandle = get_the_author_meta('linkedin');
-          $pinterestHandle = get_the_author_meta('pinterest');
-          $youtubeHandle = get_the_author_meta('youtube');
-          $dribbbleHandle = get_the_author_meta('dribbble'); ?>
-          <?php if(!empty($twitterHandle)) { ?><a class="mt-bio-twitter" href="<?php echo $twitterHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($facebookHandle)) { ?><a class="mt-bio-facebook" href="<?php echo $facebookHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($googleHandle)) { ?><a class="mt-bio-google" href="<?php echo $googleHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($instagramHandle)) { ?><a class="mt-bio-instagram" href="<?php echo $instagramHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($linkedinHandle)) { ?><a class="mt-bio-linkedin" href="<?php echo $linkedinHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($pinterestHandle)) { ?><a class="mt-bio-pinterest" href="<?php echo $pinterestHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($youtubeHandle)) { ?><a class="mt-bio-youtube" href="<?php echo $youtubeHandle; ?>"></a> <?php } ?>
-          <?php if(!empty($dribbbleHandle)) { ?><a class="mt-bio-dribbble" href="<?php echo $dribbbleHandle; ?>"></a> <?php } ?>
-        </div>
-        <div class="mt-single-post-author pull-left"><?php the_author_posts_link(); ?></div>
-        <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
 
-        <div class="clearfix"></div>
-      </div>
     <?php if ( false == get_theme_mod( 't_p_share_on_facebook', false ) ) { $t_p_share_on_facebook = esc_html__("Share on Facebook", "nextnews");  } else { $t_p_share_on_facebook = get_theme_mod( 't_p_share_on_facebook' ); } ?>
     <?php if ( false == get_theme_mod( 't_p_share_on_twitter', false ) ) { $t_p_share_on_twitter = esc_html__("Tweet on Twitter", "nextnews");  } else { $t_p_share_on_twitter = get_theme_mod( 't_p_share_on_twitter' ); } ?>
       <?php if($share_top == "no"){} else if($share_top == "yes"){ ?>
