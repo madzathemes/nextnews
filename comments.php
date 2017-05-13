@@ -18,6 +18,7 @@
  if ( false == get_theme_mod( 't_c_older_comments', false ) ) { $t_c_older_comments = wp_kses(__( '<span class="meta-nav">&larr;</span> Older Comments', 'nextnews' ), $nextnews_allowed_html_array );  } else { $t_c_older_comments = get_theme_mod( 't_c_older_comments' ); $t_c_older_comments = wp_kses(( '<span class="meta-nav">&larr;</span> '.$t_c_older_comments), $nextnews_allowed_html_array ); }
  if ( false == get_theme_mod( 't_c_newer_comments', false ) ) { $t_c_newer_comments = wp_kses(__( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'nextnews' ), $nextnews_allowed_html_array );  } else { $t_c_newer_comments = get_theme_mod( 't_c_newer_comments' ); $t_c_newer_comments = wp_kses(( $t_c_newer_comments.' <span class="meta-nav">&rarr;</span>'), $nextnews_allowed_html_array ); }
 
+
 ?>
 <?php if ( comments_open() ) { ?><div class="mt-comment-area"><?php } ?>
 <?php if ( post_password_required() ): ?>
