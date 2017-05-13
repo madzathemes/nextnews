@@ -30,6 +30,7 @@
 <?php if ( have_comments() ) : ?>
 <div id="coment-line-space"></div>
 
+
 			<h4 class="heading-left padding-0 mt-comment-head"><span><?php
 			printf( $t_c_comments_, 	number_format_i18n( get_comments_number() ), '' . get_the_title() . '' );
 			?></span></h4>
