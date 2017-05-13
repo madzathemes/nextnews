@@ -1,5 +1,7 @@
 node_modules/
 gulpfiles.js
+package.json
+.gitignore
 
 # OS generated files #
 ######################
