@@ -13,7 +13,7 @@
  if ( false == get_theme_mod( 't_c_submit_comment', false ) ) { $t_c_submit_comment = esc_html__("Submit Comment", "nextnews");  } else { $t_c_submit_comment = get_theme_mod( 't_c_submit_comment' ); }
 
  if ( false == get_theme_mod( 't_c_comments', false ) OR false == get_theme_mod( 't_c_one_comment', false ) ) { $t_c_comments_ = _n( 'One Comment', '%1$s Comments', get_comments_number(), 'nextnews' );  } else { $t_c_comments = get_theme_mod( 't_c_comments' ); $t_c_one_comment = get_theme_mod( 't_c_one_comment' ); $t_c_comments_ = _n( $t_c_one_comment, '%1$s '. $t_c_comments.'', get_comments_number(), 'nextnews');  }
- 
+
  $nextnews_allowed_html_array = array('a' => array( 'href' => array(), 'title' => array() ), 'br' => array(), 'i' => array('class' => array()),  'em' => array(), 'strong' => array(), 'div' => array('class' => array()), 'span' => array('class' => array()));
  if ( false == get_theme_mod( 't_c_older_comments', false ) ) { $t_c_older_comments = wp_kses(__( '<span class="meta-nav">&larr;</span> Older Comments', 'nextnews' ), $nextnews_allowed_html_array );  } else { $t_c_older_comments = get_theme_mod( 't_c_older_comments' ); $t_c_older_comments = wp_kses(( '<span class="meta-nav">&larr;</span> '.$t_c_older_comments), $nextnews_allowed_html_array ); }
  if ( false == get_theme_mod( 't_c_newer_comments', false ) ) { $t_c_newer_comments = wp_kses(__( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'nextnews' ), $nextnews_allowed_html_array );  } else { $t_c_newer_comments = get_theme_mod( 't_c_newer_comments' ); $t_c_newer_comments = wp_kses(( $t_c_newer_comments.' <span class="meta-nav">&rarr;</span>'), $nextnews_allowed_html_array ); }
@@ -27,6 +27,7 @@
         return;
       endif;
 ?>
+
 
 <?php if ( have_comments() ) : ?>
 <div id="coment-line-space"></div>
