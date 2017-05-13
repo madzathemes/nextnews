@@ -27,8 +27,6 @@
         return;
       endif;
 ?>
-
-
 <?php if ( have_comments() ) : ?>
 <div id="coment-line-space"></div>
 
@@ -52,7 +50,6 @@
             <div class="line-comment"></div>
 
 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through?
-
 
 ?>
 			<div class="navigation mt-coment-nav">
