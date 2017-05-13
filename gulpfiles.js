@@ -13,6 +13,7 @@ var coffeeSources = ['scripts/hello.coffee'],
     outputDir = 'assets';
 
 
+
 gulp.task('log', function() {
   gutil.log('== My First Task ==')
 });
