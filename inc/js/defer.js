@@ -26,7 +26,6 @@ jQuery(document).ready(function() {
     jQuery(this).parent().addClass("active");
   });
 
-
   var head = (jQuery('.header-wrap').outerHeight());
   jQuery('.header-wrap-space').css({
       'height' : head + 'px'

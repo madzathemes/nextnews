@@ -26,7 +26,6 @@
 9.0 Plugins
 
 /*  1.0. Nomalize  */
-
 .mt-theme-background,
 button:hover,
 input[type="submit"]:hover,
@@ -5145,7 +5144,7 @@ li.mtc-buy {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  background: #ecedf1;
+  background: #eeee;
   color: #a4a5a9;
   vertical-align: middle;
 }

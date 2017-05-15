@@ -41,5 +41,4 @@ if(!empty($style)){
 </div>
 
 <div class="mt-outer-wrap">
-
 <?php nextnews_header(); ?>
