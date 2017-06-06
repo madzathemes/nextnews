@@ -59,7 +59,7 @@
     </div>
 
   </div>
-  <div class="mt-single-post-date pull-left"><?php the_date('M d, Y'); ?></div>
+  <div class="mt-single-post-date pull-left"><?php echo get_the_date(); ?></div>
   <div class="clearfix"></div>
 
 <?php } ?>
