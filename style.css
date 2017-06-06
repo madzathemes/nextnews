@@ -1739,7 +1739,7 @@ h2.heading span {
 .social-twitch { background: #6441a5; }
 .social-twitch:before { content: "\e90c"; }
 .social-vimeo { background: #aad450; }
-.social-vimeo:before { content: "\6e"; }
+.social-vimeo:before { content: "\4f"; }
 .socials a:before {
   font-family: "madza";
   padding-right: 10px;

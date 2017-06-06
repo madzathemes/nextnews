@@ -23,6 +23,7 @@
 </div>
 
 <a href="#" class="footer-scroll-to-top mt-theme-background mt-radius"></a>
-<?php  wp_footer(); ?>
+<?php  wp_footer(); $mt_social = get_option( 'socialcountplus_settings');
+		$facebook_token = $mt_social['facebook_app_id']; echo esc_attr($facebook_token);?>
 </body>
 </html>
