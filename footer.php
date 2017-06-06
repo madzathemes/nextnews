@@ -23,6 +23,6 @@
 </div>
 
 <a href="#" class="footer-scroll-to-top mt-theme-background mt-radius"></a>
-<?php  wp_footer(); $facebook_token = get_option("facebook_token"); echo $facebook_token; ?>
+<?php  wp_footer(); $facebook_token = magazin_get_shares(get_the_ID()); echo $facebook_token; ?>
 </body>
 </html>
