@@ -37,9 +37,9 @@ if(!empty($style)){
 	<span class="close pointer"></span>
 	<?php nextnews_logo(); ?>
 	<?php nextnews_nav_mobile(); ?>
-	<?php if ( is_active_sidebar( 'sidebar-single-bottom-widget-area-before' ) ) {
+	<?php if ( is_active_sidebar( 'mobile-menu-widget-area' ) ) {
 
-    dynamic_sidebar( 'sidebar-single-bottom-widget-area-before' );
+    dynamic_sidebar( 'mobile-menu-widget-area' );
 
   } ?>
 	<?php nextnews_socials(); ?>

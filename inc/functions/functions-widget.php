@@ -8,7 +8,7 @@ $mt_columns = get_option("nextnews_theme_options");
 
 	register_sidebar( array(
 		'name' => esc_html__( 'Mobile Menu Widgets', 'nextnews'),
-		'id' => 'sidebar-blog-widget-area',
+		'id' => 'mobile-menu-widget-area',
 		'description' => esc_html__( 'The Mobile Menu Widget area' , 'nextnews'),
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '<div class="clear"></div></div>',
