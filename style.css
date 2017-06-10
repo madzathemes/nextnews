@@ -3467,7 +3467,7 @@ opacity: 0.7
 }
 .comment-edit-link {
   font-size: 12px;
-  margin: 0px 10px;
+  margin: 0px 0px;
   text-transform: uppercase;
 }
 .children {
@@ -3502,7 +3502,7 @@ opacity: 0.7
   position: absolute;
 }
 .comment-edit-link {
-  padding: 5px 5px 3px 10px;
+  padding: 5px 5px 3px 0px;
 }
 .comment-author .fn {
   font-size: 16px;
