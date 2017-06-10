@@ -3470,6 +3470,7 @@ opacity: 0.7
   margin: 0px 0px;
   text-transform: uppercase;
   display: none;
+  position: absolute;
 }
 .comment:hover .comment-edit-link {
   display: block;
