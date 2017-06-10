@@ -3471,7 +3471,7 @@ opacity: 0.7
   text-transform: uppercase;
   display: none;
 }
-.comment-content:hover .comment-edit-link {
+.comment:hover .comment-edit-link {
   display: block;
 }
 .children {
