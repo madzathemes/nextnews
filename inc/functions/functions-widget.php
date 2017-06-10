@@ -4,6 +4,19 @@ function nextnews_sidebar_widget_init() {
 
 $mt_columns = get_option("nextnews_theme_options");
 
+/* --------------------------------------------------------------------------------------- Mobile Menu Widgets */
+
+	register_sidebar( array(
+		'name' => esc_html__( 'Mobile Menu Widgets', 'nextnews'),
+		'id' => 'sidebar-blog-widget-area',
+		'description' => esc_html__( 'The Mobile Menu Widget area' , 'nextnews'),
+		'before_widget' => '<div class="widget">',
+		'after_widget' => '<div class="clear"></div></div>',
+				'before_title' => '<h2 class="heading"><span>',
+				'after_title' => '</span></h4>',
+	) );
+
+
 /* --------------------------------------------------------------------------------------- Page Widget Area 1 */
 
 	register_sidebar( array(
