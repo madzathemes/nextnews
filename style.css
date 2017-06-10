@@ -4455,6 +4455,7 @@ ul.page-numbers li {
   width: 100%;
   position: fixed;
   z-index: 99999;
+  overflow-y: scroll;
   -webkit-transform: translate3d(-100%, 0, 0);
   -moz-transform: translate3d(-100%, 0, 0);
   -ms-transform: translate3d(-100%, 0, 0);
