@@ -3471,7 +3471,7 @@ opacity: 0.7
   text-transform: uppercase;
   display: none;
   position: absolute;
-  right: 100px;
+  right: 35px;
   bottom: 0px;
 }
 .comment:hover .comment-edit-link {
