@@ -2641,6 +2641,9 @@ opacity: 0.7
 .grid-wrap {
   overflow: hidden;
 }
+.nr4.grid-wrap {
+  overflow: inherit;
+}
 .grid-post {
   float:left;
   overflow: hidden;
