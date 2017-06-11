@@ -4385,6 +4385,7 @@ ul.page-numbers li {
     cursor: pointer;
     border: 1px solid #ddd;
     color: #888;
+    background: #fff;
 }
 
 .page-numbers a span { padding: 0 }
@@ -4393,7 +4394,7 @@ ul.page-numbers li {
 .page-numbers.current,
 .page-numbers.current:hover {
     color: #000;
-    background: #f7f7f7;
+    background: #f5f5f5;
     text-decoration: none;
 }
 
