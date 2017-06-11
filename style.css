@@ -1884,14 +1884,14 @@ h2.heading span {
 .poster-carousel-trending .poster-next {
   right: 0px;
   margin-bottom: 8px;
-  background: #ecedf1;
+  background: #fff;
   color: black;
 }
 .poster-carousel-trending .poster-prev {
   right: 30px;
   left:auto;
-  margin-top: -60px;
-  background: #ecedf1;
+  margin-top: -65px;
+  background: #fff;
   color: black;
 }
 .poster.trending-carousel .poster-image {
