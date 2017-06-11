@@ -38,6 +38,8 @@ jQuery(document).ready(function() {
     jQuery('.header-menu, .mt-header-mobile').removeClass("active-search");
   });
 
+    jQuery('.mt-slide-1-img, .mt-slide-1-img-left, .mt-slide-1-img-right, .mt-head').addClass("show");
+
   jQuery(".mt-tabc").on("click", function() {
     var tab = jQuery(this).data( "tab" );
     jQuery(".mt-tab,.mt-tabc").removeClass("active");
