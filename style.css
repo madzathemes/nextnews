@@ -2021,8 +2021,19 @@ h2.heading span {
   height: 100%;
   position: absolute;
   z-index: 99;
+  right: 0px;
+  top: 0px;
+  color: white;
+}
+.mt-tab-wrap .post-icon,
+.mt-tab-wrap .video-icon,
+.poster-right-small .post-icon,
+.poster-right-small .video-icon,
+.poster-right .post-icon,
+.poster-right .video-icon {
   right: 10px;
   top: 10px;
+  color: black
 }
 .poster-small .video-icon {
   right: 0px;
