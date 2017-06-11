@@ -4382,9 +4382,9 @@ ul.page-numbers li {
 .page-numbers span {
     line-height: 1.6em;
     display: block;
-    padding: 0 6px;
-    height: 18px;
-    line-height: 18px;
+    padding: 0 0px;
+    height: 19px;
+    line-height: 19px;
     font-size: 12px;
     text-decoration: none;
     font-weight: 400;
@@ -4395,7 +4395,7 @@ ul.page-numbers li {
 
 .page-numbers a span { padding: 0 }
 
-.page-numbers a:hover,
+.page-numbers:hover,
 .page-numbers.current,
 .page-numbers.current:hover {
     color: #000;
