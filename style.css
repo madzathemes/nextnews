@@ -237,7 +237,9 @@ input,
 .search-close,
 .nav-search-input,
 .nav-search-wrap,
-.mt-slide-1-cat {
+.mt-slide-1-cat,
+.mt-cool-slider .mt-slide-1-img-left:before,
+.mt-cool-slider .mt-slide-1-img-right:before {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
