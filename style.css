@@ -5553,5 +5553,6 @@ li.mtc-buy {
   height: 100%;
 }
 .mt-slide-1-title:hover .mt-slide-1-cat {
-  background: #ff0036;
+  background: #ffd602;
+  color: black;
 }
