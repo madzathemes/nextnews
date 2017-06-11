@@ -4354,7 +4354,9 @@ opacity: 0.7
 ul.page-numbers {
     list-style: none;
     margin: 0;
-
+    background: #fff;
+}
+.pagination .page-numbers {
     background: #fff;
 }
 
