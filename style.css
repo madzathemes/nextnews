@@ -4449,13 +4449,13 @@ ul.page-numbers li {
 
 /* Head Mobile */
 .mt-smart-menu {
+  overflow-y: scroll;
   display: none;
   padding: 20px;
   height: 100%;
   width: 100%;
   position: fixed;
   z-index: 99999;
-  overflow-y: scroll;
   -webkit-transform: translate3d(-100%, 0, 0);
   -moz-transform: translate3d(-100%, 0, 0);
   -ms-transform: translate3d(-100%, 0, 0);
@@ -4533,7 +4533,7 @@ ul.page-numbers li {
 }
 .mt-smart-menu {
     display: block!important;
-    background: white;
+    background: #f5f5f5;
     max-width: 400px;
 }
 .mobile-menu-active  .mt-smart-menu-out {
@@ -4570,9 +4570,8 @@ ul.page-numbers li {
   cursor: pointer;
 }
 .mt-smart-menu .social {
-  margin-bottom: 40px;
+  margin: 40px 0px;
   bottom: 0px;
-  position: absolute;
 }
 .mt-smart-menu .social li {
   display: inline-block;
@@ -4584,6 +4583,9 @@ ul.page-numbers li {
 }
 .mt-smart-menu .mt-hot:before {
   left: 6px;
+}
+.mt-smart-menu-widget {
+  margin-top: 40px;
 }
 
 
