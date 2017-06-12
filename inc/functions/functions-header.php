@@ -36,7 +36,7 @@ else if(!empty($option['menu_background_width'])) {
 	</div>
 <?php } ?>
 <div class="header-wrap" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-	<?php if ( true == get_theme_mod( 'mt_header_top', true ) ) {  ?>
+	<?php if ( true == get_theme_mod( 'mt_header_top', false ) ) {  ?>
 		<div class="header-mt-container-wrap">
 			<div class="container mt-header-container">
 				<div class="row">
@@ -69,7 +69,7 @@ else if(!empty($option['menu_background_width'])) {
 
 						<div class="head-logo" <?php if(!empty($option['logo_width'])) { ?>  style="width:<?php echo esc_attr($option['logo_width']); ?>px" <?php } ?>><?php nextnews_logo(); ?></div>
 
-						<div class="nav-button mt-radius pointer  <?php if ( false == get_theme_mod( 'mt_menu_small_on', true ) ) { echo "hide-desktop"; } ?>">
+						<div class="nav-button mt-radius pointer  <?php if ( false == get_theme_mod( 'mt_menu_small_on', false ) ) { echo "hide-desktop"; } ?>">
 							<div class="mt-m-cool-button">
 								<span class="mt-m-cool-button-line"></span>
 							</div>
@@ -79,7 +79,7 @@ else if(!empty($option['menu_background_width'])) {
 							<?php nextnews_nav(); ?>
 						</div>
 
-						<?php if ( true == get_theme_mod( 'mt_menu_search', true ) ) { ?>
+						<?php if ( true == get_theme_mod( 'mt_menu_search', false ) ) { ?>
 							<div class="nav-search-wrap  mt-radius">
 								<div class="nav-search pointer"></div>
 								<div class="nav-search-input mt-radius">
