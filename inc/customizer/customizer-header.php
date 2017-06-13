@@ -514,7 +514,7 @@ function nextnews_customize_header($wp_customize){
      	'settings'    => 'mt_menu_small_on',
      	'label'       => esc_attr__( 'Small Menu For Desktop', 'nextnews' ),
      	'section'     => 'nextnews_header_top',
-     	'default'     => 'on',
+     	'default'     => 'off',
      	'priority'    => 10,
      	'choices'     => array(
      		'on'  => esc_attr__( 'On', 'nextnews' ),
@@ -529,7 +529,7 @@ function nextnews_customize_header($wp_customize){
        'settings'    => 'mt_menu_search',
        'label'       => esc_attr__( 'Search Button', 'nextnews' ),
        'section'     => 'nextnews_header_top',
-       'default'     => 'on',
+       'default'     => 'off',
        'priority'    => 10,
        'choices'     => array(
       		'on'  => esc_attr__( 'On', 'nextnews' ),
