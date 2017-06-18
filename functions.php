@@ -106,7 +106,7 @@ function nextnews_after_import_setup() {
     );
 		wp_delete_post(1);
     // Assign front page and posts page (blog page).
-    $front_page_id = get_page_by_title( 'News' );
+    $front_page_id = get_page_by_title( 'Homepage 5' );
 
     update_option( 'show_on_front', 'page' );
     update_option( 'page_on_front', $front_page_id->ID );

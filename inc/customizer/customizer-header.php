@@ -542,7 +542,7 @@ function nextnews_customize_header($wp_customize){
        'settings'    => 'mt_header_top',
        'label'       => esc_attr__( 'Header Top', 'nextnews' ),
        'section'     => 'nextnews_header_top',
-       'default'     => 'on',
+       'default'     => 'off',
       	'priority'    => 10,
       	'choices'     => array(
       		'on'  => esc_attr__( 'On', 'nextnews' ),
