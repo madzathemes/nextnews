@@ -2735,7 +2735,7 @@ opacity: 0.7
 .grid-post h2 {
   color: white;
   padding: 5px 0px 0px;
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.33);
+  text-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
   font-weight: 900;
 }
 .grid-post .post-info {
