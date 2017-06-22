@@ -5564,3 +5564,134 @@ li.mtc-buy {
   background: #ffd602;
   color: black;
 }
+
+/* New Menu Structure */
+.mt-header {
+  z-index: 999;
+  will-change: transform;
+}
+.mt-bar-in {
+  width: 100%;
+  position: relative;
+}
+.mt-bar-out {
+  width: 100%;
+}
+.mt-header .social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mt-header .social li {
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
+.mt-menu-bar-brand {
+  -webkit-transition: all 200ms ease-in-out!important;
+  -moz-transition: all 200ms ease-in-out!important;
+  -ms-transition: all 200ms ease-in-out!important;
+  -o-transition: all 200ms ease-in-out!important;
+  transition: all 200ms ease-in-out!important;
+}
+.mt-head-bar-small-bt {
+  width: 50px;
+  position: relative;
+}
+.mt-header-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -57px;
+}
+.mt-bar.stretched > div > div > div {
+  width: 100%;
+}
+.mt-top-bar-dark.box > div > div > div,
+.mt-top-bar-dark.full > div,
+.mt-top-bar-dark.stretched > div {
+  background: black;
+}
+.mt-head-bar-dark.box > div > div > div,
+.mt-head-bar-dark.full > div,
+.mt-head-bar-dark.stretched > div {
+  background: black;
+}
+.mt-menu-bar-dark.box > div > div > div,
+.mt-menu-bar-dark.full > div,
+.mt-menu-bar-dark.stretched > div {
+  background: black;
+}
+
+
+/* Header Bars */
+.mt-bar-table > div > div > div {
+  position: relative;
+  display: table;
+}
+.mt-bar-table > div > div > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.mt-bar-table > div > div > div > div > div {
+  display: inline-block;
+}
+
+/* Top Bar */
+.mt-top-bar {
+  color: white;
+}
+.mt-top-bar a {
+  color: white;
+}
+.mt-top-bar a:hover {
+  color: yellow;
+}
+.mt-top-bar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.mt-top-bar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Head Bar */
+.mt-head-bar {
+  position: relative;
+  z-index: 99;
+}
+.mt-head-bar-brand {
+  padding: 0 20px 0 0;
+  width: 200px
+}
+.mt-head-bar-dark {
+  color: white;
+}
+.mt-head-bar-dark a {
+  color: white;
+}
+
+/* Menu Bar */
+.mt-menu-bar {
+  position: relative;
+  z-index: 99;
+}
+.mt-menu-bar-brand-hidde.mt-menu-bar-brand,
+.mt-menu-bar-brand-hidde.mt-menu-bar-brand > a > img {
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+}
+.fix-menu .mt-menu-bar-brand-hidde.mt-menu-bar-brand,
+.fix-menu .mt-menu-bar-brand-hidde.mt-menu-bar-brand > a > img {
+  visibility: visible;
+  opacity: 1;
+  width: auto;
+}
+.mt-menu-bar-dark {
+  color: white;
+}
+.mt-menu-bar-dark a {
+  color: white;
+}

@@ -1,5 +1,206 @@
-<?php function nextnews_header() {
-if ( false == get_theme_mod( 't_o_followers', false ) ) { $t_o_followers = esc_html__("Followers", "nextnews");  } else { $t_o_followers = get_theme_mod( 't_o_followers' ); }
+<?php
+
+function nextnews_top_bar() { ?>
+
+	<?php if ( true == get_theme_mod( 'mt_bar_top', false ) ) { ?>
+
+		<div class="mt-bar mt-top-bar mt-bar-table mt-top-bar-dark <?php echo get_theme_mod( 'mt_bar_top_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_top_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_top_row', "full" ) ) { ?> ful <?php } ?>">
+
+			<div class="mt-bar-out">
+
+				<div class="container">
+
+					<div class="mt-bar-in">
+
+						<div class="text-left">
+
+							<?php if ( 2 == get_theme_mod( 'mt_bar_top_search', 1 ) ) { ?>
+								<div class="mt-top-bar-social text-left">
+									<?php nextnews_top_search(); ?>
+								</div>
+							<?php } ?>
+
+							<?php if ( 2 == get_theme_mod( 'mt_bar_top_menu', 2 ) ) { ?>
+								<div class="mt-top-bar-social text-left">
+									<?php nextnews_top_menu(); ?>
+								</div>
+							<?php } ?>
+
+							<?php if ( 2 == get_theme_mod( 'mt_bar_top_social', 3 ) ) { ?>
+								<div class="mt-top-bar-social text-left">
+									<?php nextnews_socials(); ?>
+								</div>
+							<?php } ?>
+
+							<?php if ( 2 == get_theme_mod( 'mt_bar_top_follower', 1 ) ) { ?>
+								<div class="mt-top-bar-social text-left">
+									<?php nextnews_top_follower(); ?>
+								</div>
+							<?php } ?>
+
+						</div>
+
+						<div class="text-right">
+
+							<?php if ( 3 == get_theme_mod( 'mt_bar_top_follower', 1 ) ) { ?>
+								<div class="mt-top-bar-social text-right">
+									<?php nextnews_top_follower(); ?>
+								</div>
+							<?php } ?>
+
+							<?php if ( 3 == get_theme_mod( 'mt_bar_top_social', 3 ) ) { ?>
+								<div class="mt-top-bar-social text-right">
+									<?php nextnews_socials(); ?>
+								</div>
+							<?php } ?>
+
+							<?php if ( 3 == get_theme_mod( 'mt_bar_top_menu', 2 ) ) { ?>
+								<div class="mt-top-bar-social text-right">
+									<?php nextnews_top_menu(); ?>
+								</div>
+							<?php } ?>
+
+							<?php if ( 3 == get_theme_mod( 'mt_bar_top_search', 1 ) ) { ?>
+								<div class="mt-top-bar-social text-right">
+									<?php nextnews_top_search(); ?>
+								</div>
+							<?php } ?>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	<?php } ?>
+
+<?php
+
+}
+
+function nextnews_head_bar() { ?>
+
+	<?php if ( true == get_theme_mod( 'mt_bar_head', true ) ) { $option = get_option("nextnews_theme_options");?>
+
+		<div class="mt-bar mt-head-bar mt-bar-table mt-head-bar-dark <?php echo get_theme_mod( 'mt_bar_head_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_head_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_head_row', "full" ) ) { ?> ful <?php } ?>">
+
+			<div class="mt-bar-out">
+
+				<div class="container">
+
+					<div class="mt-bar-in">
+
+						<?php if ( 2 == get_theme_mod( 'mt_bar_head_small_menu', 1 ) AND 3 != get_theme_mod( 'mt_bar_head_style', 1 ) AND 4 != get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?>
+							<div class="mt-head-bar-small-bt text-left">
+								<?php nextnews_small_button(); ?>
+							</div>
+						<?php } ?>
+
+						<?php if ( 4 != get_theme_mod( 'mt_bar_head_style', 1 ) and 5 != get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?>
+							<div class="mt-head-bar-brand <?php if ( 3 == get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?> text-center <?php } else { ?> text-left <?php } ?>" <?php if(!empty($option['logo_width'])) { ?>  style="width:<?php echo esc_attr($option['logo_width']); ?>px" <?php } ?>>
+								<?php nextnews_logo(); ?>
+							</div>
+						<?php } ?>
+
+						<?php if ( 3 == get_theme_mod( 'mt_bar_head_small_menu', 1 ) AND 3 != get_theme_mod( 'mt_bar_head_style', 1 ) AND 4 != get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?>
+							<div class="mt-head-bar-small-bt text-left">
+								<?php nextnews_small_button(); ?>
+							</div>
+						<?php } ?>
+
+						<?php if ( 1 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 4 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 5 == get_theme_mod( 'mt_bar_head_style', 1 )) { ?>
+							<div class="mt-head-bar-ad <?php if ( 4 == get_theme_mod( 'mt_bar_head_style', 1 ) or 4 == get_theme_mod( 'mt_bar_head_small_menu', 1 ) AND 5 != get_theme_mod( 'mt_bar_head_style', 1 )  ) { ?> text-center <?php } ?> <?php if ( 1 == get_theme_mod( 'mt_bar_head_style', 1 ) and 4 != get_theme_mod( 'mt_bar_head_small_menu', 1 )) { ?> text-right <?php } ?> <?php if ( 1 == get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?> text-left <?php } ?>">
+								<?php if(function_exists("mt_header_ad_menu")) { mt_header_ad_menu(); } ?>
+							</div>
+						<?php } ?>
+
+						<?php if ( 2 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 5 == get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?>
+							<div class="mt-head-bar-actions text-right">
+								<?php nextnews_socials(); ?>
+							</div>
+						<?php } ?>
+
+						<?php if ( 4 == get_theme_mod( 'mt_bar_head_small_menu', 1 ) AND 3 != get_theme_mod( 'mt_bar_head_style', 1 ) AND 4 != get_theme_mod( 'mt_bar_head_style', 1 ) ) { ?>
+							<div class="mt-head-bar-small-bt text-right">
+								<?php nextnews_small_button(); ?>
+							</div>
+						<?php } ?>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	<?php } ?>
+
+	<?php if ( true == get_theme_mod( 'mt_bar_menu', true ) ) { ?>
+
+		<div class="mt-bar mt-menu-bar mt-bar-table mt-menu-bar-dark <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
+
+			<div class="mt-bar-out">
+
+				<div class="container">
+
+					<div class="mt-bar-in">
+
+						<?php if ( 2 == get_theme_mod( 'mt_bar_menu_small_menu', 1 ) ) { ?>
+							<div class="mt-head-bar-small-bt text-left">
+								<?php nextnews_small_button(); ?>
+							</div>
+						<?php } ?>
+
+
+						<div class="mt-menu-bar-brand <?php if ( true == get_theme_mod( 'mt_bar_head', true ) AND 1 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 2 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 3 == get_theme_mod( 'mt_bar_head_style', 1 ) ){ ?>mt-menu-bar-brand-hidde<?php } ?>">
+							<?php nextnews_logo(); ?>
+						</div>
+
+						<?php if ( 3 == get_theme_mod( 'mt_bar_menu_small_menu', 1 ) ) { ?>
+							<div class="mt-head-bar-small-bt text-left">
+								<?php nextnews_small_button(); ?>
+							</div>
+						<?php } ?>
+
+						<?php if ( 1 != get_theme_mod( 'mt_bar_menu_nav_align', 'left' )){ ?>
+							<div class="mt-menu-bar-nav text-<?php echo get_theme_mod( 'mt_bar_menu_nav_align', "left" ) ?>" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+								<?php nextnews_nav(); ?>
+							</div>
+						<?php } ?>
+
+						<div class="mt-menu-bar-actions text-right">
+							<?php if ( true == get_theme_mod( 'mt_bar_menu_social', false ) ) { ?>
+								<?php nextnews_socials(); ?>
+							<?php } ?>
+						</div>
+
+						<?php if ( 4 == get_theme_mod( 'mt_bar_menu_small_menu', 1 ) ) { ?>
+							<div class="mt-head-bar-small-bt text-right">
+								<?php nextnews_small_button(); ?>
+							</div>
+						<?php } ?>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	<?php } ?>
+
+<?php
+
+}
+
+function nextnews_header() {
+
 if ( false == get_theme_mod( 't_p_to_search', false ) ) { $t_p_to_search = esc_html__("To search type and hit enter", "nextnews");  } else { $t_p_to_search = get_theme_mod( 't_p_to_search' ); }
 $allowed_html = array('ins' => array( 'class' => array(), 'style' => array(),'data-ad-client' => array(),'data-ad-slot' => array(),'data-ad-format' => array()), 'iframe' => array( 'id' => array(),'name' => array(),'src' => array(),'style' => array(),'scrolling' => array(),'frameborder' => array()), 'script' => array( 'async' => array(), 'type' => array(),'src' => array()), 'noscript' => array(), 'small' => array( 'class' => array()), 'img' => array( 'src' => array(), 'alt' => array(), 'class' => array(), 'width' => array(), 'height' => array() ), 'a' => array( 'href' => array(), 'title' => array() ), 'br' => array(), 'i' => array('class' => array()),  'em' => array(), 'strong' => array(), 'div' => array('class' => array()), 'span' => array('class' => array()));
 $option = get_option("nextnews_theme_options");
@@ -28,46 +229,22 @@ else if(!empty($option['menu_background_width'])) {
 }
 ?>
 
-<?php if  (!empty($optioz['header_ad_top'])) {  ?>
-	<div class="mt-t-ad">
-		<div class="mt-t-ad-in">
-			<?php echo do_shortcode(html_entity_decode($optioz['header_ad_top'])); ?>
-		</div>
-	</div>
-<?php } ?>
-<div class="header-wrap" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-	<?php if ( true == get_theme_mod( 'mt_header_top', false ) ) {  ?>
-		<div class="header-mt-container-wrap">
-			<div class="container mt-header-container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="head container-fluid">
-							<div class="pull-left mt-top-social">
-								<?php nextnews_socials(); ?>
-							</div>
-							<?php if ( true == get_theme_mod( 'mt_top_follower', true ) ) { ?>
-							<div class="mt-top-followers pull-left mt-top-share">
-								<strong></strong> <span><?php echo esc_html($t_o_followers); ?></span>
-							</div>
-							<?php } ?>
-							<div class="pull-right mt-top-menu">
-								<?php nextnews_top_menu(); ?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	<?php } ?>
 
-	<div class="header-menu mt-header-container <?php if(!empty($option['menu_search'])) { if($option['menu_search']=="1") { ?>search-on<?php } } if(!empty($option['menu_small_on'])) { ?> small-on<?php } ?> ">
+<div class="mt-header mt-header-sticky" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+<div>
+	<?php nextnews_top_bar(); ?>
+
+	<?php nextnews_head_bar(); ?>
+</div>
+
+
+	<div class="hidden header-menu mt-header-container <?php if(!empty($option['menu_search'])) { if($option['menu_search']=="1") { ?>search-on<?php } } if(!empty($option['menu_small_on'])) { ?> small-on<?php } ?> ">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="top-nav container-fluid">
 
 
-						<div class="head-logo" <?php if(!empty($option['logo_width'])) { ?>  style="width:<?php echo esc_attr($option['logo_width']); ?>px" <?php } ?>><?php nextnews_logo(); ?></div>
 
 						<div class="nav-button mt-radius pointer  <?php if ( false == get_theme_mod( 'mt_menu_small_on', false ) ) { echo "hide-desktop"; } ?>">
 							<div class="mt-m-cool-button">
@@ -75,10 +252,14 @@ else if(!empty($option['menu_background_width'])) {
 							</div>
 						</div>
 
+						<div class="head-logo" <?php if(!empty($option['logo_width'])) { ?>  style="width:<?php echo esc_attr($option['logo_width']); ?>px" <?php } ?>><?php nextnews_logo(); ?></div>
+
 						<div class="nav mt-radius" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" >
 							<?php nextnews_nav(); ?>
 						</div>
 
+
+						<div class="mt-head-right">
 						<?php if ( true == get_theme_mod( 'mt_menu_search', false ) ) { ?>
 							<div class="nav-search-wrap  mt-radius">
 								<div class="nav-search pointer"></div>
@@ -90,6 +271,8 @@ else if(!empty($option['menu_background_width'])) {
 							</div>
 							<div class="search-close"></div>
 						<?php } ?>
+							<?php nextnews_socials(); ?>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -97,9 +280,34 @@ else if(!empty($option['menu_background_width'])) {
 	</div>
 	<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
 </div>
-<div class="header-wrap-space"></div>
+<?php if  (!empty($optioz['header_ad_top'])) {  ?>
+	<div class="mt-t-ad">
+		<div class="mt-t-ad-in">
+			<?php echo html_entity_decode($optioz['header_ad_top']); ?>
+		</div>
+	</div>
+<?php } ?>
 <?php } add_filter('nextnews_header','nextnews_header');
 
+function nextnews_small_button() { ?>
+	<div class="nav-button mt-radius pointer">
+		<div class="mt-m-cool-button">
+			<span class="mt-m-cool-button-line"></span>
+		</div>
+	</div>
+<?php }
+
+function nextnews_top_follower() { ?>
+	<?php if ( false == get_theme_mod( 't_o_followers', false ) ) { $t_o_followers = esc_html__("Followers", "nextnews");  } else { $t_o_followers = get_theme_mod( 't_o_followers' ); } ?>
+	<div class="mt-top-followers mt-top-share">
+		<strong></strong> <span><?php echo esc_html($t_o_followers); ?></span>
+	</div>
+<?php }
+
+function nextnews_top_search() { ?>
+	<?php if ( false == get_theme_mod( 't_o_followers', false ) ) { $t_o_followers = esc_html__("Followers", "nextnews");  } else { $t_o_followers = get_theme_mod( 't_o_followers' ); } ?>
+
+<?php }
 
 function nextnews_top_content() { $option = get_option("nextnews_theme_options"); ?>
 		<div class="head-nav">
@@ -143,7 +351,7 @@ function nextnews_logo() {
 		</a>
 	<?php } else { ?>
 		<a class="logo"  href="<?php echo esc_url(home_url('/'));?>">
-			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="100" height="15" alt="<?php echo the_title(); ?>" />
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="108" height="15" alt="<?php echo the_title(); ?>" />
 		</a>
 	<?php }
 }
@@ -225,10 +433,10 @@ function nextnews_header_fixed() {
 		}
 		$url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
 		if ( false == get_theme_mod( 't_p_share_on_facebook', false ) ) { $t_p_share_on_facebook = esc_html__("Share on Facebook", "nextnews");  } else { $t_p_share_on_facebook = get_theme_mod( 't_p_share_on_facebook' ); }
-		if ( false == get_theme_mod( 't_p_share_on_twitter', false ) ) { $t_p_share_on_twitter = esc_html__("Tweet on Twitter", "nextnews");  } else { $t_p_share_on_twitter = get_theme_mod( 't_p_share_on_twitter' ); }
+	 	if ( false == get_theme_mod( 't_p_share_on_twitter', false ) ) { $t_p_share_on_twitter = esc_html__("Tweet on Twitter", "nextnews");  } else { $t_p_share_on_twitter = get_theme_mod( 't_p_share_on_twitter' ); }
 		?>
 		<?php $option = get_option("nextnews_theme_options"); ?>
-				<div class="fixed-top">
+				<div class="fixed-top <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?>">
 					<div class="container-fuild">
 						<div class="row">
 							<div class="col-md-12">
