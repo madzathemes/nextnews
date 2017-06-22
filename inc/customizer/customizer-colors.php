@@ -47,43 +47,43 @@ function nextnews_customize_colors($wp_customize){
   Kirki::add_field( 'radius', array(
   'type'        => 'radio-buttonset',
   'settings'    => 'radius',
-  'label'       => esc_html__( 'Border Radius', 'boomnews' ),
+  'label'       => esc_html__( 'Border Radius', 'nextnews' ),
   'section'     => 'general_style_settings',
   'default'     => '5px',
   'priority'    => 1,
   'option_type' => 'option',
   'choices'     => array(
-    '0px'   => esc_attr__( '0px', 'boomnews' ),
-    '5px' => esc_attr__( '5px', 'boomnews' ),
-    '25px' => esc_attr__( '25px', 'boomnews' ),
+    '0px'   => esc_attr__( '0px', 'nextnews' ),
+    '5px' => esc_attr__( '5px', 'nextnews' ),
+    '25px' => esc_attr__( '25px', 'nextnews' ),
   ),
   ));
 
   Kirki::add_field( 'colors', array(
   'type'        => 'radio-buttonset',
   'settings'    => 'colors',
-  'label'       => esc_html__( 'Color Sheme', 'boomnews' ),
+  'label'       => esc_html__( 'Color Sheme', 'nextnews' ),
   'section'     => 'general_style_settings',
   'default'     => 'color1',
   'priority'    => 1,
   'option_type'           => 'option',
   'choices'     => array(
-    'color1'   => esc_attr__( 'Color 1', 'boomnews' ),
-    'color2' => esc_attr__( 'Color 2', 'boomnews' ),
+    'color1'   => esc_attr__( 'Color 1', 'nextnews' ),
+    'color2' => esc_attr__( 'Color 2', 'nextnews' ),
   ),
   ));
 
 Kirki::add_field( 'zoom', array(
  'type'        => 'radio-buttonset',
  'settings'    => 'zoom',
- 'label'       => esc_html__( 'Image Hover Zoom', 'boomnews' ),
+ 'label'       => esc_html__( 'Image Hover Zoom', 'nextnews' ),
  'section'     => 'general_style_settings',
  'default'     => 'on',
  'priority'    => 1,
  'option_type'           => 'option',
  'choices'     => array(
-   'on'   => esc_attr__( 'Zoom On', 'boomnews' ),
-   'off' => esc_attr__( 'Zoom Off', 'boomnews' )
+   'on'   => esc_attr__( 'Zoom On', 'nextnews' ),
+   'off' => esc_attr__( 'Zoom Off', 'nextnews' )
  ),
 ));
 

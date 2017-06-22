@@ -173,7 +173,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: antialiased;
     -webkit-overflow-scrolling: auto;
-    background:white;
+    background:#f5f5f5;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -427,25 +427,25 @@ img {
 h1,h2,h3,h4,h5,h6 {
   color: #000113;
   margin: 0px;
-  padding: 20px 0px 20px;
+  padding: 0px 0px 20px;
 }
 h1 {
   font-size: 48px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 27px;
 }
 h3 {
-  font-size: 28px;
-}
-h4 {
   font-size: 24px;
 }
-h5 {
+h4 {
   font-size: 21px;
 }
-h6 {
+h5 {
   font-size: 18px;
+}
+h6 {
+  font-size: 16px;
 }
 p {
   line-height: 1.618;
@@ -715,7 +715,6 @@ blockquote:after {
 }
 .wp-caption {
   padding: 0px;
-  background: #f5f5f5;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -2625,7 +2624,7 @@ opacity: 0.7
   float:right;
 }
 .mt-coment-nav a {
-  background: #ecedf1;
+  background: #fff;
   padding: 7px 10px;
   display: inline-block;
 }
@@ -2633,7 +2632,7 @@ opacity: 0.7
   padding: 20px 0px;
 }
 .nav-links a {
-  background: #f5f5f5;
+  background: #fff;
   padding: 10px 20px;
   display: inline-block;
   margin-bottom: 40px;
@@ -2793,6 +2792,9 @@ opacity: 0.7
 .single-content .entry-content {
   background: white;
   padding: 40px 40px 20px;
+}
+.single-content .entry-content input[type="password"] {
+  background: #f5f5f5;
 }
 .single-content .entry-content table {
   margin-bottom: 40px;
@@ -3550,17 +3552,18 @@ opacity: 0.7
 }
 .post_sticky {
   padding: 20px 40px 40px;
-  background: #f1f1f1;
+  background: #fff;
   margin-bottom: 40px;
 }
 .tags a{
   font-size: 12px;
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 3px 6px;
   text-transform: uppercase;
   margin-right: 5px;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 .heading-404 {
   text-align: center;
@@ -4444,8 +4447,8 @@ ul.page-numbers li {
 }
 .mt-pagepagination a span,
 .page-links a {
-  color: white;
-  background: #222;
+  color: #222;
+  background: #fff;
 }
 .pagination {
   margin-bottom: 40px;
