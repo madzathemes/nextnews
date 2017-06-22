@@ -5695,3 +5695,10 @@ li.mtc-buy {
 .mt-menu-bar-dark a {
   color: white;
 }
+
+/* Colors */
+.mt-menu-bar-dark .mt-m-cool-button-line,
+.mt-menu-bar-dark .mt-m-cool-button-line:after,
+.mt-menu-bar-dark .mt-m-cool-button-line:before {
+  background: white;
+}
