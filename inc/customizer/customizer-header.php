@@ -594,7 +594,7 @@ function nextnews_customize_header($wp_customize){
           'type'        => 'select',
           'settings'    => 'mt_bar_top_scheme',
           'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
-          'section'     => 'nextnews_header_bar_head',
+          'section'     => 'nextnews_header_bar_top',
           'default'     => 'light',
           'priority'    => 10,
           'choices'     => array(
@@ -945,7 +945,7 @@ function nextnews_customize_header($wp_customize){
            	'type'        => 'select',
            	'settings'    => 'mt_bar_menu_scheme',
            	'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
-           	'section'     => 'nextnews_header_bar_head',
+           	'section'     => 'nextnews_header_bar_menu',
            	'default'     => 'light',
            	'priority'    => 10,
            	'choices'     => array(
