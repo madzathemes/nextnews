@@ -5633,6 +5633,9 @@ li.mtc-buy {
 .mt-bar-table > div > div > div > div > div {
   display: inline-block;
 }
+.mt-bar.stretched .container {
+  width: 100% !important;
+}
 
 /* Top Bar */
 .mt-top-bar {
