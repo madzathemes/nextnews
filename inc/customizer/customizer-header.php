@@ -497,6 +497,18 @@ function nextnews_customize_header($wp_customize){
              'off' => esc_attr__( 'Off', 'nextnews' ),
            ),
        ) );
+       Kirki::add_field( 'mt_bar_top_scheme', array(
+         'type'        => 'select',
+         'settings'    => 'mt_bar_top_scheme',
+         'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
+         'section'     => 'nextnews_header_bar_top',
+         'default'     => 'light',
+         'priority'    => 10,
+         'choices'     => array(
+           'dark' => esc_attr__( 'Dark', 'nextnews' ),
+           'light' => esc_attr__( 'Light', 'nextnews' ),
+         ),
+        ) );
 
        Kirki::add_field( 'mt_bar_top_row', array(
           'type'        => 'select',
@@ -590,18 +602,7 @@ function nextnews_customize_header($wp_customize){
           'priority'    => 11,
         ) );
 
-        Kirki::add_field( 'mt_bar_top_scheme', array(
-          'type'        => 'select',
-          'settings'    => 'mt_bar_top_scheme',
-          'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
-          'section'     => 'nextnews_header_bar_top',
-          'default'     => 'light',
-          'priority'    => 10,
-          'choices'     => array(
-            'dark' => esc_attr__( 'Dark', 'nextnews' ),
-            'light' => esc_attr__( 'Light', 'nextnews' ),
-          ),
-         ) );
+
 
 
 
@@ -624,6 +625,19 @@ function nextnews_customize_header($wp_customize){
              'off' => esc_attr__( 'Off', 'nextnews' ),
            ),
        ) );
+
+       Kirki::add_field( 'mt_bar_head_scheme', array(
+         'type'        => 'select',
+         'settings'    => 'mt_bar_head_scheme',
+         'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
+         'section'     => 'nextnews_header_bar_head',
+         'default'     => 'light',
+         'priority'    => 10,
+         'choices'     => array(
+           'dark' => esc_attr__( 'Dark', 'nextnews' ),
+           'light' => esc_attr__( 'Light', 'nextnews' ),
+         ),
+        ) );
 
        Kirki::add_field( 'mt_bar_head_row', array(
         	'type'        => 'select',
@@ -786,18 +800,7 @@ function nextnews_customize_header($wp_customize){
           'priority'    => 11,
         ) );
 
-        Kirki::add_field( 'mt_bar_head_scheme', array(
-         	'type'        => 'select',
-         	'settings'    => 'mt_bar_head_scheme',
-         	'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
-         	'section'     => 'nextnews_header_bar_head',
-         	'default'     => 'light',
-         	'priority'    => 10,
-         	'choices'     => array(
-         		'dark' => esc_attr__( 'Dark', 'nextnews' ),
-         		'light' => esc_attr__( 'Light', 'nextnews' ),
-         	),
-         ) );
+
 
 
 
@@ -820,6 +823,19 @@ function nextnews_customize_header($wp_customize){
              'off' => esc_attr__( 'Off', 'nextnews' ),
            ),
        ) );
+
+       Kirki::add_field( 'mt_bar_menu_scheme', array(
+         'type'        => 'select',
+         'settings'    => 'mt_bar_menu_scheme',
+         'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
+         'section'     => 'nextnews_header_bar_menu',
+         'default'     => 'light',
+         'priority'    => 10,
+         'choices'     => array(
+           'dark' => esc_attr__( 'Dark', 'nextnews' ),
+           'light' => esc_attr__( 'Light', 'nextnews' ),
+         ),
+        ) );
 
        Kirki::add_field( 'mt_bar_menu_row', array(
         	'type'        => 'select',
@@ -941,18 +957,7 @@ function nextnews_customize_header($wp_customize){
             'priority'    => 11,
           ) );
 
-          Kirki::add_field( 'mt_bar_menu_scheme', array(
-           	'type'        => 'select',
-           	'settings'    => 'mt_bar_menu_scheme',
-           	'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
-           	'section'     => 'nextnews_header_bar_menu',
-           	'default'     => 'light',
-           	'priority'    => 10,
-           	'choices'     => array(
-           		'dark' => esc_attr__( 'Dark', 'nextnews' ),
-           		'light' => esc_attr__( 'Light', 'nextnews' ),
-           	),
-           ) );
+
 
 
 
