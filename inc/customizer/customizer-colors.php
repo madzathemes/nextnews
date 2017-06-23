@@ -7,9 +7,9 @@ function nextnews_customize_colors($wp_customize){
     'panel'  => 'magazin_ads',
   ));
 
-  Kirki::add_field( 'nextnews_theme_options[header_ad_menu]', array(
+  Kirki::add_field( 'global_theme_options[header_ad_menu]', array(
     'type'        => 'code',
-    'settings'    => 'nextnews_theme_options[header_ad_menu]',
+    'settings'    => 'global_theme_options[header_ad_menu]',
     'label'       =>  esc_html__( 'YOUR AD CODE', 'nextnews' ),
     'section'     => 'header_ad_menu',
     'default'     => '',
