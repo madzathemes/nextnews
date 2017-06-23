@@ -4,7 +4,7 @@ function nextnews_top_bar() { ?>
 
 	<?php if ( true == get_theme_mod( 'mt_bar_top', false ) ) { ?>
 
-		<div class="mt-bar mt-top-bar mt-bar-table mt-top-bar-dark <?php echo get_theme_mod( 'mt_bar_top_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_top_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_top_row', "full" ) ) { ?> ful <?php } ?>">
+		<div class="mt-bar mt-top-bar mt-bar-table mt-bar-dark mt-top-bar-dark <?php echo get_theme_mod( 'mt_bar_top_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_top_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_top_row', "full" ) ) { ?> ful <?php } ?>">
 
 			<div class="mt-bar-out">
 
@@ -86,7 +86,7 @@ function nextnews_head_bar() { ?>
 
 	<?php if ( true == get_theme_mod( 'mt_bar_head', true ) ) { $option = get_option("nextnews_theme_options");?>
 
-		<div class="mt-bar mt-head-bar mt-bar-table mt-head-bar-dark <?php echo get_theme_mod( 'mt_bar_head_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_head_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_head_row', "full" ) ) { ?> ful <?php } ?>">
+		<div class="mt-bar mt-head-bar mt-bar-table mt-bar-dark mt-head-bar-dark <?php echo get_theme_mod( 'mt_bar_head_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_head_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_head_row', "full" ) ) { ?> ful <?php } ?>">
 
 			<div class="mt-bar-out">
 
@@ -142,7 +142,7 @@ function nextnews_head_bar() { ?>
 
 	<?php if ( true == get_theme_mod( 'mt_bar_menu', true ) ) { ?>
 
-		<div class="mt-bar mt-menu-bar mt-bar-table mt-menu-bar-dark <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
+		<div class="mt-bar mt-menu-bar mt-bar-dark mt-bar-table mt-menu-bar-dark <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
 
 			<div class="mt-bar-out">
 

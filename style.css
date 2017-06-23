@@ -5695,8 +5695,8 @@ li.mtc-buy {
 }
 
 /* Colors */
-.mt-menu-bar-dark .mt-m-cool-button-line,
-.mt-menu-bar-dark .mt-m-cool-button-line:after,
-.mt-menu-bar-dark .mt-m-cool-button-line:before {
+.mt-bar-dark .mt-m-cool-button-line,
+.mt-bar-dark .mt-m-cool-button-line:after,
+.mt-bar-dark .mt-m-cool-button-line:before {
   background: white;
 }
