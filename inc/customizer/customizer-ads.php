@@ -333,27 +333,7 @@ function nextnews_customize_ads($wp_customize){
     ),
   ));
 
-  $wp_customize->add_section('header_ad_menu', array(
-    'title'    	=> esc_html__('Header Ad Menu', 'nextnews'),
-    'priority' => 1,
-    'panel'  => 'nextnews_ads',
-  ));
 
-  Kirki::add_field( 'nextnews_theme_options[header_ad_menu]', array(
-    'type'        => 'code',
-    'settings'    => 'nextnews_theme_options[header_ad_menu]',
-    'label'       =>  esc_html__( 'YOUR AD CODE', 'nextnews' ),
-    'section'     => 'header_ad_menu',
-    'default'     => '',
-    'priority'    => 1,
-    'sanitize_callback' => 'do_not_filter_anything',
-    'option_type' => 'option',
-    'choices'     => array(
-      'language' => 'css, html, javascript',
-      'theme'    => 'monokai',
-      'height'   => 250,
-    ),
-  ));
 
 
 }
