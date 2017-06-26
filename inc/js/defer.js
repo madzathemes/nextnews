@@ -18,6 +18,17 @@ jQuery(window).resize(function () {
 jQuery(document).ready(function() {
   'use strict';
 
+  jQuery('.sticky').Stickyfill();
+
+  var h_admin_bar = jQuery('#wpadminbar').outerHeight(true);
+  var h_tob_bar = jQuery('.mt-top-bar').outerHeight(true);
+  var h_header_bar = jQuery('.mt-head-bar').outerHeight(true);
+  var h_menu_bar = jQuery('.mt-menu-bar').css('padding-top');
+  var h_menu_bar = parseInt(h_menu_bar);
+  var header_height = + h_admin_bar + h_header_bar + h_tob_bar + h_menu_bar;
+
+  jQuery('.mt-header').css('top',  + h_admin_bar - h_header_bar - h_tob_bar - h_menu_bar)
+
   jQuery(".df-megamenu-nav-sub li a").on("hover", function() {
     var tab_mega = jQuery(this).data( "target" );
     jQuery(this).parent().parent().parent().parent().children(".df-container-tab-content").children(".tab-content").children(".tab-pane").removeClass("in");
