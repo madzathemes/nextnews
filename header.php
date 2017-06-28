@@ -43,5 +43,6 @@ if(!empty($style)){
 	<?php nextnews_socials(); ?>
 </div>
 
-<div class="mt-outer-wrap">
 <?php nextnews_header(); ?>
+
+<div class="mt-outer-wrap">
