@@ -78,21 +78,17 @@ jQuery(document).ready(function() {
   var windows = jQuery(window);
 
   windows.scroll(function(){
-    var fromTop = windows.scrollTop();
-		if (windows.scrollTop() > 200) {
-			footer_button.addClass("active");
+
+    if (windows.scrollTop() > header_height) {
+      body.addClass("fix-menu");
       body.addClass("fixed-on");
 		} else {
-			footer_button.removeClass("active");
-      body.removeClass("fixed-on");
-		}
-    if (windows.scrollTop() > 47) {
-      body.addClass("fix-menu");
-		} else {
       body.removeClass("fix-menu");
+      body.removeClass("fixed-on");
 		}
     return false;
 	});
+
 
   jQuery('.footer-scroll-to-top, .footer-scroll-to-top-link').click(function(){
 		jQuery('html, body').animate({scrollTop : 0},400);
