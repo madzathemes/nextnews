@@ -11,9 +11,6 @@ jQuery(window).bind('mousewheel', function(event) {
   }
 });
 
-jQuery(window).resize(function () {
-   jQuery(this).trigger("scroll");
-});
 
 jQuery(document).ready(function() {
   'use strict';
