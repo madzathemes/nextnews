@@ -1065,9 +1065,6 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
 	text-decoration: none;
 	zoom: 1; /* IE7 */
 }
-.sf-menu a {
-	color: #13a;
-}
 ul.sf-menu > li,
 div.sf-menu ul > li {
   margin-left:20px;
