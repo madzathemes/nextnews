@@ -4482,7 +4482,7 @@ ul.page-numbers li {
   width: 100%;
   position: fixed;
   z-index: 99999;
-  margin: 0 0 0 400px;
+  margin: 0 0 0 -400px;
   -webkit-transition: transform .2s ease;
   -moz-transition: transform .2s ease;
   -o-transition: transform .2s ease;
