@@ -5700,3 +5700,6 @@ li.mtc-buy {
 .mt-bar-dark .mt-m-cool-button-line:before {
   background: white;
 }
+
+.mt-bar-dark { color: white; background: #222 }
+.mt-bar-light { color: #222; background: white }
