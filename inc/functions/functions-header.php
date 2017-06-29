@@ -230,7 +230,7 @@ else if(!empty($option['menu_background_width'])) {
 ?>
 
 
-<div class="mt-header mt-header-sticky" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+<div class="mt-header <?php if ( true == get_theme_mod( 'mt_bar_menu', true ) ) {  ?>mt-header-sticky<?php } ?>" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 <div>
 	<?php nextnews_top_bar(); ?>
 
