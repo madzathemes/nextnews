@@ -811,22 +811,21 @@ function nextnews_customize_header($wp_customize){
    				'panel'  => 'panel_header',
        ));
 
-       Kirki::add_field( 'my_config1', array(
+       Kirki::add_field( 'my_config1asdf', array(
         	'type'        => 'typography',
-        	'settings'    => 'my_settingz',
+        	'settings'    => 'my_config1asdf',
         	'label'       => esc_attr__( 'Control Label', 'kirki' ),
         	'section'     => 'nextnews_header_bar_menu',
         	'default'     => array(
         		'font-family'    => 'Roboto',
-        		'variant'        => 'regular',
         		'font-size'      => '14px',
         		'line-height'    => '1.5',
         		'letter-spacing' => '0',
-        		'subsets'        => array( 'latin-ext' ),
         		'color'          => '#333333',
         		'text-transform' => 'none',
         		'text-align'     => 'left'
         	),
+          'transport'   => 'auto',
         	'priority'    => 10,
         	'output'      => array(
         		array(
