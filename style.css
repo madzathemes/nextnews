@@ -5679,7 +5679,7 @@ li.mtc-buy {
   background: white;
 }
 
-.mt-bar-dark { color: white; background: #222 }
+.mt-bar-dark { color: white; background: #222; }
 .mt-bar-dark a { color: white; }
-.mt-bar-light { color: #222; background: white }
+.mt-bar-light { color: #222; background: white; }
 .mt-bar-light a { color: #222; }
