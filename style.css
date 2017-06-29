@@ -5635,15 +5635,6 @@ li.mtc-buy {
 }
 
 /* Top Bar */
-.mt-top-bar {
-  color: white;
-}
-.mt-top-bar a {
-  color: white;
-}
-.mt-top-bar a:hover {
-  color: yellow;
-}
 .mt-top-bar ul {
   list-style: none;
   margin: 0px;
@@ -5663,12 +5654,6 @@ li.mtc-buy {
   padding: 0 20px 0 0;
   width: 200px
 }
-.mt-head-bar-dark {
-  color: white;
-}
-.mt-head-bar-dark a {
-  color: white;
-}
 
 /* Menu Bar */
 .mt-menu-bar {
@@ -5687,12 +5672,6 @@ li.mtc-buy {
   opacity: 1;
   width: auto;
 }
-.mt-menu-bar-dark {
-  color: white;
-}
-.mt-menu-bar-dark a {
-  color: white;
-}
 
 /* Colors */
 .mt-bar-dark .mt-m-cool-button-line,
@@ -5702,4 +5681,6 @@ li.mtc-buy {
 }
 
 .mt-bar-dark { color: white; background: #222 }
+.mt-bar-dark a { color: white; }
 .mt-bar-light { color: #222; background: white }
+.mt-bar-light a { color: #222; }

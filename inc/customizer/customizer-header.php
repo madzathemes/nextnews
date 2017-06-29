@@ -899,7 +899,7 @@ function nextnews_customize_header($wp_customize){
            'settings'    => 'mt_bar_menu_social',
            'label'       => esc_attr__( 'Social Icons', 'nextnews' ),
            'section'     => 'nextnews_header_bar_menu',
-           'default'     => 'on',
+           'default'     => 'off',
            'priority'    => 10,
            'choices'     => array(
              'on'  => esc_attr__( 'On', 'nextnews' ),
