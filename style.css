@@ -5600,22 +5600,16 @@ li.mtc-buy {
 .mt-bar.stretched > div > div > div {
   width: 100%;
 }
-.mt-top-bar-dark.box > div > div > div,
-.mt-top-bar-dark.full > div,
-.mt-top-bar-dark.stretched > div {
-  background: black;
+.mt-bar-dark.box > div > div > div,
+.mt-bar-dark.full > div,
+.mt-bar-dark.stretched > div {
+  background: #222;
 }
-.mt-head-bar-dark.box > div > div > div,
-.mt-head-bar-dark.full > div,
-.mt-head-bar-dark.stretched > div {
-  background: black;
+.mt-bar-light.box > div > div > div,
+.mt-bar-light.full > div,
+.mt-bar-light.stretched > div {
+  background: white;
 }
-.mt-menu-bar-dark.box > div > div > div,
-.mt-menu-bar-dark.full > div,
-.mt-menu-bar-dark.stretched > div {
-  background: black;
-}
-
 
 /* Header Bars */
 .mt-bar-table > div > div > div {
@@ -5679,7 +5673,7 @@ li.mtc-buy {
   background: white;
 }
 
-.mt-bar-dark { color: white; background: #222; }
+.mt-bar-dark { color: white; }
 .mt-bar-dark a { color: white; }
-.mt-bar-light { color: #222; background: white; }
+.mt-bar-light { color: #222; }
 .mt-bar-light a { color: #222; }
