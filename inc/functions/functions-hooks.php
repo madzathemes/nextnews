@@ -467,6 +467,12 @@ function nextnews_class($classes) {
 		$body_class .= ' random-off';
 	}
 
+	if(!empty($options['fixed_logo']) or !empty($options['fixed_logo2']) ) {
+		if($options['fixed_logo']!="" or $options['fixed_logo']!="") {
+			$body_class .= ' fixed-logo-active';
+		}
+	}
+
 	if(!empty($options['menu_top_ad'])) {
 		if($options['menu_top_ad']=="ad") {
 			$body_class .= ' menu-ad-on';

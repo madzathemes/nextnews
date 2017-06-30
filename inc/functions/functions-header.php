@@ -159,6 +159,7 @@ function nextnews_head_bar() { ?>
 
 						<div class="mt-menu-bar-brand <?php if ( true == get_theme_mod( 'mt_bar_head', true ) AND 1 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 2 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 3 == get_theme_mod( 'mt_bar_head_style', 1 ) ){ ?>mt-menu-bar-brand-hidde<?php } ?>">
 							<?php nextnews_logo(); ?>
+							<?php nextnews_fixed_logo(); ?>
 						</div>
 
 						<?php if ( 3 == get_theme_mod( 'mt_bar_menu_small_menu', 1 ) ) { ?>
@@ -344,19 +345,49 @@ function nextnews_logo() {
 	}
 
 	if(!empty($option['header_logo'])) { ?>
-		<a class="logo"  href="<?php echo esc_url(home_url('/'));?>">
+		<a class="logo logo-header"  href="<?php echo esc_url(home_url('/'));?>">
 			<img <?php if(!empty($option['logo_width'])) { ?>  width="<?php echo esc_attr($option['logo_width']); ?>" <?php } if(!empty($option['logo_height'])) { ?>  height="<?php echo esc_attr($option['logo_height']); ?>" <?php } ?>
 			src="<?php echo esc_url($header_logo); ?>"
 			srcset="<?php echo esc_url($header_logo); ?>, <?php if(!empty($option['header_logox2'])) { echo esc_url($header_logo2); } ?> 2x"  alt="<?php echo the_title(); ?>"  />
 		</a>
 	<?php } else { ?>
-		<a class="logo"  href="<?php echo esc_url(home_url('/'));?>">
+		<a class="logo logo-header"  href="<?php echo esc_url(home_url('/'));?>">
 			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="108" height="15" alt="<?php echo the_title(); ?>" />
 		</a>
 	<?php }
 }
 
 add_filter('nextnews_logo','nextnews_logo');
+
+function nextnews_fixed_logo() {
+
+	$option = get_option("nextnews_theme_options");
+	$size = get_option("nextnews_fixed_logo_size");
+
+	// Fix for SSL
+	if(!empty($option['fixed_logo'])) {
+		$header_logo = esc_url($option['fixed_logo']);
+		if(is_ssl() and 'http' == parse_url($header_logo, PHP_URL_SCHEME) ){
+				$header_logo = str_replace('http://', 'https://', $header_logo);
+		}
+	}
+	if(!empty($option['fixed_logo2'])) {
+		$header_logo2 = esc_url($option['fixed_logo2']);
+		if(is_ssl() and 'http' == parse_url($header_logo2, PHP_URL_SCHEME) ){
+				$header_logo2 = str_replace('http://', 'https://', $header_logo2);
+		}
+	}
+
+	if(!empty($option['fixed_logo'])) { ?>
+		<a class="logo logo-fixed hidden"  href="<?php echo esc_url(home_url('/'));?>">
+			<img <?php if(!empty($size['width'])) { ?>  width="<?php echo esc_attr($size['width']); ?>" <?php } if(!empty($size['height'])) { ?>  height="<?php echo esc_attr($size['height']); ?>" <?php } ?>
+			src="<?php echo esc_url($header_logo); ?>"
+			srcset="<?php echo esc_url($header_logo); ?>, <?php if(!empty($option['fixed_logo2'])) { echo esc_url($header_logo2); } ?> 2x"  alt="<?php echo the_title(); ?>"  />
+		</a>
+	<?php }
+}
+
+add_filter('nextnews_fixed_logo','nextnews_fixed_logo');
 
 function nextnews_logo_mobile() {
 

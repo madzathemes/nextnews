@@ -45,18 +45,12 @@ function nextnews_customize_header($wp_customize){
 
 
     $wp_customize->add_section('nextnews_logo', array(
-        'title'    	=> esc_html__('Logo Image', 'nextnews'),
+        'title'    	=> esc_html__('Logo', 'nextnews'),
         'priority' => 122,
 
     'panel'  => 'panel_header',
     ));
 
-    $wp_customize->add_section('nextnews_logo_settings', array(
-        'title'    	=> esc_html__('Logo Settings', 'nextnews'),
-        'priority' => 123,
-
-    'panel'  => 'panel_header',
-    ));
 
 
 
@@ -71,7 +65,7 @@ function nextnews_customize_header($wp_customize){
     ));
 
     $wp_customize->add_control( new WP_Customize_Image_Control($wp_customize, 'header_logo', array(
-        'label'    => esc_html__('Upload Logo', 'nextnews'),
+        'label'    => esc_html__('Logo', 'nextnews'),
         'section'  => 'nextnews_logo',
         'settings' => 'nextnews_theme_options[header_logo]',
     )));
@@ -85,19 +79,104 @@ function nextnews_customize_header($wp_customize){
     ));
 
     $wp_customize->add_control( new WP_Customize_Image_Control($wp_customize, 'header_logox2', array(
-        'label'    => esc_html__('Upload Responsive Logo (x2)', 'nextnews'),
+        'label'    => esc_html__('Responsive Logo (x2)', 'nextnews'),
         'section'  => 'nextnews_logo',
         'settings' => 'nextnews_theme_options[header_logox2]',
     )));
+    Kirki::add_field( 'nextnews_logo_size', array(
+    	'type'        => 'spacing',
+    	'settings'    => 'nextnews_logo_size',
+    	'label'       => __( 'Logo Size', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => array(
+      	'width'   => '200px',
+    		'height'    => '40px',
+    		'top'   => '10px',
+    		'bottom'  => '10px',
+    	),
+    	'priority'    => 10,
+    ) );
 
     Kirki::add_field( 'nextnews_theme_options[mobile_logo]', array(
       'type'        => 'image',
       'settings'    => 'nextnews_theme_options[mobile_logo]',
-      'label'       => esc_html__( 'Mobile Logo', 'nextnews' ),
+      'label'       => esc_html__( 'Mobile Header Logo', 'nextnews' ),
       'section'     => 'nextnews_logo',
       'default'     => '',
       'option_type' => 'option',
-      'priority'    => 10,
+      'priority'    => 20,
+    ) );
+    Kirki::add_field( 'nextnews_mobile_logo_size', array(
+    	'type'        => 'spacing',
+    	'settings'    => 'nextnews_mobile_logo_size',
+    	'label'       => __( 'Mobile Header Logo Size', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => array(
+      	'width'   => 'auto',
+    		'height'    => 'auto',
+    		'top'   => '10px',
+    		'bottom'  => '10px',
+    	),
+    	'priority'    => 21,
+    ) );
+
+    Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo]', array(
+      'type'        => 'image',
+      'settings'    => 'nextnews_theme_options[mobile_menu_logo]',
+      'label'       => esc_html__( 'Mobile Menu Logo', 'nextnews' ),
+      'section'     => 'nextnews_logo',
+      'default'     => '',
+      'option_type' => 'option',
+      'priority'    => 25,
+    ) );
+    Kirki::add_field( 'nextnews_mobile_menu_logo_size', array(
+    	'type'        => 'spacing',
+    	'settings'    => 'nextnews_mobile_menu_logo_size',
+    	'label'       => __( 'Mobile Menu Logo Size', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => array(
+      	'width'   => 'auto',
+    		'height'    => 'auto',
+    		'top'   => '10px',
+    		'bottom'  => '10px',
+    	),
+    	'priority'    => 26,
+    ) );
+
+    Kirki::add_field( 'nextnews_theme_options[fixed_logo]', array(
+      'type'        => 'image',
+      'settings'    => 'nextnews_theme_options[fixed_logo]',
+      'label'       => esc_html__( 'Fixed Menu Logo', 'nextnews' ),
+      'section'     => 'nextnews_logo',
+      'default'     => '',
+      'option_type' => 'option',
+      'priority'    => 30,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[fixed_logo2]', array(
+      'type'        => 'image',
+      'settings'    => 'nextnews_theme_options[fixed_logo2]',
+      'label'       => esc_html__( 'Responsive Fixed Menu Logo (x2)', 'nextnews' ),
+      'section'     => 'nextnews_logo',
+      'default'     => '',
+      'option_type' => 'option',
+      'priority'    => 30,
+    ) );
+    Kirki::add_field( 'nextnews_fixed_logo_size', array(
+    	'type'        => 'spacing',
+    	'settings'    => 'nextnews_fixed_logo_size',
+    	'label'       => __( 'Fixed Menu Logo Size', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => array(
+      	'width'   => 'auto',
+    		'height'    => 'auto',
+    		'top'   => '10px',
+    		'bottom'  => '10px',
+    	),
+    	'priority'    => 31,
     ) );
 
     //  =============================
@@ -811,28 +890,6 @@ function nextnews_customize_header($wp_customize){
    				'panel'  => 'panel_header',
        ));
 
-       Kirki::add_field( 'my_config1asdf', array(
-        	'type'        => 'typography',
-        	'settings'    => 'my_config1asdf',
-        	'label'       => esc_attr__( 'Control Label', 'kirki' ),
-        	'section'     => 'nextnews_header_bar_menu',
-        	'default'     => array(
-        		'font-family'    => 'Roboto',
-        		'font-size'      => '14px',
-        		'line-height'    => '1.5',
-        		'letter-spacing' => '0',
-        		'color'          => '#333333',
-        		'text-transform' => 'none',
-        		'text-align'     => 'left'
-        	),
-          'transport'   => 'auto',
-        	'priority'    => 10,
-        	'output'      => array(
-        		array(
-        			'element' => 'h2',
-        		),
-        	),
-        ) );
 
        Kirki::add_field( 'mt_bar_menu', array(
            'type'        => 'switch',
@@ -1023,5 +1080,78 @@ function nextnews_customize_header($wp_customize){
 }
 
 add_action('customize_register', 'nextnews_customize_header');
+
+
+
+
+if ( class_exists( 'Kirki' ) ) {
+    //setup Kirki config
+    Kirki::add_config( 'ti', array(
+        'capability'  => 'edit_theme_options',
+        'option_type' => 'theme_mod',
+        'option_name' => 'ti',
+    ) );
+
+    Kirki::add_panel('test_panel', array(
+        'priority' => 10,
+        'title'    => __('Test Panel', 'ti'),
+    ) );
+
+    // Add section
+    Kirki::add_section( 'test_section', array(
+        'title'       => __('Test Section', 'ti'),
+        'description' => __('test description', 'ti'),
+        'panel'       => 'test_panel',
+        'priority'    => 11,
+    ) );
+
+    Kirki::add_field( 'ti', array(
+     'type'        => 'typography',
+     'settings'    => 'body_typography',
+     'label'       => esc_attr__( 'Body Typography', '_s' ),
+     'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
+     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
+     'section'     => 'test_section',
+     'priority'    => 10,
+     'default'     => array(
+       'font-family'    => 'Roboto',
+       'variant'        => '400',
+       'line-height'    => '1.5',
+       // 'letter-spacing' => '0',
+       'color'          => '#333333',
+     ),
+     'transport'   => 'auto',
+     'output' => array(
+       array(
+         'element' => 'h2',
+       ),
+     ),
+    ) );
+
+    Kirki::add_field( 'ti', array(
+     'type'        => 'typography',
+     'settings'    => 'body_typography2',
+     'label'       => esc_attr__( 'Body Typography', '_s' ),
+     'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
+     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
+     'section'     => 'test_section',
+     'priority'    => 10,
+     'default'     => array(
+       'font-family'    => 'Roboto',
+       'variant'        => '400',
+       'line-height'    => '1.5',
+       // 'letter-spacing' => '0',
+       'color'          => '#333333',
+     ),
+     'transport'   => 'auto',
+     'output' => array(
+       array(
+         'element' => 'body',
+       ),
+     ),
+    ) );
+
+
+}
 
 ?>
