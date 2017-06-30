@@ -83,19 +83,43 @@ function nextnews_customize_header($wp_customize){
         'section'  => 'nextnews_logo',
         'settings' => 'nextnews_theme_options[header_logox2]',
     )));
+    Kirki::add_field( 'nextnews_theme_options[header_logo_w]', array(
+      'type'        => 'dimension',
+      'settings'    => 'nextnews_theme_options[header_logo_w]',
+      'label'       => esc_html__( 'Logo Width', 'nextnews' ),
+      'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+      'default'     => '200px',
+      'priority'    => 10,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[header_logo_h]', array(
+      'type'        => 'dimension',
+      'settings'    => 'nextnews_theme_options[header_logo_h]',
+      'label'       => esc_html__( 'Logo Height', 'nextnews' ),
+      'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+      'default'     => '40px',
+      'priority'    => 10,
+    ) );
     Kirki::add_field( 'nextnews_logo_size', array(
     	'type'        => 'spacing',
     	'settings'    => 'nextnews_logo_size',
-    	'label'       => __( 'Logo Size', 'nextnews' ),
+    	'label'       => esc_html__( 'Logo Space', 'nextnews' ),
     	'section'     => 'nextnews_logo',
       'option_type' => 'option',
     	'default'     => array(
-      	'width'   => '200px',
-    		'height'    => '40px',
     		'top'   => '10px',
     		'bottom'  => '10px',
     	),
-    	'priority'    => 10,
+    	'priority'    => 11,
+    ) );
+
+    Kirki::add_field( 'nextnews_theme_options[line_1]', array(
+    	'type'        => 'custom',
+    	'settings'    => 'nextnews_theme_options[line_1]',
+    	'section'     => 'nextnews_logo',
+    	'default'     => '<div style="margin: 20px 0; border-top: 1px solid silver"></div>',
+    	'priority'    => 12,
     ) );
 
     Kirki::add_field( 'nextnews_theme_options[mobile_logo]', array(
@@ -105,45 +129,93 @@ function nextnews_customize_header($wp_customize){
       'section'     => 'nextnews_logo',
       'default'     => '',
       'option_type' => 'option',
-      'priority'    => 20,
+      'priority'    => 19,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[mobile_header_logo_w]', array(
+    	'type'        => 'dimension',
+    	'settings'    => 'nextnews_theme_options[mobile_header_logo_w]',
+    	'label'       => esc_html__( 'Mobile Header Logo Width', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => '200px',
+    	'priority'    => 20,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[mobile_header_logo_h]', array(
+    	'type'        => 'dimension',
+    	'settings'    => 'nextnews_theme_options[mobile_header_logo_h]',
+    	'label'       => esc_html__( 'Mobile Header Logo Height', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => '40px',
+    	'priority'    => 20,
     ) );
     Kirki::add_field( 'nextnews_mobile_logo_size', array(
     	'type'        => 'spacing',
     	'settings'    => 'nextnews_mobile_logo_size',
-    	'label'       => __( 'Mobile Header Logo Size', 'nextnews' ),
+    	'label'       => esc_html__( 'Mobile Header Logo Space', 'nextnews' ),
     	'section'     => 'nextnews_logo',
       'option_type' => 'option',
     	'default'     => array(
-      	'width'   => 'auto',
-    		'height'    => 'auto',
     		'top'   => '10px',
     		'bottom'  => '10px',
     	),
     	'priority'    => 21,
     ) );
 
+    Kirki::add_field( 'nextnews_theme_options[line_2]', array(
+    	'type'        => 'custom',
+    	'settings'    => 'nextnews_theme_options[line_2]',
+    	'section'     => 'nextnews_logo',
+    	'default'     => '<div style="margin: 20px 0; border-top: 1px solid silver"></div>',
+    	'priority'    => 23,
+    ) );
+
     Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo]', array(
       'type'        => 'image',
-      'settings'    => 'nextnews_theme_options[mobile_menu_logo]',
+      'settings'    => 'nextnews_theme_options',
       'label'       => esc_html__( 'Mobile Menu Logo', 'nextnews' ),
       'section'     => 'nextnews_logo',
       'default'     => '',
       'option_type' => 'option',
-      'priority'    => 25,
+      'priority'    => 24,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo_w]', array(
+    	'type'        => 'dimension',
+    	'settings'    => 'nextnews_theme_options[mobile_menu_logo_w]',
+    	'label'       => esc_html__( 'Mobile Menu Logo Width', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => '200px',
+    	'priority'    => 25,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo_h]', array(
+    	'type'        => 'dimension',
+    	'settings'    => 'nextnews_theme_options[mobile_menu_logo_h]',
+    	'label'       => esc_html__( 'Mobile Menu Logo Height', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => '40px',
+    	'priority'    => 25,
     ) );
     Kirki::add_field( 'nextnews_mobile_menu_logo_size', array(
     	'type'        => 'spacing',
     	'settings'    => 'nextnews_mobile_menu_logo_size',
-    	'label'       => __( 'Mobile Menu Logo Size', 'nextnews' ),
+    	'label'       => esc_html__( 'Mobile Menu Logo Space', 'nextnews' ),
     	'section'     => 'nextnews_logo',
       'option_type' => 'option',
     	'default'     => array(
-      	'width'   => 'auto',
-    		'height'    => 'auto',
     		'top'   => '10px',
     		'bottom'  => '10px',
     	),
     	'priority'    => 26,
+    ) );
+
+    Kirki::add_field( 'nextnews_theme_options[line_4]', array(
+    	'type'        => 'custom',
+    	'settings'    => 'nextnews_theme_options[line_4]',
+    	'section'     => 'nextnews_logo',
+    	'default'     => '<div style="margin: 20px 0; border-top: 1px solid silver"></div>',
+    	'priority'    => 27,
     ) );
 
     Kirki::add_field( 'nextnews_theme_options[fixed_logo]', array(
@@ -153,7 +225,7 @@ function nextnews_customize_header($wp_customize){
       'section'     => 'nextnews_logo',
       'default'     => '',
       'option_type' => 'option',
-      'priority'    => 30,
+      'priority'    => 28,
     ) );
     Kirki::add_field( 'nextnews_theme_options[fixed_logo2]', array(
       'type'        => 'image',
@@ -162,17 +234,35 @@ function nextnews_customize_header($wp_customize){
       'section'     => 'nextnews_logo',
       'default'     => '',
       'option_type' => 'option',
-      'priority'    => 30,
+      'priority'    => 29,
     ) );
+
+    Kirki::add_field( 'nextnews_theme_options[fixed_menu_logo_w]', array(
+    	'type'        => 'dimension',
+    	'settings'    => 'nextnews_theme_options[fixed_menu_logo_w]',
+    	'label'       => esc_html__( 'Fixed Menu Logo Width', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => '200px',
+    	'priority'    => 30,
+    ) );
+    Kirki::add_field( 'nextnews_theme_options[fixed_menu_logo_h]', array(
+    	'type'        => 'dimension',
+    	'settings'    => 'nextnews_theme_options[fixed_menu_logo_h]',
+    	'label'       => esc_html__( 'Fixed Menu Logo Height', 'nextnews' ),
+    	'section'     => 'nextnews_logo',
+      'option_type' => 'option',
+    	'default'     => '40px',
+    	'priority'    => 30,
+    ) );
+
     Kirki::add_field( 'nextnews_fixed_logo_size', array(
     	'type'        => 'spacing',
     	'settings'    => 'nextnews_fixed_logo_size',
-    	'label'       => __( 'Fixed Menu Logo Size', 'nextnews' ),
+    	'label'       => esc_html__( 'Fixed Menu Logo Space', 'nextnews' ),
     	'section'     => 'nextnews_logo',
       'option_type' => 'option',
     	'default'     => array(
-      	'width'   => 'auto',
-    		'height'    => 'auto',
     		'top'   => '10px',
     		'bottom'  => '10px',
     	),
@@ -1094,13 +1184,13 @@ if ( class_exists( 'Kirki' ) ) {
 
     Kirki::add_panel('test_panel', array(
         'priority' => 10,
-        'title'    => __('Test Panel', 'ti'),
+        'title'    => esc_html__('Test Panel', 'ti'),
     ) );
 
     // Add section
     Kirki::add_section( 'test_section', array(
-        'title'       => __('Test Section', 'ti'),
-        'description' => __('test description', 'ti'),
+        'title'       => esc_html__('Test Section', 'ti'),
+        'description' => esc_html__('test description', 'ti'),
         'panel'       => 'test_panel',
         'priority'    => 11,
     ) );

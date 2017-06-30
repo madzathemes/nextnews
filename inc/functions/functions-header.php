@@ -346,7 +346,7 @@ function nextnews_logo() {
 
 	if(!empty($option['header_logo'])) { ?>
 		<a class="logo logo-header"  href="<?php echo esc_url(home_url('/'));?>">
-			<img <?php if(!empty($option['logo_width'])) { ?>  width="<?php echo esc_attr($option['logo_width']); ?>" <?php } if(!empty($option['logo_height'])) { ?>  height="<?php echo esc_attr($option['logo_height']); ?>" <?php } ?>
+			<img <?php if(!empty($option['header_logo_w'])) { ?>  width="<?php echo esc_attr($option['header_logo_w']); ?>" <?php } if(!empty($option['header_logo_h'])) { ?>  height="<?php echo esc_attr($option['header_logo_h']); ?>" <?php } ?>
 			src="<?php echo esc_url($header_logo); ?>"
 			srcset="<?php echo esc_url($header_logo); ?>, <?php if(!empty($option['header_logox2'])) { echo esc_url($header_logo2); } ?> 2x"  alt="<?php echo the_title(); ?>"  />
 		</a>
@@ -362,7 +362,6 @@ add_filter('nextnews_logo','nextnews_logo');
 function nextnews_fixed_logo() {
 
 	$option = get_option("nextnews_theme_options");
-	$size = get_option("nextnews_fixed_logo_size");
 
 	// Fix for SSL
 	if(!empty($option['fixed_logo'])) {
@@ -379,8 +378,8 @@ function nextnews_fixed_logo() {
 	}
 
 	if(!empty($option['fixed_logo'])) { ?>
-		<a class="logo logo-fixed hidden"  href="<?php echo esc_url(home_url('/'));?>">
-			<img <?php if(!empty($size['width'])) { ?>  width="<?php echo esc_attr($size['width']); ?>" <?php } if(!empty($size['height'])) { ?>  height="<?php echo esc_attr($size['height']); ?>" <?php } ?>
+		<a class="logo logo-fixed"  href="<?php echo esc_url(home_url('/'));?>">
+			<img <?php if(!empty($option['fixed_menu_logo_w'])) { ?>  width="<?php echo esc_attr($option['fixed_menu_logo_w']); ?>" <?php } if(!empty($option['fixed_menu_logo_h'])) { ?>  height="<?php echo esc_attr($option['fixed_menu_logo_h']); ?>" <?php } ?>
 			src="<?php echo esc_url($header_logo); ?>"
 			srcset="<?php echo esc_url($header_logo); ?>, <?php if(!empty($option['fixed_logo2'])) { echo esc_url($header_logo2); } ?> 2x"  alt="<?php echo the_title(); ?>"  />
 		</a>
