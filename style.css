@@ -5675,7 +5675,7 @@ li.mtc-buy {
   display: none;
 }
 .fix-menu.fixed-logo-active. .logo a img {
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 
