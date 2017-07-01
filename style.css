@@ -5215,8 +5215,8 @@ li.mtc-buy {
   font-weight: normal;
   position: absolute;
   right:0px;
-  top: -50%;
-  margin-top: 2px;
+  font-size: 180%;
+  top: -40%;
 }
 .mt-load-more .off {
   display: none;
