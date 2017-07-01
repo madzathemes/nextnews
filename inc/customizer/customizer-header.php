@@ -1182,12 +1182,12 @@ if ( class_exists( 'Kirki' ) ) {
 
     Kirki::add_panel('test_panel', array(
         'priority' => 10,
-        'title'    => esc_html__('Test Panel', 'ti'),
+        'title'    => esc_html__('Fonts', 'ti'),
     ) );
 
     // Add section
     Kirki::add_section( 'test_section', array(
-        'title'       => esc_html__('Test Section', 'ti'),
+        'title'       => esc_html__('font-family:', 'ti'),
         'description' => esc_html__('test description', 'ti'),
         'panel'       => 'test_panel',
         'priority'    => 11,
@@ -1212,32 +1212,6 @@ if ( class_exists( 'Kirki' ) ) {
      ),
     ) );
 
-
-    Kirki::add_field( 'ti', array(
-     'type'        => 'typography',
-     'settings'    => 'body_typography226',
-     'label'       => esc_attr__( 'Body Typography', '_s' ),
-     'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
-     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
-     'section'     => 'nextnews_header_bar_menu',
-     'priority'    => 10,
-     'default'     => array(
-        'font-family'    => 'Lato',
-        'variant'        => 'regular',
-    		'font-size'      => '14px',
-    		'line-height'    => '1.5',
-    		'letter-spacing' => '0',
-    		'subsets'        => array( 'latin-ext' ),
-    		'color'          => '#333333',
-    		'text-transform' => 'none',
-     ),
-     'transport'   => 'auto',
-     'output' => array(
-       array(
-         'element' => '.sf-menu a',
-       ),
-     ),
-    ) );
 
 
 }
