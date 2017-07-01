@@ -1202,9 +1202,8 @@ if ( class_exists( 'Kirki' ) ) {
      'section'     => 'test_section',
      'priority'    => 10,
      'default'     => array(
-       'font-family'    => 'Roboto',
+       'font-family'    => 'Lato',
        'variant'        => '400',
-       'line-height'    => '1.5',
        // 'letter-spacing' => '0',
        'color'          => '#333333',
      ),
@@ -1225,9 +1224,8 @@ if ( class_exists( 'Kirki' ) ) {
      'section'     => 'test_section',
      'priority'    => 10,
      'default'     => array(
-       'font-family'    => 'Roboto',
+       'font-family'    => 'Lato',
        'variant'        => '400',
-       'line-height'    => '1.5',
        // 'letter-spacing' => '0',
        'color'          => '#333333',
      ),
