@@ -1213,10 +1213,9 @@ if ( class_exists( 'Kirki' ) ) {
     ) );
 
 
-
     Kirki::add_field( 'ti', array(
      'type'        => 'typography',
-     'settings'    => 'body_typography2261',
+     'settings'    => 'body_typography226',
      'label'       => esc_attr__( 'Body Typography', '_s' ),
      'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
      'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
@@ -1224,13 +1223,13 @@ if ( class_exists( 'Kirki' ) ) {
      'priority'    => 10,
      'default'     => array(
         'font-family'    => 'Lato',
-        'variant'        => '',
-    		'font-size'      => '',
-    		'line-height'    => '',
-    		'letter-spacing' => '',
+        'variant'        => 'regular',
+    		'font-size'      => '14px',
+    		'line-height'    => '1.5',
+    		'letter-spacing' => '0',
     		'subsets'        => array( 'latin-ext' ),
-    		'color'          => '',
-    		'text-transform' => '',
+    		'color'          => '#333333',
+    		'text-transform' => 'none',
      ),
      'transport'   => 'auto',
      'output' => array(
