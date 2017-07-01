@@ -1214,7 +1214,7 @@ if ( class_exists( 'Kirki' ) ) {
 
     Kirki::add_field( 'ti', array(
      'type'        => 'typography',
-     'settings'    => 'body_typography226',
+     'settings'    => 'body_typography2261',
      'label'       => esc_attr__( 'Body Typography', '_s' ),
      'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
      'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
@@ -1240,7 +1240,7 @@ if ( class_exists( 'Kirki' ) ) {
 
     Kirki::add_field( 'ti', array(
      'type'        => 'typography',
-     'settings'    => 'body_typography226',
+     'settings'    => 'body_typography2261',
      'label'       => esc_attr__( 'Body Typography', '_s' ),
      'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
      'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
