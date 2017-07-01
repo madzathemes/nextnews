@@ -1221,12 +1221,45 @@ if ( class_exists( 'Kirki' ) ) {
      'section'     => 'test_section',
      'priority'    => 10,
      'default'     => array(
-       'font-family'    => 'Lato',
+      'font-family'    => 'Lato',
+      'variant'        => '',
+  		'font-size'      => '',
+  		'line-height'    => '',
+  		'letter-spacing' => '',
+  		'subsets'        => array( 'latin-ext' ),
+  		'color'          => '',
+  		'text-transform' => '',
      ),
      'transport'   => 'auto',
      'output' => array(
        array(
-         'element' => 'body',
+         'element' => '.sf-menu a',
+       ),
+     ),
+    ) );
+
+    Kirki::add_field( 'ti', array(
+     'type'        => 'typography',
+     'settings'    => 'body_typography226',
+     'label'       => esc_attr__( 'Body Typography', '_s' ),
+     'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
+     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
+     'section'     => 'nextnews_header_bar_menu',
+     'priority'    => 10,
+     'default'     => array(
+        'font-family'    => 'Lato',
+        'variant'        => '',
+    		'font-size'      => '',
+    		'line-height'    => '',
+    		'letter-spacing' => '',
+    		'subsets'        => array( 'latin-ext' ),
+    		'color'          => '',
+    		'text-transform' => '',
+     ),
+     'transport'   => 'auto',
+     'output' => array(
+       array(
+         'element' => '.sf-menu a',
        ),
      ),
     ) );
