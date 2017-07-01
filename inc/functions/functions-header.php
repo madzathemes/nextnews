@@ -379,7 +379,7 @@ function nextnews_fixed_logo() {
 
 	if(!empty($option['fixed_logo'])) { ?>
 		<a class="logo logo-fixed"  href="<?php echo esc_url(home_url('/'));?>">
-			<img <?php if(!empty($option['fixed_menu_logo_w'])) { ?>  width="<?php echo esc_attr($option['fixed_menu_logo_w']); ?>" <?php } if(!empty($option['fixed_menu_logo_h'])) { ?>  height="<?php echo esc_attr($option['fixed_menu_logo_h']); ?>" <?php } ?>
+			<img width="<?php echo get_theme_mod( 'mt_fixed_menu_logo_w', '200px'); ?>" <?php if(!empty($option['fixed_menu_logo_h'])) { ?>  height="<?php echo esc_attr($option['fixed_menu_logo_h']); ?>" <?php } ?>
 			src="<?php echo esc_url($header_logo); ?>"
 			srcset="<?php echo esc_url($header_logo); ?>, <?php if(!empty($option['fixed_logo2'])) { echo esc_url($header_logo2); } ?> 2x"  alt="<?php echo the_title(); ?>"  />
 		</a>

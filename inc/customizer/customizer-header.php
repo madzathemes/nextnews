@@ -237,12 +237,11 @@ function nextnews_customize_header($wp_customize){
       'priority'    => 29,
     ) );
 
-    Kirki::add_field( 'nextnews_theme_options[fixed_menu_logo_w]', array(
+    Kirki::add_field( 'mt_fixed_menu_logo_w', array(
     	'type'        => 'dimension',
-    	'settings'    => 'nextnews_theme_options[fixed_menu_logo_w]',
+    	'settings'    => 'mt_fixed_menu_logo_w',
     	'label'       => esc_html__( 'Fixed Menu Logo Width', 'nextnews' ),
     	'section'     => 'nextnews_logo',
-      'option_type' => 'option',
     	'default'     => '200px',
     	'priority'    => 30,
     ) );
@@ -251,7 +250,6 @@ function nextnews_customize_header($wp_customize){
     	'settings'    => 'nextnews_theme_options[fixed_menu_logo_h]',
     	'label'       => esc_html__( 'Fixed Menu Logo Height', 'nextnews' ),
     	'section'     => 'nextnews_logo',
-      'option_type' => 'option',
     	'default'     => '40px',
     	'priority'    => 30,
     ) );
