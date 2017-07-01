@@ -5666,7 +5666,7 @@ li.mtc-buy {
 .fix-menu.fixed-logo-active .mt-menu-bar-brand-hidde.mt-menu-bar-brand > a.logo-fixed > img {
   visibility: visible;
   opacity: 1;
-  width: auto;
+  width: 200px;
 }
 
 
