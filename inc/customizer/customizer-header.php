@@ -1201,9 +1201,7 @@ if ( class_exists( 'Kirki' ) ) {
      'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
      'section'     => 'test_section',
      'priority'    => 10,
-     'default'     => array(
-       'font-family'    => 'Lato',
-     ),
+     'default'     => array( 'font-family'  => 'Lato', ),
      'transport'   => 'auto',
      'output' => array(
        array(
@@ -1211,9 +1209,6 @@ if ( class_exists( 'Kirki' ) ) {
        ),
      ),
     ) );
-
-
-
 }
 
 ?>

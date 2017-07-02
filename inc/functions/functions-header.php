@@ -142,7 +142,7 @@ function nextnews_head_bar() { ?>
 
 	<?php if ( true == get_theme_mod( 'mt_bar_menu', true ) ) { ?>
 
-		<div class="mt-bar mt-menu-bar mt-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> mt-bar-table mt-menu-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
+		<div class="mt-bar mt-menu-bar mt-fx-light mt-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> mt-bar-table mt-menu-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
 
 			<div class="mt-bar-out">
 

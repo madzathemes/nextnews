@@ -5691,3 +5691,8 @@ li.mtc-buy {
 .mt-bar-dark a { color: white; }
 .mt-bar-light { color: #222; }
 .mt-bar-light a { color: #222; }
+
+.fix-menu .mt-fx-dark { color: white; }
+.fix-menu .mt-fx-dark a { color: white; }
+.fix-menu .mt-fx-light { color: #222; }
+.fix-menu .mt-fx-light a { color: #222; }
