@@ -1064,7 +1064,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
 	border-bottom: 0px solid #555D7D;
 	border-top: 0px solid #dFeEFF;
 	border-top: 0px solid rgba(255,255,255,.5);
-	padding: 22px 0px;
+	padding: 15px 0px;
 	text-decoration: none;
 	zoom: 1; /* IE7 */
 }
@@ -1376,7 +1376,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   line-height: 60px;
   padding: 0px 0px;
   width: 52px;
-  height: 60px;
+  height: 30px;
 }
 .nav-button:hover .mt-m-cool-button-line{
   width: 30px;
