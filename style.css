@@ -213,7 +213,10 @@ h4,
 .mt-load-more,
 .nav-button .mt-m-cool-button-line:after,
 .nav-button .mt-m-cool-button-line:before,
-.nav-button .mt-m-cool-button-line {
+.nav-button .mt-m-cool-button-line,
+.mt-bar.box > div > div > div,
+.mt-bar.full > div,
+.mt-bar.stretched > div {
   -webkit-transition: all 200ms ease-in-out!important;
   -moz-transition: all 200ms ease-in-out!important;
   -ms-transition: all 200ms ease-in-out!important;
