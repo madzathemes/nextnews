@@ -5697,9 +5697,9 @@ li.mtc-buy {
   background: white;
 }
 
-.fix-menu .mt-fx-dark .mt-m-cool-button-line,
-.fix-menu .mt-fx-dark .mt-m-cool-button-line:after,
-.fix-menu .mt-fx-dark .mt-m-cool-button-line:before {
+.fix-menu .mt-fx-light .mt-m-cool-button-line,
+.fix-menu .mt-fx-light .mt-m-cool-button-line:after,
+.fix-menu .mt-fx-light .mt-m-cool-button-line:before {
   background: #222;
 }
 
