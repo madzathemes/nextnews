@@ -5689,6 +5689,7 @@ li.mtc-buy {
 .mt-bar-dark div.sf-menu ul ul li a {
   background: #222;
   border-color: rgba(255, 255, 255, 0.05);
+  color: white;
 }
 .mt-bar-dark.box > div > div > div,
 .mt-bar-dark.full > div,
