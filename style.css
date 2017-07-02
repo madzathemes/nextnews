@@ -5672,7 +5672,7 @@ li.mtc-buy {
 .fix-menu.fixed-logo-active .mt-menu-bar-brand-hidde.mt-menu-bar-brand > a.logo-fixed > img {
   width: 200px;
 }
-.fix-menu.fixed-logo-active .mt-menu-bar .logo-header {
+.kfix-menu.fixed-logo-active .mt-menu-bar .logo-header {
   display: none;
 }
 .fix-menu.fixed-logo-active .logo a img {
