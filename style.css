@@ -5597,16 +5597,7 @@ li.mtc-buy {
 .mt-bar.stretched > div > div > div {
   width: 100%;
 }
-.mt-bar-dark.box > div > div > div,
-.mt-bar-dark.full > div,
-.mt-bar-dark.stretched > div {
-  background: #222;
-}
-.mt-bar-light.box > div > div > div,
-.mt-bar-light.full > div,
-.mt-bar-light.stretched > div {
-  background: white;
-}
+
 
 /* Header Bars */
 .mt-bar-table > div > div > div {
@@ -5681,6 +5672,34 @@ li.mtc-buy {
 
 
 /* Colors */
+.mt-bar-dark.box > div > div > div,
+.mt-bar-dark.full > div,
+.mt-bar-dark.stretched > div {
+  background: #222;
+}
+.mt-bar-light.box > div > div > div,
+.mt-bar-light.full > div,
+.mt-bar-light.stretched > div {
+  background: white;
+}
+
+.mt-fx-dark.box > div > div > div,
+.mt-fx-dark.full > div,
+.mt-fx-dark.stretched > div {
+  background: #222;
+}
+.mt-fx-light.box > div > div > div,
+.mt-fx-light.full > div,
+.mt-fx-light.stretched > div {
+  background: white;
+}
+
+.fix-menu .mt-m-cool-button-line,
+.fix-menu .mt-m-cool-button-line:after,
+.fix-menu .mt-m-cool-button-line:before {
+  background: white;
+}
+
 .mt-bar-dark .mt-m-cool-button-line,
 .mt-bar-dark .mt-m-cool-button-line:after,
 .mt-bar-dark .mt-m-cool-button-line:before {
