@@ -5683,14 +5683,14 @@ li.mtc-buy {
   background: white;
 }
 
-.mt-fx-dark.box > div > div > div,
-.mt-fx-dark.full > div,
-.mt-fx-dark.stretched > div {
+.fix-menu .mt-fx-dark.box > div > div > div,
+.fix-menu .mt-fx-dark.full > div,
+.fix-menu .mt-fx-dark.stretched > div {
   background: #222;
 }
-.mt-fx-light.box > div > div > div,
-.mt-fx-light.full > div,
-.mt-fx-light.stretched > div {
+.fix-menu .mt-fx-light.box > div > div > div,
+.fix-menu .mt-fx-light.full > div,
+.fix-menu .mt-fx-light.stretched > div {
   background: white;
 }
 
