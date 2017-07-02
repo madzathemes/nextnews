@@ -1073,6 +1073,7 @@ ul.sf-menu > li,
 div.sf-menu ul > li {
   margin-left: 0px;
   margin-right: 30px;
+  text-align: left
 }
 ul.sf-menu > li:last-child,
 div.sf-menu ul > li:last-child {
