@@ -1533,16 +1533,13 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   width: 100%;
   z-index: -1;
   background: white;
-  transform: translate(0,-130px);
-  -webkit-transform: translate(0,-130px); /** Safari & Chrome **/
-  -o-transform: translate(0,-130px); /** Opera **/
-  -moz-transform: translate(0,-130px); /** Firefox **/
+  margin-top: -130px;
 }
 .fixed-on .fixed-top {
-  transform: translate(0,0);
-  -webkit-transform: translate(0,0); /** Safari & Chrome **/
-  -o-transform: translate(0,0); /** Opera **/
-  -moz-transform: translate(0,0); /** Firefox **/
+  transform: translate(0,130px);
+  -webkit-transform: translate(0,130px); /** Safari & Chrome **/
+  -o-transform: translate(0,130px); /** Opera **/
+  -moz-transform: translate(0,130px); /** Firefox **/
 }
 .mt-fixed-up.nav-down.fixed-on .fixed-top,
 .mt-fixed-always.fixed-on .fixed-top  {
@@ -5689,7 +5686,6 @@ li.mtc-buy {
 .mt-bar-dark div.sf-menu ul ul li a {
   background: #222;
   border-color: rgba(255, 255, 255, 0.05);
-  color: white;
 }
 .mt-bar-dark.box > div > div > div,
 .mt-bar-dark.full > div,
