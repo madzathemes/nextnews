@@ -345,7 +345,7 @@ function nextnews_logo() {
 	}
 
 	if(!empty($option['header_logo'])) { ?>
-		<a class="logo logo-header"  href="<?php echo esc_url(home_url('/'));?>">
+		<a class="logo logo-header" <?php if(!empty($option['header_logo_h'])) { ?>  style="height:<?php echo esc_attr($option['header_logo_h']); ?>" <?php } ?>  href="<?php echo esc_url(home_url('/'));?>">
 			<img <?php if(!empty($option['header_logo_w'])) { ?>  width="<?php echo esc_attr($option['header_logo_w']); ?>" <?php } if(!empty($option['header_logo_h'])) { ?>  height="<?php echo esc_attr($option['header_logo_h']); ?>" <?php } ?>
 			src="<?php echo esc_url($header_logo); ?>"
 			srcset="<?php echo esc_url($header_logo); ?>, <?php if(!empty($option['header_logox2'])) { echo esc_url($header_logo2); } ?> 2x"  alt="<?php echo the_title(); ?>"  />
