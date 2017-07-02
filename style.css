@@ -1067,6 +1067,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
 	padding: 15px 0px;
 	text-decoration: none;
 	zoom: 1; /* IE7 */
+  font-size: 15px;
 }
 ul.sf-menu > li,
 div.sf-menu ul > li {
