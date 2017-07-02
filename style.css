@@ -5678,6 +5678,9 @@ li.mtc-buy {
 .fix-menu.fixed-logo-active .logo a img {
   vertical-align: middle !important;
 }
+.fix-menu.fixed-logo-active .mt-menu-bar-brand  .logo.logo-header {
+  display: none;
+}
 
 
 /* Colors */
