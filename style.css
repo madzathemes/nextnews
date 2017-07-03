@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*-----------------------------------------------------------------------------------
-  	Version: 1.2
+  	Version: 1.0
     Theme Name: NextNews
     Theme URI: nextnews.tophot.wpengine.com
     Description: Magazine / Blog
@@ -91,8 +91,6 @@ a:hover,
 .mt-radius-25 .mt-radius-b:before,
 .mt-radius-25 textarea,
 .mt-radius-25 input,
-.mt-radius-25 .dropdown-menu,
-.mt-radius-25 .sub-menu,
 .mt-radius-25 .df-is-megamenu ul li,
 .mt-radius-25 .mt-coment-nav a,
 .mt-radius-25 .post-icon,
