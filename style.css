@@ -1159,43 +1159,6 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   width: 0%;
 }
 
-/*** arrows (for all except IE7) **/
-.sf-arrows .sf-with-ul {
-	padding-right: 2.5em;
-	*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
-}
-/* styling for both css and generated arrows */
-.sf-arrows .sf-with-ul:after {
-	content: '';
-	position: absolute;
-	top: 50%;
-	right: 1em;
-	margin-top: -3px;
-	height: 0;
-	width: 0;
-	/* order of following 3 rules important for fallbacks to work */
-	border: 5px solid transparent;
-	border-top-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
-	border-top-color: rgba(255,255,255,.5);
-}
-.sf-arrows > li > .sf-with-ul:focus:after,
-.sf-arrows > li:hover > .sf-with-ul:after,
-.sf-arrows > .sfHover > .sf-with-ul:after {
-	border-top-color: white; /* IE8 fallback colour */
-}
-/* styling for right-facing arrows */
-.sf-arrows ul .sf-with-ul:after {
-	margin-top: -5px;
-	margin-right: -3px;
-	border-color: transparent;
-	border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
-	border-left-color: rgba(255,255,255,.5);
-}
-.sf-arrows ul li > .sf-with-ul:focus:after,
-.sf-arrows ul li:hover > .sf-with-ul:after,
-.sf-arrows ul .sfHover > .sf-with-ul:after {
-	border-left-color: white;
-}
 
 /* COLORS */
 .color-silver-light { color: #949494 }
@@ -1295,86 +1258,6 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 }
 
 
-
-
-/* HEAD BOOKMARK */
-.head-bookmark {
-  padding: 0px 0px 0px 22px;
-  text-align: right;
-}
-.head-bookmark a {
-  padding: 8px 20px 8px 20px;
-  font-size: 13px;
-  color: #fff !important;
-  background: #a5ce27;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.head-bookmark a:hover {
-  color: #fff;
-}
-
-/* HEAD MENU GLOBAL */
-.menu-background {
-  background: #ecedf1;
-}
-.menu-background-left {
-  background: #ecedf1;
-  margin-right: 10px;
-}
-.menu-background-right {
-  background: #ecedf1;
-}
-.menu-background-mobile {
-  background: #fff;
-}
-.top-nav {
-  color: #19191a;
-  position: relative;
-  z-index: 2;
-  height: 46px;
-  display: table;
-  width: 100%;
-}
-.top-nav > div {
-  display: table-cell;
-  vertical-align: middle;
-}
-.top-nav a {
-  color: #19191a!important;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 13px;
-}
-.top-nav .nav {
-  text-align: center;
-}
-.top-nav .nav ul li {
-  text-align: left;
-}
-.small-on .top-nav .nav {
-
-}
-.search-on .top-nav .nav {
-
-}
-.top-nav .social {
-  list-style: none;
-  float: right;
-  margin:0px;
-  margin-right: 10px;
-}
-.top-nav .social li {
-  display: inline-block;
-}
-.top-nav .social a {
-  padding: 15px 7px 10px;
-  display: inline-block;
-  font-size: 16px;
-}
-.top-nav .social a:hover {
-  opacity: 0.7
-}
 /* HEAD SMALL NAV */
 .nav-button {
   line-height: 60px;
