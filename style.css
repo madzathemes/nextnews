@@ -5686,18 +5686,20 @@ li.mtc-buy {
   background: #222;
   border-color: rgba(255, 255, 255, 0.05);
 }
+.mt-bar-dark.box > div > div > div,
+.mt-bar-dark.full > div,
+.mt-bar-dark.stretched > div {
+  background: #222;
+}
 .mt-bar-light.box > div > div > div,
 .mt-bar-light.full > div,
 .mt-bar-light.stretched > div {
   background: white;
 }
-.mt-bar-dark.box > div > div > div,
-.mt-bar-dark.full > div,
-.mt-bar-dark.stretched > div,
+
 .fix-menu .mt-fx-dark.box > div > div > div,
 .fix-menu .mt-fx-dark.full > div,
-.fix-menu .mt-fx-dark.stretched > div,
-.mt-bar-dark .df-is-megamenu ul li {
+.fix-menu .mt-fx-dark.stretched > div{
   background: #222;
 }
 .fix-menu .mt-fx-light.box > div > div > div,
@@ -5716,6 +5718,11 @@ li.mtc-buy {
 .mt-bar-dark .mt-m-cool-button-line:after,
 .mt-bar-dark .mt-m-cool-button-line:before {
   background: white;
+}
+
+.mt-bar-dark .df-is-megamenu ul li {
+  background: #222;
+  border-color: rgba(255, 255, 255, 0.05);
 }
 
 .mt-bar-dark { color: white; }
