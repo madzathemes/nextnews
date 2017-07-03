@@ -5724,6 +5724,9 @@ li.mtc-buy {
   background: #222;
   border-color: rgba(255, 255, 255, 0.05);
 }
+.mt-bar-dark .megamenu-span h4 {
+  color: white;
+}
 
 .mt-bar-dark { color: white; }
 .mt-bar-dark a { color: white; }
