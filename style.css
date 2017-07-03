@@ -50,7 +50,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
 .mt-subscribe-footer input.mt-s-b:hover,
 .poster-carousel-trending .poster-prev:hover,
 .poster-carousel-trending .poster-next:hover {
-  background: #ffd602;
+  background: #ffd602!important;
   color: #222
 }
 .mt-theme-text,
