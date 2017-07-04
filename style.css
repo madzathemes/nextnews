@@ -5438,19 +5438,14 @@ img.mfp-img {
   width: 100%;
   height: 100%;
   padding: 0px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.95);
   text-align: center;
   position: fixed;
+  overflow-y: scroll;
   display:none;
   right: 0;
   z-index: 999900;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-  transform: translate(0px,0px);
-  -webkit-transform: translate(0px,0px);
-  -o-transform: translate(0px,0px);
-  -moz-transform: translate(0px,0px);
+  margin-left: -100%;
 }
 .mtc-d a {
   width: 270px;
@@ -5521,10 +5516,10 @@ img.mfp-img {
   height: 100%;
 }
 .mtc-d.mt-d-off {
-  transform: translate(270px,0px);
-  -webkit-transform: translate(270px,0px);
-  -o-transform: translate(270px,0px);
-  -moz-transform: translate(270px,0px);
+  transform: translate(100%,0px);
+  -webkit-transform: translate(100%,0px);
+  -o-transform: translate(100%,0px);
+  -moz-transform: translate(100%,0px);
 }
 .mt-d-off .mtc-d-close,
 .mt-d-on .mtc-d-open,
