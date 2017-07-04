@@ -952,7 +952,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   overflow: hidden;
   padding-top: 1px;
   margin-top: -2px;
-  margin-left: 20px;
+  margin-left: 20px!important;
 }
 
 .df-is-megamenu ul li {
