@@ -5493,10 +5493,10 @@ img.mfp-img {
   background: #ffd602;
   position: absolute;
   top: 40%;
-  left: -77px;
+  left: -87px;
   font-size: 16px;
   text-transform: uppercase;
-  padding: 9px 10px;
+  padding: 9px 15px;
   cursor: pointer;
   border-right-color:white;
 }
