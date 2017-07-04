@@ -5511,6 +5511,7 @@ img.mfp-img {
   padding: 9px 15px;
   background: #82b440;
   color: white;
+  display: inline-block;
 }
 
 .mtc-d-close:before {
