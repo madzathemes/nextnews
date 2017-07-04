@@ -917,6 +917,10 @@ ul.sf-menu ul ul, div.sf-menu ul ul ul  {
 }
 
 /*** DEMO SKIN ***/
+ul.sf-menu ul, div.sf-menu ul ul {
+	min-width: 12em;
+	*width: 12em;
+}
 .mega-5 {
   width: 20%;
   float:left;
@@ -1063,8 +1067,6 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 }
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
-  min-width: 12em;
-  *width: 12em;
 }
 ul.sf-menu ul ul, div.sf-menu ul ul ul {
   margin-left: 0px;
