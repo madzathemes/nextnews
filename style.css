@@ -5499,7 +5499,7 @@ img.mfp-img {
   position: absolute;
   top: 40%;
   margin-top: 40px;
-  left: -97px;
+  left: -110px;
   font-size: 14px;
   color:white;
   text-transform: uppercase;
@@ -5517,9 +5517,9 @@ img.mfp-img {
   content: "\e915";
   font-family: "madza";
   position: absolute;
-  margin-top: 3px;
+  margin-top: 1px;
   font-size: 14px;
-  margin-left: -18px;
+  margin-left: -20px;
 }
 
 .mtc-d-close:before {
