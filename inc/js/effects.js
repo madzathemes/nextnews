@@ -1,6 +1,8 @@
 jQuery(document).ready(function() {
   'use strict';
 
+  jQuery(".mt-bar .menu-item-has-children > a, .mt-bar .page_item_has_children > a, .mt-bar .df-is-megamenu > a" ).append( '<i class="mt-menu-cursor"></i>' );
+	jQuery(".mt-bar .sub-menu .menu-item-has-children .sf-with-ul, .mt-bar .sub-menu .page_item_has_children .sf-with-ul").append( '<i class=" mt_menu_chldren_cursor fa fa-angle-right"></i>' );
 
   jQuery(".post-gallery-wrap, .post-carousel, .video-container").show();
   jQuery(".background-image").addClass("visible");
