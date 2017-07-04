@@ -5514,6 +5514,9 @@ img.mfp-img {
   font-size: 14px;
   margin-left: -20px;
 }
+.mtc-d-buy a:before {
+  margin-left: -22px;
+}
 .mtc-d-open:before{
   content: "\e913";
   margin-top: 0px;
