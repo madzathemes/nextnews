@@ -5490,12 +5490,11 @@ img.mfp-img {
 }
 .mtc-d-open,
 .mtc-d-o {
-  background: red;
-  border: 1px solid #e0e0e0;
+  background: #ffd602;
   position: absolute;
   top: 53px;
-  left: -56px;
-  font-size: 14px;
+  left: -77px;
+  font-size: 16px;
   text-transform: uppercase;
   padding: 9px 10px;
   cursor: pointer;
