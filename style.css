@@ -5483,29 +5483,21 @@ img.mfp-img {
   background: #6f9a37;
 }
 .mtc-d-open,
-.mtc-d-o {
+.mtc-d-o,
+.mtc-d-buy {
   background: #F44336;
   color: white;
   position: absolute;
   top: 40%;
-  left: -97px;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 9px 15px;
-  cursor: pointer;
-  border-right-color:white;
-}
-.mtc-d-buy {
-  position: absolute;
-  top: 40%;
-  margin-top: 40px;
   left: -110px;
   font-size: 14px;
-  color:white;
   text-transform: uppercase;
-
+  padding: 9px 30px;
   cursor: pointer;
-  border-right-color:white;
+}
+.mtc-d-buy {
+  padding: 0px 0px;
+  margin-top: 40px;
 }
 .mtc-d-buy a {
   padding: 9px 30px;
@@ -5513,6 +5505,7 @@ img.mfp-img {
   color: white;
   display: inline-block;
 }
+.mtc-d-open a:before,
 .mtc-d-buy a:before {
   content: "\e915";
   font-family: "madza";
@@ -5521,7 +5514,9 @@ img.mfp-img {
   font-size: 14px;
   margin-left: -20px;
 }
-
+.mtc-d-open a:before{
+  content: "\e913";
+}
 .mtc-d-close:before {
     font-family: "madza" !important;
     content: "\e900";
