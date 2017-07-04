@@ -5508,7 +5508,7 @@ img.mfp-img {
   border-right-color:white;
 }
 .mtc-d-buy a {
-  padding: 9px 15px;
+  padding: 9px 30px;
   background: #82b440;
   color: white;
   display: inline-block;
@@ -5518,8 +5518,8 @@ img.mfp-img {
   font-family: "madza";
   position: absolute;
   margin-top: 3px;
-  font-size: 12px;
-  margin-left: -15px;
+  font-size: 14px;
+  margin-left: -18px;
 }
 
 .mtc-d-close:before {
