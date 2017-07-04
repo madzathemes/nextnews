@@ -5513,6 +5513,14 @@ img.mfp-img {
   color: white;
   display: inline-block;
 }
+.mtc-d-buy a:before {
+  content: "\e915";
+  font-family: "madza";
+  position: absolute;
+  margin-top: 3px;
+  font-size: 12px;
+  margin-left: -15px;
+}
 
 .mtc-d-close:before {
     font-family: "madza" !important;
