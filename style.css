@@ -5489,13 +5489,11 @@ img.mfp-img {
   color: white!important;
   background: #6f9a37;
 }
-.mtc-d-close,
 .mtc-d-open,
 .mtc-d-o {
   background: red;
   border: 1px solid #e0e0e0;
   position: absolute;
-  color: white;
   top: 53px;
   left: -56px;
   font-size: 14px;
