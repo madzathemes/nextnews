@@ -32,7 +32,7 @@ if(!empty($style)){
 	<div class="background-image lazyload" style="background-image:url('<?php echo esc_url($option['background_image']); ?>');"></div>
 <?php } ?>
 <div class="mt-smart-menu-out"></div>
-
+<?php include_once( ABSPATH . 'wp-admin/includes/plugin.php' ); if ( is_plugin_active( 'magazine-themes-bar/magazine-themes-bar.php' ) ) { magazine_themes_bar(); } ?>
 <div class="mt-smart-menu">
 	<span class="close pointer"></span>
 	<?php nextnews_logo(); ?>
