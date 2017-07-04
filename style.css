@@ -5446,12 +5446,6 @@ img.mfp-img {
   z-index: 999900;
   margin-left: -100%;
 }
-.mtc-d a {
-  width: 270px;
-  display: block;
-  position: relative;
-  margin-bottom: 3px;
-}
 .mtc-demo-0{
   background: white;
 }
@@ -5502,7 +5496,6 @@ img.mfp-img {
   border-right-color:white;
 }
 .mtc-d-buy {
-  background: #82b440;
   position: absolute;
   top: 40%;
   margin-top: 40px;
@@ -5510,9 +5503,14 @@ img.mfp-img {
   font-size: 14px;
   color:white;
   text-transform: uppercase;
-  padding: 9px 15px;
+
   cursor: pointer;
   border-right-color:white;
+}
+.mtc-d-buy a {
+  padding: 9px 15px;
+  background: #82b440;
+  color: white;
 }
 
 .mtc-d-close:before {
