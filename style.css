@@ -5499,6 +5499,10 @@ img.mfp-img {
   padding: 0px 0px;
   margin-top: 38px;
 }
+.mtc-d-open:hover,
+.mtc-d-buy:hover {
+  margin-left: 112px;
+}
 .mtc-d-buy a {
   padding: 9px 32px;
   background: #82b440;
