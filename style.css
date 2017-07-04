@@ -5431,3 +5431,105 @@ img.mfp-img {
 .fix-menu .mt-fx-dark a { color: white; }
 .fix-menu .mt-fx-light { color: #222; }
 .fix-menu .mt-fx-light a { color: #222; }
+
+
+/* Demo Bar */
+.mtc-d {
+  width: 270px;
+  height: 100%;
+  padding: 0px;
+  background: white;
+  text-align: center;
+  position: fixed;
+  display:none;
+  right: 0;
+  z-index: 999900;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  transform: translate(0px,0px);
+  -webkit-transform: translate(0px,0px);
+  -o-transform: translate(0px,0px);
+  -moz-transform: translate(0px,0px);
+}
+.mtc-d a {
+  width: 270px;
+  display: block;
+  position: relative;
+  margin-bottom: 3px;
+}
+.mtc-demo-0{
+  background: white;
+}
+.mtc-demo-0 span{
+  display: inline-block;
+  position: relative;
+  top: 45%;
+}
+.mtc-d-text {
+  padding: 10px 20px;
+}
+.mtc-d h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.mtc-d p {
+  font-size: 14px;
+  color: #111;
+}
+.mtc-d-text a{
+  width: 100%;
+  text-transform: uppercase;
+  margin: 7px 0px;
+  background: #82b440;
+  display: inline-block;
+  padding: 9px 15px 9px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #6f9a37;
+}
+.mtc-d-text a:hover {
+  color: white!important;
+  background: #6f9a37;
+}
+.mtc-d-close,
+.mtc-d-open,
+.mtc-d-o {
+  background: white;
+  border: 1px solid #e0e0e0;
+  position: absolute;
+  top: 53px;
+  left: -56px;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 9px 10px;
+  cursor: pointer;
+  border-right-color:white;
+}
+.mtc-d-o {
+  top: 23px;
+  left: -71px;
+  background: #262626;
+  color: white;
+  border: 0px;
+}
+.mtc-d-in {
+  overflow-y: scroll;
+  height: 100%;
+}
+.mtc-d.mt-d-off {
+  transform: translate(270px,0px);
+  -webkit-transform: translate(270px,0px);
+  -o-transform: translate(270px,0px);
+  -moz-transform: translate(270px,0px);
+}
+.mt-d-off .mtc-d-close,
+.mt-d-on .mtc-d-open,
+.mt-d-a .mtc-d-o{
+  display:none;
+}
+.mtc-d-a {
+  display: inline-block;
+}
