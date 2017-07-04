@@ -5504,6 +5504,18 @@ img.mfp-img {
   cursor: pointer;
   border-right-color:white;
 }
+
+.mtc-d-close:before {
+    font-family: "madza" !important;
+    content: "\e900";
+    display: inline-block;
+    position: absolute;
+    font-size: 24px;
+    padding: 20px;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
 .mtc-d-o {
   top: 23px;
   left: -71px;
