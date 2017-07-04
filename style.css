@@ -5440,7 +5440,7 @@ img.mfp-img {
   padding: 0px;
   background: rgba(255,255,255,0.95);
   text-align: center;
-  position: fixed;
+
   overflow-y: scroll;
   display:none;
   right: 0;
