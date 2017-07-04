@@ -5516,6 +5516,8 @@ img.mfp-img {
 }
 .mtc-d-open:before{
   content: "\e913";
+  margin-top: 0px;
+  font-size: 16px;
 }
 .mtc-d-close:before {
     font-family: "madza" !important;
