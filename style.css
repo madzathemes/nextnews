@@ -933,7 +933,7 @@ ul.sf-menu li ul, div.sf-menu ul li ul {
   opacity: 0;
   height: 0!important;
   -webkit-backface-visibility: hidden;
-  margin-right: -20px;
+  margin-left: 20px;
 }
 .df-is-megamenu:hover ul,
 ul.sf-menu > li:hover > ul, div.sf-menu > ul > li:hover > ul,
@@ -951,7 +951,6 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   width: 100% !important;
   overflow: hidden;
   padding-top: 1px;
-  margin-left: 0px !important;
   margin-top: -2px;
 }
 
