@@ -1067,8 +1067,8 @@ ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
 }
 ul.sf-menu ul ul, div.sf-menu ul ul ul {
-  margin-left: 0px;
-  margin-top: -1px;
+  margin-left: 20px;
+  margin-top: 0px;
   padding-left: 1px;
 }
 ul.sf-menu ul li.current-cat > a, div.sf-menu ul ul ul li.current-cat > a,
