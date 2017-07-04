@@ -5501,7 +5501,7 @@ img.mfp-img {
 }
 .mtc-d-open:hover,
 .mtc-d-buy:hover {
-  margin-left: -112px;
+  left: -112px;
 }
 .mtc-d-buy a {
   padding: 9px 32px;
