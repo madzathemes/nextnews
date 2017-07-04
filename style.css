@@ -233,7 +233,9 @@ input,
 .nav-search-wrap,
 .mt-slide-1-cat,
 .mt-cool-slider .mt-slide-1-img-left:before,
-.mt-cool-slider .mt-slide-1-img-right:before {
+.mt-cool-slider .mt-slide-1-img-right:before,
+.mtc-d-open,
+.mtc-d-buy {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
@@ -5501,7 +5503,7 @@ img.mfp-img {
 }
 .mtc-d-open:hover,
 .mtc-d-buy:hover {
-  left: -112px;
+  left: -116px;
 }
 .mtc-d-buy a {
   padding: 9px 32px;
