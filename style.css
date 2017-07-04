@@ -66,7 +66,6 @@ a:hover,
 .mt-radius-5 textarea,
 .mt-radius-5 input,
 .mt-radius-5 .mt-coment-nav a,
-.mtc-border-5,
 .mt-radius-5 .post-icon,
 .mt-radius-5 .video-icon,
 .mt-radius-5 .poster .poster-cat span,
@@ -97,9 +96,6 @@ a:hover,
 .mt-radius-25 .poster-data,
 .mt-radius-25 .grid-post .poster-cat span,
 .mt-radius-25 h2.heading span,
-.mtc-border-25,
-.mct-box:hover:before,
-.mct-box.active:before,
 .mt-pagepagination a,
 .mt-radius-25 .poster-large-cat span,
 .mt-radius-25 .grid-wrap,
@@ -3608,9 +3604,6 @@ opacity: 0.7
   }
   .hide-max-1300 {
     display:none;
-  }
-  .mtc .mtc-close {
-    padding-left: 33px !important;
   }
   .poster.trending-carousel {
     width: 540px;
