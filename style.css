@@ -5461,6 +5461,7 @@ img.mfp-img {
   width: 300px;
   text-align: center;
   vertical-align: middle;
+  font-size: 21px;
 }
 .mtc-demo:hover {
   border-color: #82b440;
