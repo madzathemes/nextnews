@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 
   var bar_close = localStorage["bar_close"];
   if (bar_close==="1") { jQuery(".mtc-wrap, .mtc-fix").addClass("active"); }
-  jQuery('.mtc-close').on("click", function() {
+  jQuery('.mtc-close, .mtc-d-in').on("click", function() {
     jQuery(".mtc-wrap, .mtc-fix").addClass("active");
     jQuery(".mtc-d").addClass(".mt-d-a");
       localStorage.setItem('bar_close', 1);
@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
     jQuery(".mtc-d").addClass("mt-d-off");
 
   }
-  jQuery('.mtc-d-close').on("click", function() {
+  jQuery('.mtc-d-close, .mtc-d-in').on("click", function() {
     jQuery(".mtc-d").removeClass("mt-d-on");
     jQuery(".mtc-d").addClass("mt-d-off");
       localStorage.setItem('bar_d_close', 1);
