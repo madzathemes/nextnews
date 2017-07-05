@@ -5448,13 +5448,9 @@ img.mfp-img {
   z-index: 999900;
   margin-left: -100%;
 }
-.mtc-demo-0{
-  background: white;
-}
-.mtc-demo-0 span{
+.mtc-demo{
   display: inline-block;
-  position: relative;
-  top: 45%;
+  text-align: center;
 }
 .mtc-d-text {
   padding: 10px 20px;
