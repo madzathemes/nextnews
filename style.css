@@ -5457,6 +5457,11 @@ img.mfp-img {
   border-radius: 0px;
   margin: 5px;
 }
+.mtc-coming {
+  width: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
 .mtc-demo:hover {
   border-color: #82b440;
 }
