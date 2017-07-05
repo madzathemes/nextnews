@@ -3712,8 +3712,8 @@ opacity: 0.7
   .mt-bar-mobile {
     display: block;
   }
-  .mt-bar-mobile {
-    display: block;
+  .mt-bar-mobile.mt-bar {
+    display: block !important;
   }
   .mt-top-bar,
   .mt-head-bar,
