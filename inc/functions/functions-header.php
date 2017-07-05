@@ -200,6 +200,40 @@ function nextnews_head_bar() { ?>
 
 }
 
+function nextnews_mobile_menu() { ?>
+
+	<div class="mt-bar mt-bar-mobile hidden mt-show-mobile mt-menu-bar mt-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> mt-bar-table mt-menu-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
+
+		<div class="mt-bar-out">
+
+			<div class="container">
+
+				<div class="mt-bar-in">
+
+
+						<div class="mt-head-bar-small-bt">
+							<?php nextnews_small_button(); ?>
+						</div>
+
+
+
+					<div class="mt-menu-bar-brand">
+						<?php nextnews_logo(); ?>
+					</div>
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<?php
+
+}
+
 function nextnews_header() {
 
 if ( false == get_theme_mod( 't_p_to_search', false ) ) { $t_p_to_search = esc_html__("To search type and hit enter", "nextnews");  } else { $t_p_to_search = get_theme_mod( 't_p_to_search' ); }
@@ -234,8 +268,8 @@ else if(!empty($option['menu_background_width'])) {
 <div class="mt-header <?php if ( true == get_theme_mod( 'mt_bar_menu', true ) ) {  ?>mt-header-sticky<?php } ?>" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 <div>
 	<?php nextnews_top_bar(); ?>
-
 	<?php nextnews_head_bar(); ?>
+	<?php nextnews_mobile_menu(); ?>
 </div>
 
 
