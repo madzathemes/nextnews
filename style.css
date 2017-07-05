@@ -5443,6 +5443,7 @@ img.mfp-img {
   text-align: center;
   position: fixed;
   display:none;
+  right: 0;
   z-index: 999900;
   margin-left: -100%;
 }
@@ -5564,6 +5565,7 @@ img.mfp-img {
 .mtc-d-in {
   overflow-y: scroll;
   height: 100%;
+  z-index: 999
 }
 .mtc-d.mt-d-off {
   transform: translate(100%,0px);
