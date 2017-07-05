@@ -5463,9 +5463,14 @@ img.mfp-img {
 .mtc-d-text {
   padding: 10px 20px;
 }
+.mtc-d h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .mtc-d h4 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
 }
 .mtc-d p {
   font-size: 14px;
