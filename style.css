@@ -5439,7 +5439,7 @@ img.mfp-img {
 .mtc-d {
   width: 100%;
   height: 100%;
-  padding: 0px;
+  padding: 50px;
   background: white;
   text-align: center;
   position: fixed;
@@ -5480,11 +5480,11 @@ img.mfp-img {
 .mtc-d h3 {
   font-size: 69px;
   font-weight: 900;
-  padding: 50px 0 0 0;
+  padding: 0;
 }
 
 .mtc-d h4 {
-  padding-top: 0px;
+  padding-top: 0;
   font-size: 21px;
   font-weight: 400;
 }
@@ -5559,8 +5559,7 @@ img.mfp-img {
     position: absolute;
     font-size: 18px;
     padding: 20px;
-    top: 30px;
-    right: 30px;
+    right: 0;
     cursor: pointer;
 }
 .mtc-d-in {
