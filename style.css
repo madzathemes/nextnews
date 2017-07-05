@@ -5451,6 +5451,11 @@ img.mfp-img {
 .mtc-demo{
   display: inline-block;
   text-align: center;
+  height: 400px;
+  overflow: hidden;
+  border: 5px solid #e6e6e6;
+  border-radius: 0px;
+  margin: 5px;
 }
 .mtc-d-text {
   padding: 10px 20px;
