@@ -5457,6 +5457,9 @@ img.mfp-img {
   border-radius: 0px;
   margin: 5px;
 }
+.mtc-demo:hover {
+  margin-top: -5px;
+}
 .mtc-d-text {
   padding: 10px 20px;
 }
