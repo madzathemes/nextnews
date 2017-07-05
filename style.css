@@ -5536,10 +5536,10 @@ img.mfp-img {
     content: "\e900";
     display: inline-block;
     position: absolute;
-    font-size: 24px;
+    font-size: 18px;
     padding: 20px;
-    top: 0px;
-    right: 0px;
+    top: 30px;
+    right: 30px;
     cursor: pointer;
 }
 .mtc-d-in {
