@@ -5462,6 +5462,7 @@ img.mfp-img {
   text-align: center;
   vertical-align: middle;
   font-size: 21px;
+  position: relative;
 }
 .mtc-soon div {
   top: 50%;
