@@ -5565,7 +5565,8 @@ img.mfp-img {
 .mtc-d-in {
   overflow-y: scroll;
   height: 100%;
-  z-index: 999
+  z-index: 999;
+  margin-bottom: 100px;
 }
 .mtc-d.mt-d-off {
   transform: translate(100%,0px);
