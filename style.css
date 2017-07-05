@@ -3712,16 +3712,18 @@ opacity: 0.7
   .mt-bar-mobile {
     display: block;
   }
+
+
+}
+
+@media all and (max-width: 991px) {
+
   .mt-bar-mobile.mt-menu-bar {
     display: block !important;
   }
   .mt-top-bar,
   .mt-head-bar,
   .mt-menu-bar { display: none; }
-
-}
-
-@media all and (max-width: 991px) {
 
   .head-logo {
     text-align: center;
