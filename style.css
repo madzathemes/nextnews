@@ -5526,7 +5526,8 @@ img.mfp-img {
 .mtc-d-buy:hover {
   left: -113px;
 }
-.mtc-d-buy a {
+.mtc-d-buy a,
+.mtc-d-buy a:hover {
   padding: 9px 32px;
   background: #82b440;
   color: white;
