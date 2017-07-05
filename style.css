@@ -1922,11 +1922,6 @@ h2.heading span {
   color: #222;
 }
 
-.zoom-on .poster:hover .poster-image .gallery-icon:before {
-  -webkit-transform: scale(1.118);
-  -ms-transform: scale(1.118);
-  transform: scale(1.118);
-}
 .zoom-on .poster.normal .poster-image .mt-post-image {
   -webkit-transform: scale(1.0);
   -ms-transform: scale(1.0);
