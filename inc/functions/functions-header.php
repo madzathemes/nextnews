@@ -270,6 +270,7 @@ else if(!empty($option['menu_background_width'])) {
 	<?php nextnews_top_bar(); ?>
 	<?php nextnews_head_bar(); ?>
 	<?php nextnews_mobile_menu(); ?>
+	<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
 </div>
 
 
@@ -313,7 +314,7 @@ else if(!empty($option['menu_background_width'])) {
 			</div>
 		</div>
 	</div>
-	<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
+
 </div>
 <?php if  (!empty($optioz['header_ad_top'])) {  ?>
 	<div class="mt-t-ad">
