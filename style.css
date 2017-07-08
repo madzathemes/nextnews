@@ -844,6 +844,7 @@ table {
 .post-media-wrap {
   padding-top: 0px;
 }
+.post-style-6 .post-media-wrap { margin-top: 20px;}
 .post-media-wrap .video-container {
   padding: 0px!important;
 }
