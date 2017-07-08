@@ -1361,10 +1361,12 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   -webkit-backface-visibility: hidden;
   height: 42px;
   position: fixed;
-  width: 100%;
-  z-index: -1;
+  width: 1067px;
+  z-index: 99;
   background: white;
-  margin-top: -130px;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -370px;
 }
 .fixed-on .fixed-top {
   transform: translate(0,130px);
