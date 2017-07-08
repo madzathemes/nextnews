@@ -190,11 +190,11 @@ function nextnews_head_bar() { ?>
 					</div>
 
 				</div>
-<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
+
 			</div>
 
 		</div>
-
+<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
 	<?php } ?>
 
 <?php
