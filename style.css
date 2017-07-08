@@ -5328,7 +5328,7 @@ img.mfp-img {
 /* Head Bar */
 .mt-head-bar {
   position: relative;
-  z-index: 99;
+  z-index: 999;
 }
 .mt-head-bar-brand {
   width: 200px
