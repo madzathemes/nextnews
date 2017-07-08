@@ -144,7 +144,7 @@ function nextnews_head_bar() { ?>
 
 
 		<div class="mt-bar mt-menu-bar mt-fx-light_ mt-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> mt-bar-table mt-menu-bar-<?php echo get_theme_mod( 'mt_bar_menu_scheme', "light" ); ?> <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?> <?php if( "full" == get_theme_mod( 'mt_bar_menu_row', "full" ) or "stretched" == get_theme_mod( 'mt_bar_menu_row', "full" ) ) { ?> ful <?php } ?>">
-<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
+
 			<div class="mt-bar-out">
 
 				<div class="container">
@@ -192,7 +192,7 @@ function nextnews_head_bar() { ?>
 				</div>
 
 			</div>
-
+<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
 		</div>
 
 	<?php } ?>
