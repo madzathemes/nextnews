@@ -122,12 +122,12 @@ Kirki::add_field( 'zoom', array(
       'settings' => 'nextnews_theme_options[colors_default]',
     )));
 
-    Kirki::add_field( 'themecolor', array(
+    Kirki::add_field( 'nextnews_theme_options[themecolor]', array(
      'type'        => 'select',
-     'settings'    => 'themecolor',
+     'settings'    => 'nextnews_theme_options[themecolor]',
      'label'       => esc_html__( 'Theme Color Sheme', 'nextnews' ),
      'section'     => 'general_style_settings',
-     'default'     => 'on',
+     'default'     => 'whitesmoke',
      'priority'    => 1,
      'option_type'           => 'option',
      'choices'     => array(
