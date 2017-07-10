@@ -122,6 +122,22 @@ Kirki::add_field( 'zoom', array(
       'settings' => 'nextnews_theme_options[colors_default]',
     )));
 
+    Kirki::add_field( 'themecolor', array(
+     'type'        => 'radio-buttonset',
+     'settings'    => 'themecolor',
+     'label'       => esc_html__( 'Theme Color Sheme', 'nextnews' ),
+     'section'     => 'general_style_settings',
+     'default'     => 'on',
+     'priority'    => 1,
+     'option_type'           => 'option',
+     'choices'     => array(
+       'whitesmoke'   => esc_attr__( 'WhiteSmoke', 'nextnews' ),
+       'white' => esc_attr__( 'White', 'nextnews' ),
+       'black' => esc_attr__( 'Black', 'nextnews' ),
+       'color' => esc_attr__( 'Color', 'nextnews' )
+     ),
+    ));
+
     Kirki::add_field( 'mt_colors_default', array(
       'type'        => 'multicolor',
       'settings'    => 'mt_colors_default',
