@@ -497,7 +497,7 @@ function nextnews_class($classes) {
 
 	if(!empty($options['themecolor'])) {
 
-		if($options['themecolor'] == " black", $options['themecolor'] == "color" ) {
+		if($options['themecolor'] == " black" or $options['themecolor'] == "color" ) {
 			$body_class .= ' mt-lt';
 		}
 	}
