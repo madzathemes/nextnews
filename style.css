@@ -5455,6 +5455,9 @@ img.mfp-img {
   background: rgba(0, 0, 0, 0.1);
   color: white;
 }
+.mt-tc-color .poster-cat span {
+  background: white;
+}
 
 
 /* Demo Bar */
