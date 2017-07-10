@@ -5450,6 +5450,10 @@ img.mfp-img {
 .mt-tc-color h2.heading span {
   background: rgba(255, 255, 255, 0.16);
 }
+.mt-tc-color .poster-data {
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
 
 
 /* Demo Bar */
