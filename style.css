@@ -5432,6 +5432,16 @@ img.mfp-img {
 .fix-menu .mt-fx-light a { color: #222; }
 
 
+/* Theme Color Sheme */
+.mt-tc-color,
+.footer,
+.post-content-wrap, .post-style-6 .post-media-wrap, .post-style-4 .post-media-wrap, .header-wrap, .footer-wrap, .mt-container-wrap, .single-top, .post-media-wrap {
+  background: #8bc34a;
+}
+.mt-lt h1, .mt-lt h2, .mt-lt h3, .mt-lt h4, .mt-lt h5, .mt-lt h6 {
+  color: white;
+}
+
 /* Demo Bar */
 .mtc-d {
   width: 100%;

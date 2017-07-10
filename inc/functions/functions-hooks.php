@@ -491,6 +491,17 @@ function nextnews_class($classes) {
 		$body_class .= ' header-top-off';
 	}
 
+	if(!empty($options['themecolor'])) {
+		$body_class .= ' mt-tc-'.$options['themecolor'];
+	}
+
+	if(!empty($options['themecolor'])) {
+
+		if($options['themecolor'] == " black", $options['themecolor'] == "color" ) {
+			$body_class .= ' mt-lt';
+		}
+	}
+
 
 	$page_space = get_post_meta(get_the_ID(), "magazin_page_padding", true);
 	if(!empty($page_space)){
