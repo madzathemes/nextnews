@@ -123,7 +123,7 @@ Kirki::add_field( 'zoom', array(
     )));
 
     Kirki::add_field( 'themecolor', array(
-     'type'        => 'radio-buttonset',
+     'type'        => 'select',
      'settings'    => 'themecolor',
      'label'       => esc_html__( 'Theme Color Sheme', 'nextnews' ),
      'section'     => 'general_style_settings',
