@@ -129,6 +129,12 @@ function nextnews_css() {
 	 		$custom_styles .='body { background-color: '. esc_attr($options['background_color']) .'; }';
 	 }
 
+	 // Background Color
+	 $style = get_post_meta(get_the_ID(), "magazin_background_color_content", true);
+	 if(!empty($style)){
+	 		$custom_styles .='body { background-color: '. esc_attr($style) .' }';
+	 }
+
 	 // Logo Margin
 	 if(!empty($options['logo_top'])){
 	 		$custom_styles .='.head-logo { padding-top: '. esc_attr($options['logo_top']) .'px }';
