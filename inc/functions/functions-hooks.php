@@ -460,6 +460,11 @@ function nextnews_class($classes) {
 
 	}
 
+	$layout = get_post_meta(get_the_ID(), "magazin_subtitle", true);
+	if(!empty($layout)){
+		$body_class .= ' subtitle';
+	}
+
 	$layout = get_post_meta(get_the_ID(), "magazin_layout", true);
 	if(!empty($layout)){
 		$body_class .= ' boxed-layout-on';
