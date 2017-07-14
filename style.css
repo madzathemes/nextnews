@@ -2674,7 +2674,7 @@ opacity: 0.7
 .post-bgphoto .single-media-title h1 {
   font-weight: 900
 }
-.post-bgphoto .single-subtitle {
+.post-bgphoto .single .single-subtitle {
   padding-bottom: 20px;
   color: white;
 }
