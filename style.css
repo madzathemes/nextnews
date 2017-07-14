@@ -2595,11 +2595,11 @@ opacity: 0.7
 }
 
 /* SINGLE */
-.single-head-info {
-
-}
 .single-head-info > div {
   display: inline-block
+}
+.post-style-5 .single-head-info {
+ text-align: center;
 }
 .mt-fl-on .mt-first-letter {
   font-size: 68px;
