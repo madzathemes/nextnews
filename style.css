@@ -2713,12 +2713,6 @@ opacity: 0.7
   color: white;
   font-weight: 700;
 }
-.single-media-title .single-cat-wrap .post-categories li a {
-  padding: 3px 5px;
-  color: white;
-  font-size: 11px;
-  background: rgb(27, 27, 27);
-}
 .single-media-title .color-silver-light,
 .single-media-title .author-info a {
   color: white !important;
