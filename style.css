@@ -2730,10 +2730,10 @@ opacity: 0.7
   margin: 0px 0px 10px;
 }
 .single-cat-wrap .post-categories li {
-  display: inline-block;
+  float:left;
   padding-right: 2px;
 }
-.author-info a {
+.single-cat-wrap .post-categories li a {
   text-transform: uppercase;
   font-size: 11px;
   padding: 2px 4px;
@@ -2962,6 +2962,11 @@ opacity: 0.7
   display:inline-block;
   margin: 18px 10px 0px 0px;
   float: left;
+}
+.author-info {
+  margin-left: 0px;
+  padding-right: 0px;
+  margin: 3px 10px 0px 5px;
 }
 .entry-meta > .author-info {
   margin: 0px 0px 0px 0px;
