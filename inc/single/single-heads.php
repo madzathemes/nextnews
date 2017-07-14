@@ -31,9 +31,11 @@
       <?php if(!empty($viewes)){ ?><span class="stat-views"><?php echo esc_attr($viewes); ?> <?php echo esc_html($t_p_views); ?></span><?php } ?>
     </div>
     <?php } ?>
-    <div class="single-stat-comments">
-      <?php if (get_comments_number()!="0") { ?><span class="stat-comments"><?php echo get_comments_number(); ?> <?php echo esc_html($t_c_comments); ?></span><?php } ?>
-    </div>
+    <?php if (get_comments_number()!="0") { ?>
+      <div class="single-stat-comments">
+        <span class="stat-comments"><?php echo get_comments_number(); ?> <?php echo esc_html($t_c_comments); ?></span>
+      </div>
+    <?php } ?>
     <div class="single-head-author author-info">
       <div class="author-img">
         <?php global $post; echo get_avatar( $post->post_author, 14 ); ?>
