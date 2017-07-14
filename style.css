@@ -2596,8 +2596,7 @@ opacity: 0.7
 
 /* SINGLE */
 .single-head-info > div {
-  display: inline-block;
-  font-size: 14px;
+  display: inline-block
 }
 .post-style-5 .single-head-info {
  text-align: center;
@@ -3056,6 +3055,10 @@ opacity: 0.7
 }
 .single-media-title .mt-author-soc a:before   {
   color: white;
+}
+.mt-single-post-date {
+  font-size: 14px;
+  margin-top: 3px;
 }
 /*END AUTHOR BIO CHANGES */
 
