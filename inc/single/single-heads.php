@@ -25,7 +25,7 @@
   <?php if ( false == get_theme_mod( 't_c_comments', false ) ) { $t_c_comments = esc_html__("Comments", "nextnews");  } else { $t_c_comments = get_theme_mod( 't_c_comments' ); } ?>
 
   <?php if(function_exists('mt_header_script')) { ?>
-  <div class="post-statistic pull-left">
+  <div class="post-statistic">
     <?php if(!empty($shares)){ ?><span class="stat-shares"><?php echo esc_attr($shares); ?> <?php echo esc_html($t_p_shares); ?></span><?php } ?>
     <?php if(!empty($viewes)){ ?><span class="stat-views"><?php echo esc_attr($viewes); ?> <?php echo esc_html($t_p_views); ?></span><?php } ?>
   </div>
