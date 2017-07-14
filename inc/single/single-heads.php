@@ -60,6 +60,7 @@
 
   </div>
   <div class="mt-single-post-date"><?php echo get_the_date(); ?></div>
+  <div class="clearfix"></div>
 
 <?php } ?>
 <?php function nextnews_single_cat_posts() {
