@@ -2598,6 +2598,7 @@ opacity: 0.7
 .single-head-info > div {
   display: inline-block;
   padding: 0 15px 0 0;
+  color: #888;
 }
 .single-head-info > div:last-child {
   padding: 0 0px 0 0;
