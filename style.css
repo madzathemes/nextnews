@@ -2757,7 +2757,7 @@ opacity: 0.7
   position: relative;
   margin-bottom: 40px;
 }
-.single-subtitle {
+.single .single-subtitle {
   font-size: 24px;
   font-weight: 400;
   padding: 10px 20% 20px 0px;
