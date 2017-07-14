@@ -2975,6 +2975,7 @@ opacity: 0.7
   border-radius: 35px;
   display: block;
   margin: 1px 5px 0 0;
+  width: auto;
 }
 .entry-meta .author-avatar img {
   -webkit-border-radius: 35px;
