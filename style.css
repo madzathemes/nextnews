@@ -2724,12 +2724,6 @@ opacity: 0.7
 .comment-reply-title {
   padding-left: 0px !important;
 }
-.single-cat-wrap {
-    margin: 0px 0 10px 0px;
-}
-.post-statistic {
-  margin: 1px 0 0 13px;
-}
 .single-cat-wrap .post-categories {
   list-style: none;
   padding: 0px;
