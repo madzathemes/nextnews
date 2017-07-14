@@ -5442,9 +5442,9 @@ img.mfp-img {
 .mt-tc-color .poster-cat span {
   background: white;
 }
-.mt-tc-color .mt-theme-text, a:hover,
-.mt-tc-color .nav-single .next div:after,
-.mt-tc-color .nav-single .previous div:before {
+.mt-tc-color .poster:hover h2,
+.mt-tc-color .poster-small:hover h4, 
+.mt-tc-color .poster-small-bottom:hover h4 {
   background: rgba(0, 0, 0, 0.1);
 }
 .mt-tc-1 .single-content .entry-content p,
