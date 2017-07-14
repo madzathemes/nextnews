@@ -2595,11 +2595,11 @@ opacity: 0.7
 }
 
 /* SINGLE */
-.post-style-5 .single-head-info {
- text-align: center;
-}
 .single-head-info > div {
   display: inline-block
+}
+.post-style-5 .single-head-info {
+ text-align: center;
 }
 .mt-fl-on .mt-first-letter {
   font-size: 68px;
@@ -2723,12 +2723,6 @@ opacity: 0.7
 }
 .comment-reply-title {
   padding-left: 0px !important;
-}
-.single-cat-wrap {
-    margin: 0px 0 10px 0px;
-}
-.post-statistic {
-  margin: 1px 0 0 13px;
 }
 .single-cat-wrap .post-categories {
   list-style: none;
