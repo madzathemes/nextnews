@@ -34,12 +34,12 @@
     <?php if (get_comments_number()!="0") { ?><span class="stat-comments"><?php echo get_comments_number(); ?> <?php echo esc_html($t_c_comments); ?></span><?php } ?>
   </div>
   <div class="author-info">
-    <div class="author-img">
+    <div class="author-img pull-left">
       <?php global $post; echo get_avatar( $post->post_author, 14 ); ?>
     </div>
 
-    <div class="mt-single-post-author"><?php the_author_posts_link(); ?></div>
-    <div class="mt-author-soc">
+    <div class="mt-single-post-author pull-left"><?php the_author_posts_link(); ?></div>
+    <div class="mt-author-soc pull-left">
       <?php $twitterHandle = get_the_author_meta('twitter');
       $facebookHandle = get_the_author_meta('facebook');
       $googleHandle = get_the_author_meta('gplus');
@@ -59,7 +59,7 @@
     </div>
 
   </div>
-  <div class="mt-single-post-date "><?php echo get_the_date(); ?></div>
+  <div class="mt-single-post-date"><?php echo get_the_date(); ?></div>
 
 <?php } ?>
 <?php function nextnews_single_cat_posts() {
