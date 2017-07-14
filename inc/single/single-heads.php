@@ -34,7 +34,7 @@
     <div class="single-stat-comments">
       <?php if (get_comments_number()!="0") { ?><span class="stat-comments"><?php echo get_comments_number(); ?> <?php echo esc_html($t_c_comments); ?></span><?php } ?>
     </div>
-    <div class="author-info">
+    <div class="single-head-author author-info">
       <div class="author-img">
         <?php global $post; echo get_avatar( $post->post_author, 14 ); ?>
       </div>

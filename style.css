@@ -2595,7 +2595,8 @@ opacity: 0.7
 }
 
 /* SINGLE */
-.single-head-info > div {
+.single-head-info > div,
+.single-head-author > div {
   display: inline-block
 }
 .post-style-5 .single-head-info {
