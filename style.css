@@ -2608,7 +2608,7 @@ opacity: 0.7
 .post-bgphoto .single-head-info a:before {
   color: white;
 }
-.post-bgphoto .single-head-info {
+.subtitle.post-bgphoto .single-head-info {
   margin-top: 10px;
 }
 .single-head-info > div:last-child {
