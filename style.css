@@ -2602,6 +2602,9 @@ opacity: 0.7
 .single-head-author > div {
   display: inline-block
 }
+.post-statistic > span:last-child {
+  padding: 0px 0px 0 20px;
+}
 .post-style-5 .single-head-info {
  text-align: center;
 }
