@@ -5443,9 +5443,9 @@ img.mfp-img {
   background: white;
 }
 .mt-tc-color .poster:hover h2,
-.mt-tc-color .poster-small:hover h4, 
+.mt-tc-color .poster-small:hover h4,
 .mt-tc-color .poster-small-bottom:hover h4 {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
 }
 .mt-tc-1 .single-content .entry-content p,
 .mt-tc-1 .single-content .entry-content h1,
