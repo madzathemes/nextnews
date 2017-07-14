@@ -2669,20 +2669,11 @@ opacity: 0.7
 .post-style-7 .single-title {
   padding-right: 30%;
 }
-.post-style-6 .single-media-title h1,
-.post-style-7 .single-media-title h1,
-.post-style-8 .single-media-title h1 {
+.post-bgphoto .single-media-title h1 {
   font-weight: 900
 }
-.post-style-6 .single-subtitle,
-.post-style-7 .single-subtitle,
-.post-style-8 .single-subtitle {
+.post-bgphoto .single-subtitle {
   padding: 10px 40% 0px 0px;
-  color: white;
-}
-.post-style-6 .stat-views,
-.post-style-7 .stat-views,
-.post-style-8 .stat-views {
   color: white;
 }
 .single-media-wrap {
@@ -3734,7 +3725,7 @@ opacity: 0.7
   .post-style-7 .single-title {
       padding-right: 0%;
   }
-  .post-style-6 .single-subtitle, .post-style-7 .single-subtitle, .post-style-8 .single-subtitle {
+  .post-bgphoto .single-subtitle {
     padding: 10px 0px 0px 0px;
   }
   .poster.trending-carousel {
