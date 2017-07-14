@@ -132,8 +132,9 @@
           <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo esc_attr($copyright); ?></span><?php } ?>
           <div class="single-media-title">
       			<div class="col-md-9">
-      				<?php nextnews_single_cat(); ?>
       	      <?php nextnews_single_title(); ?>
+
+        				<?php nextnews_single_cat(); ?>
       			</div>
       			<div class="col-md-12">
       			  <?php nextnews_single_social(); ?>
