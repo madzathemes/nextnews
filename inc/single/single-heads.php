@@ -19,7 +19,7 @@
   $viewes = $views + "0";
   if (!empty($view)){ $viewes = $view + $views; $viewes = number_format($viewes); }
   ?>
-  <div class="single-cat-wrap pull-left"><?php echo get_the_category_list(); ?></div>
+  <div class="single-cat-wrap"><?php echo get_the_category_list(); ?></div>
   <?php if ( false == get_theme_mod( 't_p_shares', false ) ) { $t_p_shares = esc_html__("Shares", "nextnews");  } else { $t_p_shares = get_theme_mod( 't_p_shares' ); } ?>
   <?php if ( false == get_theme_mod( 't_p_views', false ) ) { $t_p_views = esc_html__("Views", "nextnews");  } else { $t_p_views = get_theme_mod( 't_p_views' ); } ?>
   <?php if ( false == get_theme_mod( 't_c_comments', false ) ) { $t_c_comments = esc_html__("Comments", "nextnews");  } else { $t_c_comments = get_theme_mod( 't_c_comments' ); } ?>
