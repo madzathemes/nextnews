@@ -1182,13 +1182,13 @@ if ( class_exists( 'Kirki' ) ) {
 
     Kirki::add_panel('test_panel', array(
         'priority' => 10,
-        'title'    => esc_html__('Fonts', 'ti'),
+        'title'    => esc_html__('Fonts', 'nextnews'),
     ) );
 
     // Add section
     Kirki::add_section( 'test_section', array(
-        'title'       => esc_html__('font-family:', 'ti'),
-        'description' => esc_html__('test description', 'ti'),
+        'title'       => esc_html__('font-family:', 'nextnews'),
+        'description' => esc_html__('test description', 'nextnews'),
         'panel'       => 'test_panel',
         'priority'    => 11,
     ) );
@@ -1196,9 +1196,9 @@ if ( class_exists( 'Kirki' ) ) {
     Kirki::add_field( 'ti', array(
      'type'        => 'typography',
      'settings'    => 'body_typography26',
-     'label'       => esc_attr__( 'Body Typography', '_s' ),
-     'description' => esc_attr__( 'Select the main typography options for your site.', '_s' ),
-     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', '_s' ),
+     'label'       => esc_attr__( 'Body Typography', 'nextnews' ),
+     'description' => esc_attr__( 'Select the main typography options for your site.', 'nextnews' ),
+     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', 'nextnews' ),
      'section'     => 'test_section',
      'priority'    => 10,
      'default'     => array( 'font-family'  => 'Lato', ),
