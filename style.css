@@ -2954,7 +2954,7 @@ opacity: 0.7
   width: 50%;
   position: relative;
   background: cover center;
-
+  min-height: 141px;
 }
 .nav-single li span {
   text-transform: uppercase;
