@@ -2958,7 +2958,7 @@ opacity: 0.7
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
-  color: white!important;
+  color: rgba(255, 255, 255, 0.6)!important
 }
 .nav-single li div {
   font-size: 17px;
