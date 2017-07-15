@@ -35,7 +35,6 @@ if(!empty($style)){
 <?php if ( function_exists( 'magazine_themes_bar' ) ) { magazine_themes_bar(); } ?>
 <div class="mt-smart-menu">
 	<span class="close pointer"></span>
-	<?php nextnews_logo(); ?>
 	<?php nextnews_nav_mobile(); ?>
 	<div class="mt-smart-menu-widget">
 		<?php if ( is_active_sidebar( 'mobile-menu-widget-area' ) ) { dynamic_sidebar( 'mobile-menu-widget-area' ); } ?>
