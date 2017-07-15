@@ -3298,7 +3298,7 @@ opacity: 0.7
   margin-bottom: 10px;
   position: relative;
   margin-right: 0px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px dotted rgba(0, 0, 0, 0.06)
 }
 .comment-edit-link {
   font-size: 12px;
