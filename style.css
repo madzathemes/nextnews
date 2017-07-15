@@ -5422,9 +5422,11 @@ img.mfp-img {
 
 /* Theme Color Sheme */
 .mt-tc-color h2.heading span,
-.single-head-info, .single-head-info a,
 .mt-lt p, .mt-lt h1, .mt-lt h2, .mt-lt h3, .mt-lt h4, .mt-lt h5, .mt-lt h6 {
   color: white;
+}
+.single-head-info, .single-head-info a {
+  color: white!important;
 }
 .mt-lt .color-silver-light,
 .mt-lt .poster-content-wrap small, .mt-lt .poster-content-wrap strong, .mt-lt .poster-content small, .mt-lt .poster-content strong {
