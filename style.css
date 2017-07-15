@@ -487,8 +487,8 @@ input[type="button"] {
   padding: 5px 0px 40px;
 }
 .pointer { cursor: pointer }
-.container,
-.boxed-layout-on .mt-header {
+
+.container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 20px;
@@ -5251,6 +5251,8 @@ img.mfp-img {
 .mt-header {
   z-index: 999;
   will-change: transform;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mt-bar-in {
   width: 100%;
