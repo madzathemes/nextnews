@@ -100,8 +100,8 @@ $share_bottom = get_post_meta(get_the_ID(), "magazin_post_share_bottom", true);
 
   <?php if ( true == get_theme_mod( 'mt_post_prev_next_article', true ) ) { ?>
     <ul class="nav-single">
-      <li class="previous pull-left"><?php previous_post_link( '%link', '<span class="color-silver-light">' . esc_html($t_p_previous_article) . '</span><div>%title</div>' ); ?></li>
-      <li class="next pull-right"><?php next_post_link( '%link', ' <span class="color-silver-light">' . esc_html($t_p_next_article) . '</span><div>%title</div>' ); ?></li>
+      <li class="previous pull-left"><?php previous_post_link( '%link', '<span class="">' . esc_html($t_p_previous_article) . '</span><div>%title</div>' ); ?></li>
+      <li class="next pull-right"><?php next_post_link( '%link', ' <span class="">' . esc_html($t_p_next_article) . '</span><div>%title</div>' ); ?></li>
       <li class="clearfix"></li>
     </ul>
   <?php } ?>
