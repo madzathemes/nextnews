@@ -2910,7 +2910,7 @@ opacity: 0.7
   overflow: hidden;
 }
 .nav-single a{
-  color: white;
+  position: relative;
 }
 .nav-single > li:before{
   content: " ";
