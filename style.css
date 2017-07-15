@@ -3616,7 +3616,8 @@ opacity: 0.7
 @media (min-width: 1440px) {
   .boxed-layout-on .mt-outer-wrap,
   .boxed-layout-on .fixed-top,
-  .boxed-layout-on .header-wrap{
+  .boxed-layout-on .header-wrap,
+  .boxed-layout-on .mt-header{
     width: 1340px;
   }
 
@@ -3628,7 +3629,8 @@ opacity: 0.7
 @media (min-width: 1460px) {
   .boxed-layout-on .fixed-top,
   .boxed-layout-on .header-wrap,
-  .boxed-layout-on .mt-outer-wrap{
+  .boxed-layout-on .mt-outer-wrap,
+  .boxed-layout-on .mt-header{
     width: 1360px;
   }
 }
