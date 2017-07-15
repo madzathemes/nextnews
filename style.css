@@ -5448,6 +5448,9 @@ img.mfp-img {
 .mt-tc-color .poster-small-bottom:hover h4 {
   background: rgba(0, 0, 0, 0.2);
 }
+.mt-tc-color .entry-meta .author-info {
+    background: rgba(0, 0, 0, 0.33) !important;
+}
 .mt-tc-1 .single-content .entry-content p,
 .mt-tc-1 .single-content .entry-content h1,
 .mt-tc-1 .single-content .entry-content h2,
