@@ -359,13 +359,13 @@ function nextnews_css() {
 			$next_post = get_next_post();
 			if (!empty( $next_post )) {
 			 	if ( has_post_thumbnail( $next_post->ID ) ) {
-					$custom_styles .='.nav-single .next { background-image: url("'.the_post_thumbnail_url( $size = 'post-thumbnail' ).'") }';
+					$custom_styles .='.nav-single .next { background-image: url("'.get_post_thumbnail_url( $size = 'post-thumbnail' ).'") }';
 				}
 		 	}
 			$next_post = get_previous_post();
 			if (!empty( $next_post )) {
 			 	if ( has_post_thumbnail( $next_post->ID ) ) {
-					$custom_styles .='.nav-single .previous { background-image: url("'.the_post_thumbnail_url( $size = 'post-thumbnail' ).'") }';
+					$custom_styles .='.nav-single .previous { background-image: url("'.get_post_thumbnail_url( $size = 'post-thumbnail' ).'") }';
 				}
 		 	}
 		}
