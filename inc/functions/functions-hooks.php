@@ -355,6 +355,15 @@ function nextnews_css() {
 			if(!empty($options['colors_footer_social_background_hover'])){ $custom_styles .=' .footer .social li a:hover { background: '. esc_attr($options['colors_footer_social_background_hover']) .'; } '; }
 		}
 
+		if(is_single()){
+			$next_post = get_next_post();
+			if (!empty( $next_post )) {
+			 	if ( has_post_thumbnail( $next_post->ID ) ) {
+					$custom_styles .='.nav-single .previous { background-image: ulr("'.the_post_thumbnail_url( $next_post->ID ).'") }';
+				}
+		 	}
+		}
+
 	 if ( $custom_styles != '' ) {
 	  $css = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $custom_styles);
 		wp_add_inline_style( 'nextnews-style', $css );
