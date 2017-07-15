@@ -510,7 +510,8 @@ input[type="button"] {
 }
 
 @media (min-width: 1440px) {
-  .container {
+  .container,
+  .boxed-layout-on .mt-header {
     width: 1340px;
   }
 
