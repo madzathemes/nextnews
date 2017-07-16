@@ -130,9 +130,8 @@ function nextnews_css() {
 	 }
 
 	 // Background Color
-	 $style = $options['background_color_content'];
-	 if(!empty($style)){
-	 		$custom_styles .='.post-content-wrap, .post-style-6 .post-media-wrap, .post-style-4 .post-media-wrap, .header-wrap, .footer-wrap, .mt-container-wrap, .single-top, .post-media-wrap { background-color: '. esc_attr($style) .'!important }';
+	 if(!empty($options['background_color_content'])){
+	 		$custom_styles .='.post-content-wrap, .post-style-6 .post-media-wrap, .post-style-4 .post-media-wrap, .header-wrap, .footer-wrap, .mt-container-wrap, .single-top, .post-media-wrap { background-color: '. esc_attr($options['background_color_content']) .'!important }';
 	 }
 
 	 // Logo Margin
