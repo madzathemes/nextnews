@@ -5332,6 +5332,9 @@ img.mfp-img {
   position: relative;
   z-index: 99;
 }
+.mt-menu-bar-brand-hidde .logo {
+  display: none;
+}
 .mt-menu-bar-brand-hidde.mt-menu-bar-brand,
 .mt-menu-bar-brand-hidde.mt-menu-bar-brand > a > img,
 .fix-menu.fixed-logo-active .mt-menu-bar-brand-hidde.mt-menu-bar-brand > a > img  {
