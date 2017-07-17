@@ -5332,7 +5332,7 @@ img.mfp-img {
   position: relative;
   z-index: 99;
 }
-.mt-menu-bar-brand-hidde .logo {
+.mt-menu-bar-brand-hidde .logo img {
   display: none;
 }
 .mt-menu-bar-brand-hidde.mt-menu-bar-brand,
