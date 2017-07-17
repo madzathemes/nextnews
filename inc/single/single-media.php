@@ -40,10 +40,10 @@
     <?php  if ( has_post_thumbnail() ) {  $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ); ?>
 			<div class="post-img">
   				<div class="single-share">
-            <a class="lightbox" href="<?php echo get_the_post_thumbnail_url(get_the_ID(),"large"); ?>">
+            <?php if ( shortcode_exists( 'posts_trending' ) ) { ?><a class="lightbox" href="<?php echo get_the_post_thumbnail_url(get_the_ID(),"large"); ?>"><?php } ?>
               <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo esc_attr($copyright); ?></span><?php } ?>
               <?php echo get_the_post_thumbnail(get_the_ID(),"nextnews_810", array( 'class' => 'mt-radius')); ?>
-            </a>
+            <?php if ( shortcode_exists( 'posts_trending' ) ) { ?></a><?php } ?>
             <div class="single-share-socials mt-radius-b">
               <a href="http://www.facebook.com/sharer.php?u=<?php echo get_the_permalink(); ?>" target="_blank"><div class="facebook mt-radius-b"></div></a>
               <?php $input = get_the_title().' '.get_the_permalink(); $title = str_replace( ' ', '+', $input ); ?>
