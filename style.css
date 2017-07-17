@@ -110,8 +110,7 @@ a:hover,
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
-.grid-post,
-.fixed-top a{
+.grid-post{
   -webkit-border-radius: 0px !important;
   -moz-border-radius: 0px !important;
   border-radius: 0px !important;
@@ -268,7 +267,6 @@ input,
   -o-transition: all 400ms ease-out 0.1s!important;
   transition: all 400ms ease-out 0.1s!important;
 }
-.fixed-top,
 .background-image, .mt-smart-menu ul ul.sub-menu {
   -webkit-transition: all 600ms ease-out!important;
   -moz-transition: all 600ms ease-out!important;
@@ -1358,43 +1356,6 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 .header-menu {
   -webkit-backface-visibility: hidden;
   background: white;
-}
-.fixed-top {
-  -webkit-backface-visibility: hidden;
-  height: 42px;
-  position: fixed;
-  width: 1067px;
-  z-index: 99;
-  background: white;
-  margin-top: -180px;
-  left: 50%;
-  margin-left: -370px;
-}
-.fixed-on .fixed-top {
-  transform: translate(0,130px);
-  -webkit-transform: translate(0,130px); /** Safari & Chrome **/
-  -o-transform: translate(0,130px); /** Opera **/
-  -moz-transform: translate(0,130px); /** Firefox **/
-}
-.mt-fixed-up.nav-down.fixed-on .fixed-top,
-.mt-fixed-always.fixed-on .fixed-top  {
-  transform: translate(0,0px);
-  -webkit-transform: translate(0,0px); /** Safari & Chrome **/
-  -o-transform: translate(0,0px); /** Opera **/
-  -moz-transform: translate(0,0px); /** Firefox **/
-}
-.fixed-top .share  {
-  margin-bottom: 0px;
-  width: 100%;
-  padding-right: 47px;
-}
-.fixed-top .share li,
-.fixed-top .pinterest:before{
-  margin-left: 0px !important;
-}
-.fixed-top .share-more {
-  right: 20px!important;
-  position: absolute;
 }
 
 /* HEAD SEARCH */
@@ -2809,15 +2770,6 @@ opacity: 0.7
 .share li.share-facebook a{
   background: #4769a8;
 }
-.fixed-top .share li.share-twitter,
-.fixed-top .share li.share-facebook {
-  width: 50%;
-}
-.fixed-top .share li.share-twitter a,
-.fixed-top .share li.share-facebook a {
-  text-align: center;
-  width: 100%;
-}
 .share li.share-facebook a:before{
   font-family: "madza";
   content: "\77"
@@ -2842,12 +2794,6 @@ opacity: 0.7
 .share.down li.share-more a,
 .down .share-more-wrap {
   float:right;
-}
-.fixed-top .share li.share-more a,
-.fixed-top .share-more-wrap {
-  float: none;
-  height: 42px;
-  width: 47px;
 }
 .share li.share-more a .pinterest,
 .share li.share-more a .google {
@@ -2881,9 +2827,6 @@ opacity: 0.7
 
 }
 .share-more:hover .share-more-icon {
-  display: block;
-}
-.fixed-top .share-more:hover .share-more-icon {
   display: block;
 }
 .share li.share-more:hover a .pinterest,
@@ -3592,7 +3535,6 @@ opacity: 0.7
     margin: 0 auto;
   }
   .boxed-layout-on .mt-outer-wrap,
-  .boxed-layout-on .fixed-top,
   .boxed-layout-on .header-wrap {
     margin: 0 auto;
     width: 1210px;
@@ -3611,7 +3553,6 @@ opacity: 0.7
 
 @media (min-width: 1440px) {
   .boxed-layout-on .mt-outer-wrap,
-  .boxed-layout-on .fixed-top,
   .boxed-layout-on .header-wrap,
   .boxed-layout-on .mt-header{
     width: 1340px;
@@ -3623,7 +3564,6 @@ opacity: 0.7
 }
 
 @media (min-width: 1460px) {
-  .boxed-layout-on .fixed-top,
   .boxed-layout-on .header-wrap,
   .boxed-layout-on .mt-outer-wrap,
   .boxed-layout-on .mt-header{
@@ -4099,10 +4039,6 @@ opacity: 0.7
   .social-text {
     margin-top: 2px;
   }
-  .fixed-top .share li.share-twitter a, .fixed-top .share li.share-facebook a {
-    padding-right: 11px;
-  }
-
 
 }
 @media all and (max-width: 400px) {
@@ -4116,16 +4052,6 @@ opacity: 0.7
   .author-info,
   .author-img {
     display: none
-  }
-  .fixed-top ul.share li span {
-    display: none;
-  }
-  .fixed-top .share li a::before, .fixed-top .share li.share-twitter a:before {
-    margin-left: inherit!important;
-  }
-  .fixed-top .share li.share-twitter a,
-  .fixed-top .share li.share-facebook a {
-    padding-left: 0px!important;
   }
 }
 @media all and (max-width: 320px) {
@@ -5022,14 +4948,6 @@ img.mfp-img {
   padding-bottom: 0px;
 }
 
-/* Ie Fix */
-@media screen and (min-width:0\0) {
-  .fixed-top {
-    display: none!important
-  }
-}
-
-
 /* mt Slide */
 .mt-slide-1 {
   width: 100%;
@@ -5332,7 +5250,7 @@ img.mfp-img {
   position: relative;
   z-index: 99;
 }
-.mt-menu-bar-brand-hidde .logo img {
+.mt-menu-bar-brand-hidde .logo-header {
   display: none;
 }
 .mt-menu-bar-brand-hidde.mt-menu-bar-brand,

@@ -1151,18 +1151,6 @@ function nextnews_customize_header($wp_customize){
          ),
          ));
 
-        Kirki::add_field( 'mt_menu_share', array(
-           'type'        => 'switch',
-           'settings'    => 'mt_menu_share',
-           'label'       => esc_attr__( 'Fixed Share Buttons', 'nextnews' ),
-           'section'     => 'nextnews_header_other',
-           'default'     => 'on',
-           'priority'    => 10,
-           'choices'     => array(
-             'on'  => esc_attr__( 'On', 'nextnews' ),
-             'off' => esc_attr__( 'Off', 'nextnews' ),
-           ),
-         ));
 
 
 }

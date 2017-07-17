@@ -194,7 +194,7 @@ function nextnews_head_bar() { ?>
 			</div>
 
 		</div>
-<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { nextnews_header_fixed();	} ?>
+
 	<?php } ?>
 
 <?php
@@ -481,45 +481,4 @@ function nextnews_socials() { ?>
 			?>
 	</ul><?php
 } add_filter('nextnews_socials','nextnews_socials');
-
-function nextnews_header_fixed() {
-	if (is_single()) {
-		/* Share Meta from Magazin framework */
-		$share = get_post_meta(get_the_ID(), "magazin_share_count", true);
-		$share_real = get_post_meta(get_the_ID(), "magazin_share_count_real", true);
-		$shares = $share_real;
-		if (!empty($share)){
-			$shares = $share+$share_real;
-		}
-		/* View Meta from Magazin framework */
-		$view = get_post_meta(get_the_ID(), "magazin_view_count", true);
-		$viewes = "0";
-		if (!empty($view)){
-			$viewes = $view;
-		}
-		$url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
-		if ( false == get_theme_mod( 't_p_share_on_facebook', false ) ) { $t_p_share_on_facebook = esc_html__("Share on Facebook", "nextnews");  } else { $t_p_share_on_facebook = get_theme_mod( 't_p_share_on_facebook' ); }
-	 	if ( false == get_theme_mod( 't_p_share_on_twitter', false ) ) { $t_p_share_on_twitter = esc_html__("Tweet on Twitter", "nextnews");  } else { $t_p_share_on_twitter = get_theme_mod( 't_p_share_on_twitter' ); }
-		?>
-		<?php $option = get_option("nextnews_theme_options"); ?>
-				<div class="fixed-top <?php echo get_theme_mod( 'mt_bar_menu_row', "full" ); ?>">
-					<div class="container-fuild">
-						<div class="row">
-							<div class="col-md-12">
-
-								<ul class="share">
-									<li class="share-facebook"><a class="mt-radius" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>" target="_blank"><span><?php echo esc_html($t_p_share_on_facebook); ?></span></a></li>
-									<?php $input = get_the_title().' '.get_the_permalink(); $title = str_replace( ' ', '+', $input ); ?>
-									<li class="share-twitter"><a class="mt-radius" href="http://twitter.com/home/?status=<?php echo esc_attr($title); ?>" target="_blank"><span><?php echo esc_html($t_p_share_on_twitter); ?></span></a></li>
-									<li class="share-more">
-										<div class="share-more-wrap"><div class="share-more-icon mt-radius">+</div></div>
-										<a class="mt-radius" href="https://plus.google.com/share?url=<?php the_permalink() ?>" target="_blank"><div class="google mt-radius-b"></div></a>
-										<a class="mt-radius" href="http://pinterest.com/pin/create/button/?url=<?php the_permalink() ?>&media=<?php echo esc_url($url); ?>" target="_blank"><div class="pinterest mt-radius-b"></div></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-	<?php } ?>
-<?php } add_filter('nextnews_header_fixed','nextnews_header_fixed'); ?>
+?>
