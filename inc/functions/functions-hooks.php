@@ -10,8 +10,8 @@ function nextnews_css() {
 	$p = get_theme_mod( 'mt_bar_top_padding', array('top' => '0px', 'bottom' => '0px', 'left' => '20px', 'right' => '20px',));
 	if($p["top"] != "0px" or $p["bottom"] != "0px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.mt-top-bar.box .mt-bar-in, .mt-top-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }
 
-	$p = get_theme_mod( 'mt_bar_head_padding', array('top' => '0px', 'bottom' => '0px', 'left' => '20px', 'right' => '20px',));
-	if($p["top"] != "0px" or $p["bottom"] != "0px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.mt-head-bar.box .mt-bar-in, .mt-head-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }
+	$p = get_theme_mod( 'mt_bar_head_padding', array('top' => '10px', 'bottom' => '10px', 'left' => '20px', 'right' => '20px',));
+	if($p["top"] != "10px" or $p["bottom"] != "10px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.mt-head-bar.box .mt-bar-in, .mt-head-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }
 
 	$p = get_theme_mod( 'mt_bar_menu_padding', array('top' => '0px', 'bottom' => '0px', 'left' => '20px', 'right' => '20px',));
 	if($p["top"] != "0px" or $p["bottom"] != "0px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.mt-menu-bar.box .mt-bar-in, .mt-menu-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }

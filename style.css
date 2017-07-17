@@ -5322,6 +5322,10 @@ img.mfp-img {
 .mt-head-bar-brand {
   width: 200px
 }
+.mt-head-bar.box .mt-bar-in, .mt-head-bar.ful .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* Menu Bar */
 .mt-menu-bar {
