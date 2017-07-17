@@ -74,8 +74,9 @@
 } ?>
 <?php function nextnews_single_title() {?>
   <h1 class="single-title" itemprop="headline"><?php echo get_the_title(); ?></h1>
-  <h2 class="single-subtitle" itemprop="description"><?php echo get_post_meta(get_the_ID(), "magazin_subtitle", true); ?></h2>
-<?php } ?>
+  <?php if(get_post_meta(get_the_ID(), "magazin_subtitle", true) != "") { ?>
+    <h2 class="single-subtitle" itemprop="description"><?php echo get_post_meta(get_the_ID(), "magazin_subtitle", true); ?></h2>
+  <?php } ?>
 <?php function nextnews_single_social() {
 
 $share_top = "";
