@@ -77,6 +77,7 @@
   <?php if(get_post_meta(get_the_ID(), "magazin_subtitle", true) != "") { ?>
     <h2 class="single-subtitle" itemprop="description"><?php echo get_post_meta(get_the_ID(), "magazin_subtitle", true); ?></h2>
   <?php } ?>
+<?php } ?>
 <?php function nextnews_single_social() {
 
 $share_top = "";
