@@ -3002,8 +3002,8 @@ opacity: 0.7
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.mt-author-soc a {
-  padding: 0 0 0 0!important;
+.mt-author-soc a:first-child {
+  padding: 0 0 0 5px;
 }
 .mt-author-soc a:before {
   font-size: 12px;
