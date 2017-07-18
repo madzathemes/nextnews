@@ -2970,7 +2970,7 @@ opacity: 0.7
   font-size: 17px;
 }
 .entry-meta .author-info {
-  background: #fff !important;
+  background: #fff;
 }
 .single-media-title .mt-author-soc a:before   {
   color: white;
