@@ -5345,7 +5345,7 @@ img.mfp-img {
 .mt-tc-white ul.sf-menu ul li a,
 .mt-tc-white div.sf-menu ul ul li a,
 .mt-tc-white textarea,
-.mt-tc-white input,
+.mt-tc-white input[type="text"],
 .mt-tc-white .entry-meta .author-info,
 .mt-tc-white .poster-data { background: #f5f5f5; }
 
