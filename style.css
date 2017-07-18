@@ -5346,6 +5346,34 @@ img.mfp-img {
 
 
 /* Theme Color Sheme */
+
+.mt-tc-white {
+
+}
+.mt-tc-white .post-content-wrap,
+.mt-tc-white.post-style-6 .post-media-wrap,
+.mt-tc-white.post-style-4 .post-media-wrap,
+.mt-tc-white .header-wrap,
+.mt-tc-white .footer-wrap,
+.mt-tc-white .mt-container-wrap,
+.mt-tc-white .single-top,
+.mt-tc-white .post-media-wrap {
+  background: #fff;
+}
+.mt-tc-white .menu-background,
+.mt-tc-white .menu-background-left,
+.mt-tc-white .menu-background-right,
+.mt-tc-white .single-share-socials:before,
+.mt-tc-white .share li.share-more a .share-more-icon,
+.mt-tc-white .share-more-wrap .share-more-icon,
+.mt-tc-white .df-is-megamenu ul li,
+.mt-tc-white ul.sf-menu ul li a,
+.mt-tc-white div.sf-menu ul ul li a,
+.mt-tc-white textarea,
+.mt-tc-white input { background: #fff; }
+
+
+
 .mt-tc-color h2.heading span,
 .mt-lt p, .mt-lt h1, .mt-lt h2, .mt-lt h3, .mt-lt h4, .mt-lt h5, .mt-lt h6 {
   color: white;
