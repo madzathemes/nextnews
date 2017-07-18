@@ -69,8 +69,6 @@ function nextnews_css() {
 			if(!empty($options_in['textinbackground'])){ if($options_in['textinbackground']!='#fffff1'){
 				$custom_styles .=' .footer-scroll-to-top:before,
 				.top-nav a:hover,
-				.mt-tabc:hover,
-				.mt-tabc.active,
 				.sf-menu > li.current_page_item > a,
 				.poster.size-normal .poster-cat span, .poster.trending-normal .poster-cat span, .poster.trending-carousel .poster-cat span { color: '. esc_attr($options_in['textinbackground']) .'!important; }';
 			}}

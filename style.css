@@ -162,7 +162,6 @@ body {
 	max-width: 100%;
 	height: auto;
 }
-.footer-scroll-to-top,
 .comment-respond:before,
 .comment-respond:after,
 .nav-random a:after,
@@ -3428,39 +3427,6 @@ opacity: 0.7
 .footer-about p {
   padding-bottom: 10px;
 }
-.footer-scroll-to-top {
-    bottom: 0px;
-    -webkit-backface-visibility: hidden;
-    transform: translate(0,60px);
-    -webkit-transform: translate(0,60px); /** Safari & Chrome **/
-    -o-transform: translate(0,60px); /** Opera **/
-    -moz-transform: translate(0,60px); /** Firefox **/
-    right: 20px;
-    position: fixed;
-    z-index: 9999;
-}
-.footer-scroll-to-top.active {
-  -webkit-backface-visibility: hidden;
-  transform: translate(0,-20px);
-  -webkit-transform: translate(0,-20px); /** Safari & Chrome **/
-  -o-transform: translate(0,-20px); /** Opera **/
-  -moz-transform: translate(0,-20px); /** Firefox **/
-}
-.footer-scroll-to-top {
-    padding: 11px 0px 0px;
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-    float:right;
-}
-.footer-scroll-to-top:before {
-  content: "\6a";
-  font-size: 12px;
-  font-family: "madza";
-  color: #222!important;
-}
 .mt-subscribe-footer{
   margin-top: 45px;
 }
@@ -3717,10 +3683,6 @@ opacity: 0.7
   }
   .footer-social {
     padding-bottom: 50px;
-  }
-  .footer-scroll-to-top-link {
-    right: 50%;
-    margin-right: -22.5px;
   }
   .sidebar,
   .col-col-1,
