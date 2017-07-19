@@ -438,6 +438,7 @@ Kirki::add_field( 'mt_colors_footer_bottom', array(
         'text'    => '',
         'background'    => '',
     ),
+
   ));
 
 
@@ -461,7 +462,8 @@ function mytheme_kirki_fields( $fields ) {
             'size'     => 'cover',
             'attach'   => 'fixed',
             'position' => 'center-bottom',
-        )
+        ),
+        'output'      => '.mt-header'
   );
 }
 add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
