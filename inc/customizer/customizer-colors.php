@@ -186,21 +186,7 @@ Kirki::add_field( 'zoom', array(
     'panel'  => 'colors_settings'
   ));
 
-  Kirki::add_field( 'mt_bg_header_', array(
-    'type'        => 'background',
-    'settings'    => 'mt_bg_header_',
-    'label'       => esc_attr__( 'Header', 'nextnews' ),
-    'section'     => 'colors_menu',
-    'priority'    => 1,
-    'default'     => array(
-            'color'    => 'rgba(25,170,141,0.7)',
-            'image'    => '',
-            'repeat'   => 'no-repeat',
-            'size'     => 'cover',
-            'attach'   => 'fixed',
-            'position' => 'center-bottom',
-        )
-  ));
+
 
 
   Kirki::add_field( 'mt_colors_header', array(
@@ -460,4 +446,26 @@ Kirki::add_field( 'mt_colors_footer_bottom', array(
 }
 
 add_action('customize_register', 'nextnews_customize_colors');
+
+function mytheme_kirki_fields( $fields ) {
+  $fields[] =  array(
+    'type'        => 'background',
+    'settings'    => 'mt_bg_header_',
+    'label'       => esc_attr__( 'Header', 'nextnews' ),
+    'section'     => 'colors_menu',
+    'priority'    => 1,
+    'default'     => array(
+            'color'    => 'rgba(25,170,141,0.7)',
+            'image'    => '',
+            'repeat'   => 'no-repeat',
+            'size'     => 'cover',
+            'attach'   => 'fixed',
+            'position' => 'center-bottom',
+        )
+  );
+}
+add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
+
+
+
 ?>
