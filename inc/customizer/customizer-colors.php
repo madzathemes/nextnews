@@ -186,9 +186,9 @@ Kirki::add_field( 'zoom', array(
     'panel'  => 'colors_settings'
   ));
 
-  Kirki::add_field( 'mt_bg_header', array(
+  Kirki::add_field( 'mt_bg_header_', array(
     'type'        => 'background',
-    'settings'    => 'mt_bg_header',
+    'settings'    => 'mt_bg_header_',
     'label'       => esc_attr__( 'Header', 'nextnews' ),
     'section'     => 'colors_menu',
     'priority'    => 1,
