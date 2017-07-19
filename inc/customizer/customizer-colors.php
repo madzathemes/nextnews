@@ -470,7 +470,7 @@ function mytheme_kirki_fields( $fields ) {
     'type'        => 'multicolor',
     'settings'    => 'mt_bg_header_in',
     'label'       => esc_attr__( 'Header In Background', 'nextnews' ),
-    'section'     => 'colors_other',
+    'section'     => 'colors_menu',
     'option_type' => 'option',
     'priority'    => 2,
     'choices'     => array(
