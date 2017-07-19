@@ -6,14 +6,6 @@ function nextnews_css() {
 	$custom_styles = '';
 	$options = get_option("nextnews_theme_options");
 
-	// Head Background
-	$p = get_theme_mod( 'mt_bg_header_');
-
-	if($p["image"] != ""){
-		$custom_styles .='.mt-header { background:
-			url("'. esc_url($p['image']) .'")!important } ';
-	}
-
 	// Menu Spacing
 	$p = get_theme_mod( 'mt_bar_top_padding', array('top' => '0px', 'bottom' => '0px', 'left' => '20px', 'right' => '20px',));
 	if($p["top"] != "0px" or $p["bottom"] != "0px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.mt-top-bar.box .mt-bar-in, .mt-top-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }
