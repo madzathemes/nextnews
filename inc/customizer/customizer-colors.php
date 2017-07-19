@@ -199,8 +199,7 @@ Kirki::add_field( 'zoom', array(
             'size'     => 'cover',
             'attach'   => 'fixed',
             'position' => 'center-bottom',
-        ),
-     'output'      => 'body',
+        )
   ));
 
 

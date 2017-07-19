@@ -5,6 +5,37 @@ function nextnews_css() {
 
 	$custom_styles = '';
 	$options = get_option("nextnews_theme_options");
+	'color'    => 'rgba(25,170,141,0.7)',
+	'image'    => '',
+	'repeat'   => 'no-repeat',
+	'size'     => 'cover',
+	'attach'   => 'fixed',
+	'position' => 'center-bottom',
+
+	// Head Background
+	$p = get_theme_mod( 'mt_bg_header', array(
+		'color' => 'rgba(25,170,141,0.7)',
+		'image' => '',
+		'repeat' => 'no-repeat',
+		'size' => 'cover',
+		'attach' => 'fixed',
+		'position' => 'center-bottom',));
+
+	if($p["color"] != "rgba(25,170,141,0.7)"
+	or $p["image"] != ""
+	or $p["repeat"] != "no-repeat"
+	or $p["size"] != "cover"
+	or $p["attach"] != "fixed"
+	or $p["position"] != "center-bottom"){
+		$custom_styles .='.mt-header { background:
+			'. esc_attr($p['color']) .'
+			'. esc_attr($p['repeat']) .'
+			url("'. esc_attr($p['image']) .'")
+			'. esc_attr($p['size']) .'
+			'. esc_attr($p['attach']) .'
+			'. esc_attr($p['position']) .'
+			'. esc_attr($p['cover']) .'!important } ';
+	}
 
 	// Menu Spacing
 	$p = get_theme_mod( 'mt_bar_top_padding', array('top' => '0px', 'bottom' => '0px', 'left' => '20px', 'right' => '20px',));
