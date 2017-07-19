@@ -468,11 +468,11 @@ function mytheme_kirki_fields( $fields ) {
 
   $fields[] =  array(
     'type'        => 'multicolor',
-    'settings'    => 'mt_colors_cat',
+    'settings'    => 'mt_bg_header_in',
     'label'       => esc_attr__( 'Header In Background', 'nextnews' ),
     'section'     => 'colors_other',
     'option_type' => 'option',
-    'priority'    => 100,
+    'priority'    => 2,
     'choices'     => array(
         'top'    => esc_attr__( 'Top Bar', 'nextnews' ),
         'head'   => esc_attr__( 'Head Bar', 'nextnews' ),
