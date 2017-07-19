@@ -216,10 +216,10 @@ Kirki::add_field( 'zoom', array(
     'option_type' => 'option',
     'priority'    => 1,
     'choices'     => array(
-        'in'    => esc_attr__( 'Background', 'nextnews' ),
+        'image'    => esc_attr__( 'Background', 'nextnews' ),
     ),
     'default'     => array(
-        'in'    => '',
+        'image'    => '',
     ),
   ));
 
