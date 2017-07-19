@@ -465,6 +465,7 @@ function mytheme_kirki_fields( $fields ) {
         ),
         'output'      => '.mt-header'
   );
+  return $fields;
 }
 add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
 
