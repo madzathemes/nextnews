@@ -191,7 +191,6 @@ Kirki::add_field( 'zoom', array(
     'settings'    => 'mt_bg_header',
     'label'       => esc_attr__( 'Header', 'nextnews' ),
     'section'     => 'colors_menu',
-    'option_type' => 'option',
     'priority'    => 1,
     'default'     => array(
             'color'    => 'rgba(25,170,141,0.7)',
