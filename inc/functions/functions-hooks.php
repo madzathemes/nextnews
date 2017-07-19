@@ -24,7 +24,7 @@ function nextnews_css() {
 		$custom_styles .='.mt-header { background:
 			'. esc_attr($p['color']) .'
 			'. esc_attr($p['repeat']) .'
-			url("'. esc_attr($p['image']) .'")
+			url("'. esc_url($p['image']) .'")
 			'. esc_attr($p['size']) .'
 			'. esc_attr($p['attach']) .'
 			'. esc_attr($p['position']) .'
