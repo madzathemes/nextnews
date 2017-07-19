@@ -7,27 +7,11 @@ function nextnews_css() {
 	$options = get_option("nextnews_theme_options");
 
 	// Head Background
-	$p = get_theme_mod( 'mt_bg_header_', array(
-		'color' => 'rgba(25,170,141,0.7)',
-		'image' => '',
-		'repeat' => 'no-repeat',
-		'size' => 'cover',
-		'attach' => 'fixed',
-		'position' => 'center-bottom',));
+	$p = get_theme_mod( 'mt_bg_header_');
 
-	if($p["color"] != "rgba(25,170,141,0.7)"
-	or $p["image"] != ""
-	or $p["repeat"] != "no-repeat"
-	or $p["size"] != "cover"
-	or $p["attach"] != "fixed"
-	or $p["position"] != "center-bottom"){
+	if($p["image"] != ""){
 		$custom_styles .='.mt-header { background:
-			'. esc_attr($p['color']) .'
-			'. esc_attr($p['repeat']) .'
-			url("'. esc_url($p['image']) .'")
-			'. esc_attr($p['size']) .'
-			'. esc_attr($p['attach']) .'
-			'. esc_attr($p['position']) .'!important } ';
+			url("'. esc_url($p['image']) .'")!important } ';
 	}
 
 	// Menu Spacing
