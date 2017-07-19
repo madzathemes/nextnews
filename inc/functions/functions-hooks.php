@@ -7,7 +7,7 @@ function nextnews_css() {
 	$options = get_option("nextnews_theme_options");
 
 	// Head Background
-	$p = get_theme_mod( 'mt_bg_header', array(
+	$p = get_theme_mod( 'mt_bg_header_', array(
 		'color' => 'rgba(25,170,141,0.7)',
 		'image' => '',
 		'repeat' => 'no-repeat',
