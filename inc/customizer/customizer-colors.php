@@ -451,7 +451,7 @@ add_action('customize_register', 'nextnews_customize_colors');
 function mytheme_kirki_fields( $fields ) {
   $fields[] =  array(
     'type'        => 'background',
-    'settings'    => 'mt_bg_header_',
+    'settings'    => 'mt_bg_header',
     'label'       => esc_attr__( 'Header', 'nextnews' ),
     'section'     => 'colors_menu',
     'priority'    => 1,
@@ -465,6 +465,38 @@ function mytheme_kirki_fields( $fields ) {
         ),
         'output'      => '.mt-header'
   );
+
+  $fields[] =  array(
+    'type'        => 'multicolor',
+    'settings'    => 'mt_colors_cat',
+    'label'       => esc_attr__( 'Header In Background', 'nextnews' ),
+    'section'     => 'colors_other',
+    'option_type' => 'option',
+    'priority'    => 100,
+    'choices'     => array(
+        'top'    => esc_attr__( 'Top Bar', 'nextnews' ),
+        'head'   => esc_attr__( 'Head Bar', 'nextnews' ),
+        'menu'   => esc_attr__( 'Menu Bar', 'nextnews' ),
+    ),
+    'output'    => array(
+      array(
+        'choice'    => 'top',
+        'element'   => '.mt-top-bar.box > div > div > div, .mt-top-bar.full > div, .mt-top-bar.stretched > div',
+        'property'  => 'background-color',
+      ),
+      array(
+        'choice'    => 'head',
+        'element'   => '.mt-head-bar.box > div > div > div, .mt-head-bar.full > div, .mt-head-bar.stretched > div',
+        'property'  => 'background-color',
+      ),
+      array(
+        'choice'    => 'menu',
+        'element'   => '.mt-menu-bar.box > div > div > div, .mt-menu-bar.full > div, .mt-menu-bar.stretched > div',
+        'property'  => 'background-color',
+      ),
+    )
+  );
+
   return $fields;
 }
 add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
