@@ -199,9 +199,9 @@ Kirki::add_field( 'zoom', array(
             'repeat'   => 'no-repeat',
             'size'     => 'cover',
             'attach'   => 'fixed',
-            'position' => 'left-top',
+            'position' => 'center-bottom',
         ),
-     'output'      => 'header',
+     'output'      => 'mt-header',
   ));
 
 
