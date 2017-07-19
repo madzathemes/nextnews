@@ -209,7 +209,7 @@ Kirki::add_field( 'zoom', array(
 
 
   Kirki::add_field( 'mt_colors_menu_bg', array(
-    'type'        => 'background',
+    'type'        => 'background_image',
     'settings'    => 'mt_colors_menu_bg',
     'label'       => esc_attr__( 'Menu Background', 'nextnews' ),
     'section'     => 'colors_menu',
