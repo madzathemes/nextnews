@@ -27,8 +27,7 @@ function nextnews_css() {
 			url("'. esc_url($p['image']) .'")
 			'. esc_attr($p['size']) .'
 			'. esc_attr($p['attach']) .'
-			'. esc_attr($p['position']) .'
-			'. esc_attr($p['cover']) .'!important } ';
+			'. esc_attr($p['position']) .'!important } ';
 	}
 
 	// Menu Spacing
