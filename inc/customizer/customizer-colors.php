@@ -186,6 +186,25 @@ Kirki::add_field( 'zoom', array(
     'panel'  => 'colors_settings'
   ));
 
+  Kirki::add_field( 'mt_bg_header', array(
+    'type'        => 'background',
+    'settings'    => 'mt_bg_header',
+    'label'       => esc_attr__( 'Top Bar', 'nextnews' ),
+    'section'     => 'colors_menu',
+    'option_type' => 'option',
+    'priority'    => 1,
+    'default'     => array(
+            'color'    => 'rgba(25,170,141,0.7)',
+            'image'    => '',
+            'repeat'   => 'no-repeat',
+            'size'     => 'cover',
+            'attach'   => 'fixed',
+            'position' => 'left-top',
+        ),
+     'output'      => 'header',
+  ));
+
+
   Kirki::add_field( 'mt_colors_header', array(
     'type'        => 'multicolor',
     'settings'    => 'mt_colors_header',
@@ -209,17 +228,17 @@ Kirki::add_field( 'zoom', array(
 
 
   Kirki::add_field( 'mt_colors_menu_bg', array(
-    'type'        => 'background_image',
+    'type'        => 'multicolor',
     'settings'    => 'mt_colors_menu_bg',
     'label'       => esc_attr__( 'Menu Background', 'nextnews' ),
     'section'     => 'colors_menu',
     'option_type' => 'option',
     'priority'    => 1,
     'choices'     => array(
-        'image'    => esc_attr__( 'Background', 'nextnews' ),
+        'in'    => esc_attr__( 'Background', 'nextnews' ),
     ),
     'default'     => array(
-        'image'    => '',
+        'in'    => '',
     ),
   ));
 
