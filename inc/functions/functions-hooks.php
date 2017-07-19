@@ -5,12 +5,6 @@ function nextnews_css() {
 
 	$custom_styles = '';
 	$options = get_option("nextnews_theme_options");
-	'color'    => 'rgba(25,170,141,0.7)',
-	'image'    => '',
-	'repeat'   => 'no-repeat',
-	'size'     => 'cover',
-	'attach'   => 'fixed',
-	'position' => 'center-bottom',
 
 	// Head Background
 	$p = get_theme_mod( 'mt_bg_header', array(
