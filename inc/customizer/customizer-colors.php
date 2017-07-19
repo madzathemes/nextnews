@@ -189,7 +189,7 @@ Kirki::add_field( 'zoom', array(
   Kirki::add_field( 'mt_bg_header', array(
     'type'        => 'background',
     'settings'    => 'mt_bg_header',
-    'label'       => esc_attr__( 'Top Bar', 'nextnews' ),
+    'label'       => esc_attr__( 'Header', 'nextnews' ),
     'section'     => 'colors_menu',
     'option_type' => 'option',
     'priority'    => 1,
