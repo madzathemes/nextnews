@@ -471,12 +471,16 @@ function mytheme_kirki_fields( $fields ) {
     'settings'    => 'mt_bg_header_in',
     'label'       => esc_attr__( 'Header Bar Background', 'nextnews' ),
     'section'     => 'colors_menu',
-    'option_type' => 'option',
     'priority'    => 1,
     'choices'     => array(
         'top'    => esc_attr__( 'Top Bar', 'nextnews' ),
         'head'   => esc_attr__( 'Head Bar', 'nextnews' ),
         'menu'   => esc_attr__( 'Menu Bar', 'nextnews' ),
+    ),
+    'default'     => array(
+        'top'    => '',
+        'head'    => '',
+        'menu'    => '',
     ),
     'output'    => array(
       array(
