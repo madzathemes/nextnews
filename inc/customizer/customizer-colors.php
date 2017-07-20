@@ -34,7 +34,6 @@ function nextnews_customize_colors($wp_customize){
     'panel'  => 'colors_settings'
   ));
 
-
   // GENERAL COLORS //
   $wp_customize->add_section('colors_general', array(
     'title'    	=> esc_html__('General Colors', 'nextnews'),
