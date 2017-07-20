@@ -464,7 +464,7 @@ function mytheme_kirki_fields( $fields ) {
         ),
         'output'      => array(
           array(
-            'element' => '.mt-header'
+            'element' => '.mt-header',
             'suffix'   => ' !important',
           ),
         ),
