@@ -117,7 +117,7 @@ Kirki::add_field( 'zoom', array(
     ));
   $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_default]', array(
       'label'    => esc_html__('Site Color', 'nextnews'),
-      'section'  => 'general_style_settings',
+      'section'  => 'colors_general',
       'settings' => 'nextnews_theme_options[colors_default]',
     )));
 
@@ -127,7 +127,7 @@ Kirki::add_field( 'zoom', array(
       'type'        => 'multicolor',
       'settings'    => 'mt_colors_default',
       'label'       => esc_attr__( 'Site Color', 'nextnews' ),
-      'section'     => 'general_style_settings',
+      'section'     => 'colors_general',
       'option_type' => 'option',
       'priority'    => 1,
       'choices'     => array(
@@ -148,7 +148,7 @@ Kirki::add_field( 'zoom', array(
     ));
   $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_button]', array(
       'label'    => esc_html__('Form Button', 'nextnews'),
-      'section'  => 'general_style_settings',
+      'section'  => 'colors_general',
       'settings' => 'nextnews_theme_options[colors_button]',
   )));
 
