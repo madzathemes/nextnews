@@ -5329,7 +5329,8 @@ img.mfp-img {
   background: rgba(0, 0, 0, 0.1);
   color: white;
 }
-.mt-tc-color .poster-cat span {
+.mt-tc-color .poster-cat span,
+.mt-tc-color .number.mt-theme-background {
   background: white;
 }
 .mt-tc-color .poster:hover h2,
