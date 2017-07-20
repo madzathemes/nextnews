@@ -132,16 +132,6 @@ Kirki::add_field( 'zoom', array(
     ));
 
 
-  $wp_customize->add_setting('nextnews_theme_options[colors_button]', array(
-      'capability'        => 'edit_theme_options',
-      'type'           => 'option',
-      'sanitize_callback' => 'sanitize_hex_color',
-    ));
-  $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_button]', array(
-      'label'    => esc_html__('Form Button', 'nextnews'),
-      'section'  => 'colors_content',
-      'settings' => 'nextnews_theme_options[colors_button]',
-  )));
 
 
 
@@ -305,8 +295,19 @@ Kirki::add_field( 'zoom', array(
       'section'     => 'colors_content',
       'default'     => '',
       'option_type' => 'option',
-      'priority'    => 10,
+      'priority'    => 1,
     ) );
+    $wp_customize->add_setting('nextnews_theme_options[colors_button]', array(
+        'capability'        => 'edit_theme_options',
+        'type'           => 'option',
+        'sanitize_callback' => 'sanitize_hex_color',
+      ));
+    $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_button]', array(
+        'label'    => esc_html__('Form Button', 'nextnews'),
+        'section'  => 'colors_content',
+        'settings' => 'nextnews_theme_options[colors_button]',
+    )));
+
 
 
   // FOOTER COLORS //
