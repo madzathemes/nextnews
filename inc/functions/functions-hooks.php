@@ -68,6 +68,7 @@ function nextnews_css() {
 			$custom_styles .=' background: '. esc_attr($options_in['color']) .'; }';
 			if(!empty($options_in['textinbackground'])){ if($options_in['textinbackground']!='#fffff1'){
 				$custom_styles .=' .footer-scroll-to-top:before,
+				.mt-theme-background,
 				.top-nav a:hover,
 				.sf-menu > li.current_page_item > a,
 				.poster.size-normal .poster-cat span, .poster.trending-normal .poster-cat span, .poster.trending-carousel .poster-cat span { color: '. esc_attr($options_in['textinbackground']) .'!important; }';
