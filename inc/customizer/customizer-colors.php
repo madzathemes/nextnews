@@ -43,8 +43,8 @@ function nextnews_customize_colors($wp_customize){
   Kirki::add_field( 'nextnews_theme_options[background_color_content]', array(
     'type'        => 'color',
     'settings'    => 'nextnews_theme_options[background_color_content]',
-    'label'       => esc_html__( 'Background Color Wrap', 'nextnews' ),
-    'section'     => 'background_settings',
+    'label'       => esc_html__( 'Content Background', 'nextnews' ),
+    'section'     => 'colors_content',
     'default'     => '',
     'option_type' => 'option',
     'priority'    => 10,
@@ -346,6 +346,12 @@ Kirki::add_field( 'mt_colors_footer_bottom', array(
       'link'    => '',
       'hover'    => '',
   ),
+));
+
+// Content COLORS //
+$wp_customize->add_section('colors_content', array(
+  'title'    	=> esc_html__('Content Colors', 'nextnews'),
+  'panel'  => 'colors_settings'
 ));
 
 
