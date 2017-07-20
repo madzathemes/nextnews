@@ -5105,6 +5105,7 @@ img.mfp-img {
   will-change: transform;
   margin-left: auto;
   margin-right: auto;
+  background-repeat: no-repeat;
 }
 .mt-bar-in {
   width: 100%;
