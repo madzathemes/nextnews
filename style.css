@@ -5324,7 +5324,8 @@ img.mfp-img {
 .mt-tc-color .author-description a:before,
 .mt-tc-color .author-description a,
 .mt-tc-color .comment-author .fn a,
-.mt-tc-color a {
+.mt-tc-color a,
+.mt-tc-color .footer div a {
   color: white;
 }
 .mt-tc-color .single-head-info, .mt-tc-color .single-head-info a, .mt-tc-color .single-head-info a:before {
