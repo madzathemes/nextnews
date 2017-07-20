@@ -23,14 +23,14 @@ function nextnews_customize_colors($wp_customize){
     ),
   ));
 
-  $wp_customize->add_panel( 'colors_settings', array(
+  $wp_customize->add_panel( 'general_style_settings', array(
     'priority'       => 300,
     'capability'     => 'edit_theme_options',
     'title'    	=> esc_html__('Style', 'nextnews'),
   ));
 
-  $wp_customize->add_section('general_style_settings', array(
-    'title'    	=> esc_html__('General', 'nextnews'),
+  $wp_customize->add_section('colors_general', array(
+    'title'    	=> esc_html__('General Colors', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
 
@@ -50,10 +50,16 @@ function nextnews_customize_colors($wp_customize){
     'priority'    => 10,
   ) );
 
+  // GENERAL COLORS //
+  $wp_customize->add_section('colors_style', array(
+    'title'    	=> esc_html__('Style', 'nextnews'),
+    'panel'  => 'colors_settings'
+  ));
+
 
   // GENERAL COLORS //
   $wp_customize->add_section('colors_general', array(
-    'title'    	=> esc_html__('General', 'nextnews'),
+    'title'    	=> esc_html__('General Colors', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
 
