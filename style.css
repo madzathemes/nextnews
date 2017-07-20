@@ -3373,7 +3373,7 @@ opacity: 0.7
 .footer-bottom {
   padding-bottom: 40px;
 }
-.footer-bottom p{
+.footer .footer-bottom p{
   font-size: 13px;
   line-height: 1;
   color: #222;
