@@ -56,7 +56,7 @@ function nextnews_customize_colors($wp_customize){
     'title'    	=> esc_html__('General', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
-  
+
   Kirki::add_field( 'nextnews_theme_options[themecolor]', array(
    'type'        => 'select',
    'settings'    => 'nextnews_theme_options[themecolor]',
@@ -68,8 +68,7 @@ function nextnews_customize_colors($wp_customize){
    'choices'     => array(
      'whitesmoke'   => esc_attr__( 'WhiteSmoke', 'nextnews' ),
      'white' => esc_attr__( 'White', 'nextnews' ),
-     'black' => esc_attr__( 'Black', 'nextnews' ),
-     'color' => esc_attr__( 'Color', 'nextnews' )
+     'color' => esc_attr__( 'Color or Image Background', 'nextnews' )
    ),
   ));
 
