@@ -442,7 +442,7 @@ function mytheme_kirki_fields( $fields ) {
 
   $fields[] =  array(
     'type'        => 'background',
-    'settings'    => 'mt_bg',
+    'settings'    => 'mt_bg_settings',
     'label'       => esc_attr__( 'Background', 'nextnews' ),
     'section'     => 'background_settings',
     'priority'    => 1,
