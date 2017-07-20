@@ -5313,7 +5313,8 @@ img.mfp-img {
 .mt-tc-color h2.heading span,
 .mt-lt p, .mt-lt h1, .mt-lt h2, .mt-lt h3, .mt-lt h4, .mt-lt h5, .mt-lt h6,
 .mt-tc-color .author-description a:before,
-.mt-tc-color .author-description a {
+.mt-tc-color .author-description a,
+.mt-tc-color .comment-author .fn a {
   color: white;
 }
 .mt-tc-color .single-head-info, .mt-tc-color .single-head-info a, .mt-tc-color .single-head-info a:before {
