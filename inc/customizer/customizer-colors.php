@@ -34,12 +34,6 @@ function nextnews_customize_colors($wp_customize){
     'panel'  => 'colors_settings'
   ));
 
-  $wp_customize->add_section('background_settings', array(
-    'title'    	=> esc_html__('Background', 'nextnews'),
-    'panel'  => 'colors_settings'
-  ));
-
-
 
   // GENERAL COLORS //
   $wp_customize->add_section('colors_general', array(
@@ -438,7 +432,7 @@ function mytheme_kirki_fields( $fields ) {
     'type'        => 'background',
     'settings'    => 'mt_bg_all',
     'label'       => esc_attr__( 'Background', 'nextnews' ),
-    'section'     => 'background_settings',
+    'section'     => 'general_style_settings',
     'priority'    => 1,
     'default'     => array(
             'color'    => 'rgba(25,170,141,0.7)',
