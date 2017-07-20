@@ -56,7 +56,22 @@ function nextnews_customize_colors($wp_customize){
     'title'    	=> esc_html__('General', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
-
+  
+  Kirki::add_field( 'nextnews_theme_options[themecolor]', array(
+   'type'        => 'select',
+   'settings'    => 'nextnews_theme_options[themecolor]',
+   'label'       => esc_html__( 'Theme Color Sheme', 'nextnews' ),
+   'section'     => 'general_style_settings',
+   'default'     => 'whitesmoke',
+   'priority'    => 1,
+   'option_type'           => 'option',
+   'choices'     => array(
+     'whitesmoke'   => esc_attr__( 'WhiteSmoke', 'nextnews' ),
+     'white' => esc_attr__( 'White', 'nextnews' ),
+     'black' => esc_attr__( 'Black', 'nextnews' ),
+     'color' => esc_attr__( 'Color', 'nextnews' )
+   ),
+  ));
 
   Kirki::add_field( 'radius', array(
   'type'        => 'radio-buttonset',
@@ -73,19 +88,6 @@ function nextnews_customize_colors($wp_customize){
   ),
   ));
 
-  Kirki::add_field( 'colors', array(
-  'type'        => 'radio-buttonset',
-  'settings'    => 'colors',
-  'label'       => esc_html__( 'Color Sheme', 'nextnews' ),
-  'section'     => 'general_style_settings',
-  'default'     => 'color1',
-  'priority'    => 1,
-  'option_type'           => 'option',
-  'choices'     => array(
-    'color1'   => esc_attr__( 'Color 1', 'nextnews' ),
-    'color2' => esc_attr__( 'Color 2', 'nextnews' ),
-  ),
-  ));
 
 Kirki::add_field( 'zoom', array(
  'type'        => 'radio-buttonset',
@@ -114,21 +116,7 @@ Kirki::add_field( 'zoom', array(
       'settings' => 'nextnews_theme_options[colors_default]',
     )));
 
-    Kirki::add_field( 'nextnews_theme_options[themecolor]', array(
-     'type'        => 'select',
-     'settings'    => 'nextnews_theme_options[themecolor]',
-     'label'       => esc_html__( 'Theme Color Sheme', 'nextnews' ),
-     'section'     => 'general_style_settings',
-     'default'     => 'whitesmoke',
-     'priority'    => 1,
-     'option_type'           => 'option',
-     'choices'     => array(
-       'whitesmoke'   => esc_attr__( 'WhiteSmoke', 'nextnews' ),
-       'white' => esc_attr__( 'White', 'nextnews' ),
-       'black' => esc_attr__( 'Black', 'nextnews' ),
-       'color' => esc_attr__( 'Color', 'nextnews' )
-     ),
-    ));
+
 
     Kirki::add_field( 'mt_colors_default', array(
       'type'        => 'multicolor',
@@ -163,7 +151,7 @@ Kirki::add_field( 'zoom', array(
 
   // MENU COLORS //
   $wp_customize->add_section('colors_menu', array(
-    'title'    	=> esc_html__('Header & Menu Colors', 'nextnews'),
+    'title'    	=> esc_html__('Header Colors', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
 
