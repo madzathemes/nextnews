@@ -3376,6 +3376,7 @@ opacity: 0.7
 .footer-bottom p{
   font-size: 13px;
   line-height: 1;
+  color: #222;
   display: inline-block;
   padding: 0px 0px;
 }
