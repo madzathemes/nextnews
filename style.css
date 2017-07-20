@@ -5351,6 +5351,9 @@ img.mfp-img {
 .mt-tc-color .poster-small-bottom:hover h4 {
   background: rgba(0, 0, 0, 0.2);
 }
+.mt-tc-color .commentlist article.comment {
+  border-color: rgba(255, 255, 255, 0.06);
+}
 .mt-tc-color .entry-meta .author-info {
     background: rgba(0, 0, 0, 0.16) !important;
 }
