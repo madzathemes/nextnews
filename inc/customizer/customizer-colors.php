@@ -437,6 +437,7 @@ function mytheme_kirki_fields( $fields ) {
     'label'       => esc_attr__( 'Background', 'nextnews' ),
     'section'     => 'background_settings',
     'priority'    => 1,
+    'transport'   => 'postMessage',
     'default'     => array(
             'color'    => 'rgba(25,170,141,0.7)',
             'image'    => '',
