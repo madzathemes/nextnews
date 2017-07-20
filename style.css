@@ -5369,9 +5369,9 @@ img.mfp-img {
   text-align: center;
   height: 400px;
   overflow: hidden;
-  border: 5px solid #e6e6e6;
+  border: 3px solid #e6e6e6;
   border-radius: 0px;
-  margin: 5px;
+  margin: 20px;
 }
 .mtc-soon {
   width: 310px;
