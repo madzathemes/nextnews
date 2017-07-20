@@ -210,7 +210,8 @@ input,
 .mt-cool-slider .mt-slide-1-img-left:before,
 .mt-cool-slider .mt-slide-1-img-right:before,
 .mtc-d-open,
-.mtc-d-buy {
+.mtc-d-buy,
+.nav-single > li:hover:before {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
@@ -2829,7 +2830,7 @@ opacity: 0.7
   height: 100%;
   background: rgba(0, 0, 0, 0.66)
 }
-.nav-single > li:hover:before{
+.nav-single > li:hover:before {
   background: rgba(0, 0, 0, 0.50)
 }
 .nav-single .next {
