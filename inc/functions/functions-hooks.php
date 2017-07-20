@@ -120,10 +120,7 @@ function nextnews_css() {
 
 	 // Background Color
 	 $style = get_post_meta(get_the_ID(), "magazin_background_color", true);
-	 if(!empty($style)){
-	 		$custom_styles .='body { background-color: '. esc_attr($style) .' }';
-	 }
-	 else if (!empty($options['background_color'])) {
+	if (!empty($options['background_color'])) {
 	 		$custom_styles .='body { background-color: '. esc_attr($options['background_color']) .'; }';
 	 }
 

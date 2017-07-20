@@ -39,16 +39,6 @@ function nextnews_customize_colors($wp_customize){
     'panel'  => 'colors_settings'
   ));
 
-  Kirki::add_field( 'nextnews_theme_options[background_image]', array(
-    'type'        => 'image',
-    'settings'    => 'nextnews_theme_options[background_image]',
-    'label'       => esc_html__( 'Background Image', 'nextnews' ),
-    'section'     => 'background_settings',
-    'default'     => '',
-    'option_type' => 'option',
-    'priority'    => 10,
-  ) );
-
   Kirki::add_field( 'nextnews_theme_options[background_color]', array(
     'type'        => 'color',
     'settings'    => 'nextnews_theme_options[background_color]',
@@ -449,6 +439,24 @@ Kirki::add_field( 'mt_colors_footer_bottom', array(
 add_action('customize_register', 'nextnews_customize_colors');
 
 function mytheme_kirki_fields( $fields ) {
+
+  $fields[] =  array(
+    'type'        => 'background',
+    'settings'    => 'mt_bg',
+    'label'       => esc_attr__( 'Background', 'nextnews' ),
+    'section'     => 'background_settings',
+    'priority'    => 1,
+    'default'     => array(
+            'color'    => 'rgba(25,170,141,0.7)',
+            'image'    => '',
+            'repeat'   => 'no-repeat',
+            'size'     => 'cover',
+            'attach'   => 'fixed',
+            'position' => 'center-bottom',
+        ),
+        'output'      => 'body'
+  );
+
   $fields[] =  array(
     'type'        => 'background',
     'settings'    => 'mt_bg_header',
