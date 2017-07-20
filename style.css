@@ -57,7 +57,8 @@ div.sf-menu ul ul li.menu-item a:hover,
 .mt-theme-text,
 a:hover,
 .nav-single .next div:after,
-.nav-single .previous div:before {
+.nav-single .previous div:before,
+.mt-tc-color a {
   color: #ffd602;
 }
 
