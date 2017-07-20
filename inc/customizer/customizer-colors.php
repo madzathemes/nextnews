@@ -23,14 +23,14 @@ function nextnews_customize_colors($wp_customize){
     ),
   ));
 
-  $wp_customize->add_panel( 'general_style_settings', array(
+  $wp_customize->add_panel( 'colors_settings', array(
     'priority'       => 300,
     'capability'     => 'edit_theme_options',
     'title'    	=> esc_html__('Style', 'nextnews'),
   ));
 
-  $wp_customize->add_section('colors_general', array(
-    'title'    	=> esc_html__('General Colors', 'nextnews'),
+  $wp_customize->add_section('general_style_settings', array(
+    'title'    	=> esc_html__('General', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
 
@@ -51,8 +51,8 @@ function nextnews_customize_colors($wp_customize){
   ) );
 
   // GENERAL COLORS //
-  $wp_customize->add_section('colors_style', array(
-    'title'    	=> esc_html__('Style', 'nextnews'),
+  $wp_customize->add_section('colors_general', array(
+    'title'    	=> esc_html__('General Colors', 'nextnews'),
     'panel'  => 'colors_settings'
   ));
 
@@ -117,7 +117,7 @@ Kirki::add_field( 'zoom', array(
     ));
   $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_default]', array(
       'label'    => esc_html__('Site Color', 'nextnews'),
-      'section'  => 'colors_general',
+      'section'  => 'general_style_settings',
       'settings' => 'nextnews_theme_options[colors_default]',
     )));
 
@@ -127,7 +127,7 @@ Kirki::add_field( 'zoom', array(
       'type'        => 'multicolor',
       'settings'    => 'mt_colors_default',
       'label'       => esc_attr__( 'Site Color', 'nextnews' ),
-      'section'     => 'colors_general',
+      'section'     => 'general_style_settings',
       'option_type' => 'option',
       'priority'    => 1,
       'choices'     => array(
@@ -148,7 +148,7 @@ Kirki::add_field( 'zoom', array(
     ));
   $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_button]', array(
       'label'    => esc_html__('Form Button', 'nextnews'),
-      'section'  => 'colors_general',
+      'section'  => 'general_style_settings',
       'settings' => 'nextnews_theme_options[colors_button]',
   )));
 
