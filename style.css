@@ -5324,8 +5324,7 @@ img.mfp-img {
 .mt-tc-color .author-description a:before,
 .mt-tc-color .author-description a,
 .mt-tc-color .comment-author .fn a,
-.mt-tc-color a,
-.mt-tc-color .footer div a {
+.mt-tc-color a {
   color: white;
 }
 .mt-tc-color .single-head-info, .mt-tc-color .single-head-info a, .mt-tc-color .single-head-info a:before {
@@ -5369,6 +5368,11 @@ img.mfp-img {
 .mt-tc-1 .single-content .entry-content h5,
 .mt-tc-1 .single-content .entry-content h6 {
   color: #222;
+}
+
+.mt-fc-color .footer div,
+.mt-fc-color .footer div a {
+  color: white;
 }
 
 /* Demo Bar */
