@@ -5322,7 +5322,9 @@ img.mfp-img {
 }
 .mt-lt .color-silver-light,
 .mt-lt .poster-content-wrap small, .mt-lt .poster-content-wrap strong, .mt-lt .poster-content small, .mt-lt .poster-content strong,
-.mt-lt .mt_comment_date {
+.mt-lt .mt_comment_date,
+.mt-lt .comment-reply-link,
+.mt-lt .comment-edit-link {
   color: rgba(255, 255, 255, 0.66);
 }
 .mt-tc-color h2.heading span {
