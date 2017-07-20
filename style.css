@@ -2729,7 +2729,7 @@ opacity: 0.7
   float:left;
 }
 .share li a {
-  color: white;
+  color: white !important;
   display: inline-block;
   padding: 6px 17px 7px 38px;
   font-size: 14px;
