@@ -3184,9 +3184,6 @@ opacity: 0.7
 .comment-respond .comment-textarea {
   padding-bottom: 0px;
 }
-.comment-respond .logged-in-as a:hover {
-  color: #000113
-}
 .comment-adres-not-publish {
   font-size: 14px;
   color: #949494;
