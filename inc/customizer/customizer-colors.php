@@ -139,7 +139,7 @@ Kirki::add_field( 'zoom', array(
     ));
   $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'nextnews_theme_options[colors_button]', array(
       'label'    => esc_html__('Form Button', 'nextnews'),
-      'section'  => 'general_style_settings',
+      'section'  => 'colors_content',
       'settings' => 'nextnews_theme_options[colors_button]',
   )));
 
