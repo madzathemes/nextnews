@@ -158,7 +158,7 @@ function nextnews_head_bar() { ?>
 						<?php } ?>
 
 
-						<div class="mt-menu-bar-brand <?php if ( true == get_theme_mod( 'mt_bar_head', true ) AND 1 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 2 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 3 == get_theme_mod( 'mt_bar_head_style', 1 ) ){ ?>mt-menu-bar-brand-hidde<?php } ?>">
+						<div class="mt-menu-bar-brand <?php if ( true == get_theme_mod( 'mt_bar_head', true ) AND ( 1 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 2 == get_theme_mod( 'mt_bar_head_style', 1 ) OR 3 == get_theme_mod( 'mt_bar_head_style', 1 ) ) ){ ?>mt-menu-bar-brand-hidde<?php } ?>">
 							<?php nextnews_logo(); ?>
 							<?php nextnews_fixed_logo(); ?>
 						</div>
