@@ -39,15 +39,6 @@ function nextnews_customize_colors($wp_customize){
     'panel'  => 'colors_settings'
   ));
 
-  Kirki::add_field( 'nextnews_theme_options[background_color]', array(
-    'type'        => 'color',
-    'settings'    => 'nextnews_theme_options[background_color]',
-    'label'       => esc_html__( 'Background Color', 'nextnews' ),
-    'section'     => 'background_settings',
-    'default'     => '',
-    'option_type' => 'option',
-    'priority'    => 10,
-  ) );
 
   Kirki::add_field( 'nextnews_theme_options[background_color_content]', array(
     'type'        => 'color',
