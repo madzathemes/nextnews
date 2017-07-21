@@ -501,6 +501,16 @@ function mytheme_kirki_fields( $fields ) {
     )
   );
 
+  $fields[] =  array(
+    'type'        => 'color',
+    'settings'    => 'mt_bg_fixed',
+    'label'       => esc_attr__( 'Fixed Menu Background', 'nextnews' ),
+    'section'     => 'colors_menu',
+    'priority'    => 1,
+    'output'    => array( 'element' => '.fixed-on .mt-bar.mt-menu-bar')
+
+  );
+
   return $fields;
 }
 add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
