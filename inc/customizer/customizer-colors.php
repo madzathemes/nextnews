@@ -521,4 +521,3 @@ add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
 
 
 ?>
-fix
