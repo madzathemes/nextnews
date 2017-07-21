@@ -507,7 +507,10 @@ function mytheme_kirki_fields( $fields ) {
     'label'       => esc_attr__( 'Fixed Menu Background', 'nextnews' ),
     'section'     => 'colors_menu',
     'priority'    => 1,
-    'output'    => array( 'element' => '.fixed-on .mt-bar.mt-menu-bar')
+    'output'    => array( array(
+            'element'  => '.fixed-on .mt-bar.mt-menu-bar',
+            'property' => 'background-color',,
+        ))
 
   );
 
@@ -518,3 +521,4 @@ add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
 
 
 ?>
+fix
