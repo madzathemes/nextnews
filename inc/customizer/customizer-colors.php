@@ -50,8 +50,8 @@ function nextnews_customize_colors($wp_customize){
   Kirki::add_field( 'nextnews_theme_options[themecolor]', array(
    'type'        => 'select',
    'settings'    => 'nextnews_theme_options[themecolor]',
-   'label'       => esc_html__( 'Theme Color Sheme', 'nextnews' ),
-   'section'     => 'general_style_settings',
+   'label'       => esc_html__( 'Content Color Sheme', 'nextnews' ),
+   'section'     => 'colors_content',
    'default'     => 'whitesmoke',
    'priority'    => 1,
    'option_type'           => 'option',
