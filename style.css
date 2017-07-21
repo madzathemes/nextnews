@@ -4249,7 +4249,6 @@ ul.page-numbers li {
 }
 
 .mt-outer-wrap {
-    overflow: auto;
     margin: auto;
     width: 100%;
     -webkit-transition: transform .7s ease!important;
