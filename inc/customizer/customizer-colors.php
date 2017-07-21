@@ -509,7 +509,7 @@ function mytheme_kirki_fields( $fields ) {
     'priority'    => 1,
     'output'    => array( array(
             'element'  => '.fixed-on .mt-bar.mt-menu-bar',
-            'property' => 'background-color',,
+            'property' => 'background-color',
         ))
 
   );
