@@ -212,7 +212,8 @@ input,
 .mt-cool-slider .mt-slide-1-img-right:before,
 .mtc-d-open,
 .mtc-d-buy,
-.nav-single > li:hover:before {
+.nav-single > li:hover:before,
+.fixed-on .mt-bar.mt-menu-bar {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
