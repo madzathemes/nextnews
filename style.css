@@ -716,6 +716,9 @@ blockquote:after {
   margin-left: auto;
   margin-right: auto;
 }
+.extra-full {
+  margin: 0 -40px;
+}
 table {
   width: 100%;
   text-align: left;
