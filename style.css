@@ -3286,6 +3286,9 @@ opacity: 0.7
   background: #fff;
   margin-bottom: 40px;
 }
+.tags {
+  font-size: 12px;
+}
 .tags a{
   font-size: 12px;
   padding: 0 10px 0 0;
@@ -5318,7 +5321,8 @@ img.mfp-img {
 .mt-tc-color .author-description a:before,
 .mt-tc-color .author-description a,
 .mt-tc-color .comment-author .fn a,
-.mt-tc-color a {
+.mt-tc-color a,
+.tags {
   color: white;
 }
 .mt-tc-color .single-head-info, .mt-tc-color .single-head-info a, .mt-tc-color .single-head-info a:before {
