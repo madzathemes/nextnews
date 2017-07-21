@@ -3290,7 +3290,7 @@ opacity: 0.7
   font-size: 13px;
 }
 .tags a{
-  padding: 0 10px 0 0;
+  padding: 0 10px 0 2px;
   display: inline-block;
   margin-bottom: 10px;
   margin-top: 10px;
