@@ -3288,12 +3288,10 @@ opacity: 0.7
 }
 .tags a{
   font-size: 12px;
-  background: #ffffff;
-  padding: 3px 6px;
+  padding: 0 10px 0 0;
   text-transform: uppercase;
-  margin-right: 5px;
   display: inline-block;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-top: 10px;
 }
 .heading-404 {
