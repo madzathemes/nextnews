@@ -718,6 +718,7 @@ blockquote:after {
 }
 .extra-full {
   margin: 0 -40px;
+  max-width: inherit;
 }
 table {
   width: 100%;
