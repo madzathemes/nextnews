@@ -3516,15 +3516,6 @@ opacity: 0.7
   }
 }
 
-@media (min-width: 1460px) {
-  .boxed-layout-on .header-wrap,
-  .boxed-layout-on .mt-outer-wrap,
-  .boxed-layout-on .mt-header{
-    width: 1360px;
-  }
-}
-
-
 @media all and (max-width: 1199px) {
   .share.top{
     float:none;
