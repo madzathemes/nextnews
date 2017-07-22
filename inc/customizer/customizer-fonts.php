@@ -191,7 +191,6 @@ if ( class_exists( 'Kirki' ) ) {
      'section'     => 'mt_typography_section',
      'priority'    => 10,
      'default'     => array( 'font-family'  => 'Lato', ),
-     'transport'   => 'auto',
      'output' => array(
        array(
          'element' => 'h1, h2, h3, h4, h5, h6, blockquote',
@@ -213,7 +212,6 @@ if ( class_exists( 'Kirki' ) ) {
      'section'     => 'mt_typography_section',
      'priority'    => 10,
      'default'     => array( 'font-family'  => 'Lato', ),
-     'transport'   => 'auto',
      'output' => array(
        array(
          'element' => 'body',
@@ -235,7 +233,6 @@ if ( class_exists( 'Kirki' ) ) {
      'section'     => 'mt_typography_section',
      'priority'    => 10,
      'default'     => array( 'font-family'  => 'Lato', ),
-     'transport'   => 'auto',
      'output' => array(
        array(
          'element' => '.sf-menu',
