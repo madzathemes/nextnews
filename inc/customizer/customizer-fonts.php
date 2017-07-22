@@ -199,9 +199,9 @@ if ( class_exists( 'Kirki' ) ) {
      ),
      'active_callback'    => array(
       array(
-        'setting'  => 'mt_typogrpahy',
+        'setting'  => 'mt_typogrpahy2',
         'operator' => '==',
-        'value'    => '1',
+        'value'    => 'on',
       )
      ),
     ) );
@@ -221,9 +221,9 @@ if ( class_exists( 'Kirki' ) ) {
      ),
      'active_callback'    => array(
       array(
-        'setting'  => 'mt_typogrpahy',
+        'setting'  => 'mt_typogrpahy2',
         'operator' => '==',
-        'value'    => '1',
+        'value'    => 'on',
       )
      ),
     ) );
@@ -243,9 +243,9 @@ if ( class_exists( 'Kirki' ) ) {
      ),
      'active_callback'    => array(
       array(
-        'setting'  => 'mt_typogrpahy',
+        'setting'  => 'mt_typogrpahy2',
         'operator' => '==',
-        'value'    => '1',
+        'value'    => 'on',
       )
      ),
     ) );
