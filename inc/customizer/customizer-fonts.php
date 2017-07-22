@@ -201,7 +201,7 @@ if ( class_exists( 'Kirki' ) ) {
       array(
         'setting'  => 'mt_typogrpahy',
         'operator' => '==',
-        'value'    => 'on',
+        'value'    => '1',
       )
      ),
     ) );
@@ -223,7 +223,7 @@ if ( class_exists( 'Kirki' ) ) {
       array(
         'setting'  => 'mt_typogrpahy',
         'operator' => '==',
-        'value'    => 'on',
+        'value'    => '1',
       )
      ),
     ) );
@@ -245,7 +245,7 @@ if ( class_exists( 'Kirki' ) ) {
       array(
         'setting'  => 'mt_typogrpahy',
         'operator' => '==',
-        'value'    => 'on',
+        'value'    => '1',
       )
      ),
     ) );
