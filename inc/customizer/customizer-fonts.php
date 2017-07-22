@@ -197,6 +197,13 @@ if ( class_exists( 'Kirki' ) ) {
          'element' => 'h1, h2, h3, h4, h5, h6, blockquote',
        ),
      ),
+     'active_callback'    => array(
+      array(
+        'setting'  => 'mt_typogrpahy',
+        'operator' => '==',
+        'value'    => 'on',
+      )
+     ),
     ) );
 
     Kirki::add_field( 'mt_fonts', array(
@@ -212,6 +219,13 @@ if ( class_exists( 'Kirki' ) ) {
          'element' => 'body',
        ),
      ),
+     'active_callback'    => array(
+      array(
+        'setting'  => 'mt_typogrpahy',
+        'operator' => '==',
+        'value'    => 'on',
+      )
+     ),
     ) );
 
     Kirki::add_field( 'mt_fonts', array(
@@ -226,6 +240,13 @@ if ( class_exists( 'Kirki' ) ) {
        array(
          'element' => '.sf-menu',
        ),
+     ),
+     'active_callback'    => array(
+      array(
+        'setting'  => 'mt_typogrpahy',
+        'operator' => '==',
+        'value'    => 'on',
+      )
      ),
     ) );
 }
