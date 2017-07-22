@@ -151,4 +151,43 @@ function nextnews_customize_fonts($wp_customize){
 
 add_action('customize_register', 'nextnews_customize_fonts');
 
+if ( class_exists( 'Kirki' ) ) {
+    //setup Kirki config
+    Kirki::add_config( 'ti', array(
+        'capability'  => 'edit_theme_options',
+        'option_type' => 'theme_mod',
+        'option_name' => 'ti',
+    ) );
+
+    Kirki::add_panel('test_panel', array(
+        'priority' => 10,
+        'title'    => esc_html__('Fonts', 'nextnews'),
+    ) );
+
+    // Add section
+    Kirki::add_section( 'test_section', array(
+        'title'       => esc_html__('font-family:', 'nextnews'),
+        'description' => esc_html__('test description', 'nextnews'),
+        'panel'       => 'test_panel',
+        'priority'    => 11,
+    ) );
+
+    Kirki::add_field( 'ti', array(
+     'type'        => 'typography',
+     'settings'    => 'body_typography26',
+     'label'       => esc_attr__( 'Body Typography', 'nextnews' ),
+     'description' => esc_attr__( 'Select the main typography options for your site.', 'nextnews' ),
+     'help'        => esc_attr__( 'The typography options you set here apply to all content on your site.', 'nextnews' ),
+     'section'     => 'test_section',
+     'priority'    => 10,
+     'default'     => array( 'font-family'  => 'Lato', ),
+     'transport'   => 'auto',
+     'output' => array(
+       array(
+         'element' => 'h1, h2, h3, h4, h5, h6, blockquote',
+       ),
+     ),
+    ) );
+}
+
 ?>
