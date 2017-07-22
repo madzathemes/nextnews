@@ -176,7 +176,7 @@ if ( class_exists( 'Kirki' ) ) {
        'settings'    => 'mt_typogrpahys',
        'label'       => esc_attr__( 'Use Custom Fonts', 'nextnews' ),
        'section'     => 'mt_typography_section',
-       'default'     => '2',
+       'default'     => 2,
        'priority'    => 10,
        'choices'     => array(
          '1'  => esc_attr__( 'On', 'nextnews' ),
@@ -200,8 +200,8 @@ if ( class_exists( 'Kirki' ) ) {
      'active_callback'    => array(
       array(
         'setting'  => 'mt_typogrpahys',
-        'operator' => '==',
-        'value'    => 1,
+        'operator' => '!=',
+        'value'    => 2,
       )
      ),
     ) );
@@ -222,8 +222,8 @@ if ( class_exists( 'Kirki' ) ) {
      'active_callback'    => array(
       array(
         'setting'  => 'mt_typogrpahys',
-        'operator' => '==',
-        'value'    => 1,
+        'operator' => '!=',
+        'value'    => 2,
       )
      ),
     ) );
@@ -244,8 +244,8 @@ if ( class_exists( 'Kirki' ) ) {
      'active_callback'    => array(
       array(
         'setting'  => 'mt_typogrpahys',
-        'operator' => '==',
-        'value'    => 1,
+        'operator' => '!=',
+        'value'    => 2,
       )
      ),
     ) );
