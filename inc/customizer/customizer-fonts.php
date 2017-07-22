@@ -179,8 +179,8 @@ if ( class_exists( 'Kirki' ) ) {
        'default'     => '1',
        'priority'    => 10,
        'choices'     => array(
-         '1'  => esc_attr__( 'On', 'nextnews' ),
-         '2' => esc_attr__( 'Off', 'nextnews' ),
+         'on'  => esc_attr__( 'On', 'nextnews' ),
+         'off' => esc_attr__( 'Off', 'nextnews' ),
        ),
      ));
 
