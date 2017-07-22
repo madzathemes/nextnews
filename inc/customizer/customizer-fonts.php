@@ -173,9 +173,9 @@ if ( class_exists( 'Kirki' ) ) {
 
     Kirki::add_field( 'mt_fonts', array(
        'type'        => 'switch',
-       'settings'    => 'mt_typogrpahy',
+       'settings'    => 'mt_typogrpahy2',
        'label'       => esc_attr__( 'Use Custom Fonts', 'nextnews' ),
-       'section'     => 'mt_typography_section2',
+       'section'     => 'mt_typography_section',
        'default'     => 'on',
        'priority'    => 10,
        'choices'     => array(
