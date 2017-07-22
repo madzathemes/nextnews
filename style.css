@@ -665,9 +665,9 @@ blockquote:before {
   position: absolute;
   left: -34px;
   top: 7px;
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 blockquote:after {
   font-size: 18px !important;
