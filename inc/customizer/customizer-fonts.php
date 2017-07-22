@@ -166,8 +166,7 @@ if ( class_exists( 'Kirki' ) ) {
 
     // Add section
     Kirki::add_section( 'test_section', array(
-        'title'       => esc_html__('font-family:', 'nextnews'),
-        'description' => esc_html__('test description', 'nextnews'),
+        'title'       => esc_html__('Font-family', 'nextnews'),
         'panel'       => 'test_panel',
         'priority'    => 11,
     ) );
