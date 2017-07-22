@@ -164,6 +164,14 @@ if ( class_exists( 'Kirki' ) ) {
         'title'    => esc_html__('Fonts', 'nextnews'),
     ) );
 
+    // Add section
+    Kirki::add_section( 'test_section', array(
+        'title'       => esc_html__('font-family:', 'nextnews'),
+        'description' => esc_html__('test description', 'nextnews'),
+        'panel'       => 'test_panel',
+        'priority'    => 11,
+    ) );
+
     Kirki::add_field( 'ti', array(
      'type'        => 'typography',
      'settings'    => 'mt_typography_headings',
