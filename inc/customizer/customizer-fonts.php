@@ -175,7 +175,7 @@ if ( class_exists( 'Kirki' ) ) {
        'type'        => 'switch',
        'settings'    => 'mt_typogrpahy',
        'label'       => esc_attr__( 'Use Custom Fonts', 'nextnews' ),
-       'section'     => 'mt_typography_section',
+       'section'     => 'mt_typography_section2',
        'default'     => 'on',
        'priority'    => 10,
        'choices'     => array(
