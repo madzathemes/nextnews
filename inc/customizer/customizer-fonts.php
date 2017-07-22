@@ -172,15 +172,15 @@ if ( class_exists( 'Kirki' ) ) {
     ) );
 
     Kirki::add_field( 'mt_fonts', array(
-       'type'        => 'switch',
-       'settings'    => 'mt_typogrpahy2',
+       'type'        => 'select',
+       'settings'    => 'mt_typogrpahys',
        'label'       => esc_attr__( 'Use Custom Fonts', 'nextnews' ),
        'section'     => 'mt_typography_section',
-       'default'     => 'off',
+       'default'     => '2',
        'priority'    => 10,
        'choices'     => array(
-         'on'  => esc_attr__( 'On', 'nextnews' ),
-         'off' => esc_attr__( 'Off', 'nextnews' ),
+         '1'  => esc_attr__( 'On', 'nextnews' ),
+         '2' => esc_attr__( 'Off', 'nextnews' ),
        ),
      ));
 
@@ -199,9 +199,9 @@ if ( class_exists( 'Kirki' ) ) {
      ),
      'active_callback'    => array(
       array(
-        'setting'  => 'mt_typogrpahy2',
+        'setting'  => 'mt_typogrpahys',
         'operator' => '==',
-        'value'    => 'on',
+        'value'    => 1,
       )
      ),
     ) );
@@ -221,9 +221,9 @@ if ( class_exists( 'Kirki' ) ) {
      ),
      'active_callback'    => array(
       array(
-        'setting'  => 'mt_typogrpahy2',
+        'setting'  => 'mt_typogrpahys',
         'operator' => '==',
-        'value'    => 'on',
+        'value'    => 1,
       )
      ),
     ) );
@@ -243,9 +243,9 @@ if ( class_exists( 'Kirki' ) ) {
      ),
      'active_callback'    => array(
       array(
-        'setting'  => 'mt_typogrpahy2',
+        'setting'  => 'mt_typogrpahys',
         'operator' => '==',
-        'value'    => 'on',
+        'value'    => 1,
       )
      ),
     ) );
