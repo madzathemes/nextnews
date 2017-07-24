@@ -667,6 +667,19 @@ figure.aligncenter {
 	margin: 20px 50px;
   /* responsive portrait phone */
 }
+
+blockquote:before {
+    font-size: 24px !important;
+    font-family: "madza";
+    content: "\e906";
+    position: absolute;
+    left: -36px;
+    top: 4px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #d8d8d8;
+}
 @media (max-width: 767px) {
   .td-page-content blockquote,
   .td-post-content blockquote,
