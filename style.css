@@ -701,17 +701,13 @@ blockquote:after {
 }
 .alignright {
   display: inline;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+  float: right;
+  margin: 20px -40px 10px 20px
 }
 .alignleft {
-    float: left;
-    display: inline;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+  float: left;
+  display: inline;
+  margin: 20px 20px 10px -40px
 }
 .aligncenter {
   clear: both;
