@@ -1964,7 +1964,7 @@ html .mceContentBody {
   max-width: 773px;
   margin-left: 24px;
   margin-right: 24px;
-  background: #ffffff url('inc/img/editor-style/grid-sidebar-desktop.gif') repeat-y left top;
+  background: #ffffff url('inc/img/editor-style/grid-sidebar-desktop.gif') repeat-y 78px;
   font-family: Verdana, Geneva, sans-serif;
   position: relative;
   /* responsive Landscape tablet */
@@ -1993,7 +1993,7 @@ html .mceContentBody .td-scroll-effect {
 /* max width  - full content */
 html .mceContentBody-max-width-big {
   max-width: 1068px;
-  background: #ffffff url('inc/img/editor-style/grid-no-sidebar-desktop.gif') repeat-y left top;
+  background: #ffffff url('inc/img/editor-style/grid-no-sidebar-desktop.gif') repeat-y 78px;
   /* responsive Landscape tablet */
 }
 html .mceContentBody-max-width-big:after {
