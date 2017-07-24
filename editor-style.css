@@ -1993,7 +1993,7 @@ html .mceContentBody .td-scroll-effect {
 /* max width  - full content */
 html .mceContentBody-max-width-big {
   max-width: 1068px;
-  background: #ffffff url('images/editor-style/grid-no-sidebar-desktop.gif') repeat-y left top;
+  background: #ffffff url('inc/img/editor-style/grid-no-sidebar-desktop.gif') repeat-y left top;
   /* responsive Landscape tablet */
 }
 html .mceContentBody-max-width-big:after {
