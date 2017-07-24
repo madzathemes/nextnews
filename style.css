@@ -671,7 +671,7 @@ blockquote:before {
 }
 blockquote:after {
   font-size: 18px !important;
-  content: "\e906";
+  content: "";
   position: absolute;
   right: -30px;
   bottom: 25px;
