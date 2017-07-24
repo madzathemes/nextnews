@@ -670,8 +670,8 @@ figure.aligncenter {
 
 blockquote:before {
     font-size: 24px !important;
-    font-family: "madza";
-    content: "\e906";
+    font-family: "dashicons";
+    content: "\f205";
     position: absolute;
     left: -36px;
     top: 4px;
