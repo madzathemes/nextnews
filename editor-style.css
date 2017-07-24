@@ -674,7 +674,6 @@ blockquote:before {
     content: "\f205";
     position: absolute;
     left: -36px;
-    top: 4px;
     color: #d8d8d8;
 }
 @media (max-width: 767px) {
