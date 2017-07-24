@@ -668,7 +668,7 @@ blockquote:before {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  color: #ffd602;
+  color: #d8d8d8;
 }
 .sticky {}
 .entry-content blockquote {
