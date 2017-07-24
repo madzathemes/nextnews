@@ -1961,7 +1961,7 @@ usage:
 */
 /* max width  - content + sidebar */
 html .mceContentBody {
-  max-width: 696px;
+  max-width: 773px;
   margin-left: 24px;
   margin-right: 24px;
   background: #ffffff url('images/editor-style/grid-sidebar-desktop.gif') repeat-y left top;
