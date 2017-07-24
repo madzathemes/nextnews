@@ -668,13 +668,7 @@ blockquote:before {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-}
-blockquote:after {
-  font-size: 18px !important;
-  content: "";
-  position: absolute;
-  right: -30px;
-  bottom: 25px;
+  color: #ffd602;
 }
 .sticky {}
 .entry-content blockquote {
