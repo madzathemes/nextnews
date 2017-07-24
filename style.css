@@ -702,12 +702,12 @@ blockquote:after {
 .alignright {
   display: inline;
   float: right;
-  margin: 20px -40px 10px 20px
+  margin: 20px -20px 10px 20px
 }
 .alignleft {
   float: left;
   display: inline;
-  margin: 20px 20px 10px -40px
+  margin: 20px 20px 10px -20px
 }
 .aligncenter {
   clear: both;
