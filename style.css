@@ -695,12 +695,12 @@ blockquote:before {
 .alignright {
   display: inline;
   float: right;
-  margin: 5px -20px 10px 20px
+  margin: 5px -20px 5px 20px
 }
 .alignleft {
   float: left;
   display: inline;
-  margin: 5px 20px 10px -20px
+  margin: 5px 20px 5px -20px
 }
 .aligncenter {
   clear: both;
