@@ -385,20 +385,23 @@ function nextnews_header_script() {
 		wp_enqueue_script('jquery-respondmin', get_template_directory_uri() . '/inc/js/respond.js', array('jquery'), '1.0', true);
 		wp_script_add_data( 'jquery-respondmin', 'conditional', 'lt IE 9' );
 
+		$p = get_theme_mod( 'mt_typogrpahys', 'on');
+		if( $p != "off"){
 
-    function nextnews_fonts_url() {
+	    function nextnews_fonts_url() {
 
-      $theme_font = "Lato:400,900,700";
+	      $theme_font = "Lato:400,900,700";
 
-        /*
-        Translators: If there are characters in your language that are not supported
-        by chosen font(s), translate this to 'off'. Do not translate into your own language.
-         */
-        if ( 'off' !== _x( 'on', 'Google font: on or off', 'nextnews' ) ) {
-            $font_url = add_query_arg( 'family', urlencode( ''. esc_attr($theme_font) .'' ), "//fonts.googleapis.com/css" );
-        }
-        return $font_url;
-    }
+	        /*
+	        Translators: If there are characters in your language that are not supported
+	        by chosen font(s), translate this to 'off'. Do not translate into your own language.
+	         */
+	        if ( 'off' !== _x( 'on', 'Google font: on or off', 'nextnews' ) ) {
+	            $font_url = add_query_arg( 'family', urlencode( ''. esc_attr($theme_font) .'' ), "//fonts.googleapis.com/css" );
+	        }
+	        return $font_url;
+	    }
+		}
     wp_enqueue_style( 'nextnews-fonts', nextnews_fonts_url(), array(), '1.0.0' );
 
 
