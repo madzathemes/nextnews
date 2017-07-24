@@ -662,6 +662,9 @@ figure.aligncenter {
   position: relative;
   border-left: none;
   margin: 40px 5% 38px 5%;
+	font-size: 21px !important;
+	font-weight: 800;
+	margin: 20px 50px;
   /* responsive portrait phone */
 }
 @media (max-width: 767px) {
