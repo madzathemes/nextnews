@@ -675,9 +675,6 @@ blockquote:before {
     position: absolute;
     left: -36px;
     top: 4px;
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
     color: #d8d8d8;
 }
 @media (max-width: 767px) {
