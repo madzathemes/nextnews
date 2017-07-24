@@ -1964,7 +1964,7 @@ html .mceContentBody {
   max-width: 773px;
   margin-left: 24px;
   margin-right: 24px;
-  background: #ffffff url('images/editor-style/grid-sidebar-desktop.gif') repeat-y left top;
+  background: #ffffff url('inc/img/editor-style/grid-sidebar-desktop.gif') repeat-y left top;
   font-family: Verdana, Geneva, sans-serif;
   position: relative;
   /* responsive Landscape tablet */
