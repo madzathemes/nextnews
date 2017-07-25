@@ -401,6 +401,7 @@ h1,h2,h3,h4,h5,h6 {
   color: #000113;
   margin: 0px;
   padding: 20px 0px 20px;
+  font-weight: 900;
 }
 .single h1, .single h2, .single h3, .single h4, .single h5, .single h6 {
   padding: 0px 0px 20px;
