@@ -659,16 +659,16 @@ blockquote p {
   font-size: 21px !important;
 }
 blockquote:before {
-  font-size: 14px !important;
+  font-size: 24px !important;
   font-family: "madza";
   content: "\e906";
   position: absolute;
-  left: -30px;
-  top: 11px;
+  left: -36px;
+  top: 4px;
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  color: #ffd800;
+  color: #d8d8d8;
 }
 .sticky {}
 .entry-content blockquote {
