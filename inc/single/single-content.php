@@ -32,9 +32,9 @@ $share_bottom = get_post_meta(get_the_ID(), "magazin_post_share_bottom", true);
     <?php $input = get_the_title().' '.get_the_permalink(); $title = str_replace( ' ', '+', $input ); ?>
     <li class="share-twitter"><a class="mt-radius" href="http://twitter.com/home/?status=<?php echo esc_attr($title); ?>" target="_blank"><span><?php echo esc_html($t_p_share_on_twitter); ?></span></a></li>
     <li class="share-more">
+      <div class="share-more-wrap"><div class="share-more-icon mt-radius">+</div></div>
       <a class="mt-radius" href="https://plus.google.com/share?url=<?php the_permalink() ?>" target="_blank"><div class="google mt-radius-b"></div></a>
       <a class="mt-radius" href="http://pinterest.com/pin/create/button/?url=<?php the_permalink() ?>&media=<?php echo esc_url($url); ?>" target="_blank"><div class="pinterest mt-radius-b"></div></a>
-      <div class="share-more-wrap"><div class="share-more-icon mt-radius">+</div></div>
     </li>
   </ul>
   <?php } else if ( true == get_theme_mod( 'mt_post_bottom_share', true ) ) {  ?>
