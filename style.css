@@ -452,7 +452,7 @@ input[type="submit"],
 input[type="button"] {
   width: auto !important;
   color: white;
-  padding: 15px 25px;
+  padding: 10px 15px;
   display: inline-block;
   line-height: 1;
   font-size: 13px;
