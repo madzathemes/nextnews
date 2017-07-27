@@ -163,11 +163,6 @@ function nextnews_import_files() {
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo12/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
         )
-				,array(
-            'import_file_name'             => esc_html__( 'Demo 127', 'nextnews' ),
-            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo12/widgets.wie',
-            'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-        )
     );
 }
 add_filter( 'pt-ocdi/import_files', 'nextnews_import_files' );
