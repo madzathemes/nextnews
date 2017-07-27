@@ -87,6 +87,20 @@ function nextnews_import_files() {
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
         ),
 				array(
+            'import_file_name'             => esc_html__( 'Demo 2', 'nextnews' ),
+            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/import/demo2/demo.xml',
+            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo2/widgets.json',
+            'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo2/customizer.dat',
+            'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
+        ),
+				array(
+            'import_file_name'             => esc_html__( 'Demo 3', 'nextnews' ),
+            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/import/demo3/demo.xml',
+            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo3/widgets.json',
+            'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo3/customizer.dat',
+            'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
+        ),
+				array(
             'import_file_name'             => esc_html__( 'Demo 4', 'nextnews' ),
             'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/import/demo4/demo.xml',
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo4/widgets.json',
