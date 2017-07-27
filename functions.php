@@ -148,6 +148,20 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo10/widgets.json',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo10/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
+        ),
+				array(
+            'import_file_name'             => esc_html__( 'Demo 11', 'nextnews' ),
+            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/import/demo11/demo.xml',
+            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo11/widgets.json',
+            'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo11/customizer.dat',
+            'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
+        ),
+				array(
+            'import_file_name'             => esc_html__( 'Demo 12', 'nextnews' ),
+            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/import/demo12/demo.xml',
+            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo12/widgets.json',
+            'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo12/customizer.dat',
+            'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
         )
     );
 }
