@@ -676,7 +676,7 @@ Kirki::add_field( 'mt_bar_top_scheme', array(
   'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
   'section'     => 'colors_menu',
   'default'     => 'light',
-  'priority'    => 10,
+  'priority'    => 1,
   'choices'     => array(
     'dark' => esc_attr__( 'Dark', 'nextnews' ),
     'light' => esc_attr__( 'Light', 'nextnews' ),
@@ -795,7 +795,7 @@ Kirki::add_field( 'mt_bar_head_scheme', array(
   'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
   'section'     => 'colors_menu',
   'default'     => 'light',
-  'priority'    => 10,
+  'priority'    => 1,
   'choices'     => array(
     'dark' => esc_attr__( 'Dark', 'nextnews' ),
     'light' => esc_attr__( 'Light', 'nextnews' ),
@@ -984,7 +984,7 @@ Kirki::add_field( 'mt_bar_menu_scheme', array(
 'section'     => 'colors_menu',
 'default'     => 'light',
 'transport'   => 'auto',
-'priority'    => 10,
+'priority'    => 1,
 'choices'     => array(
 'dark' => esc_attr__( 'Dark', 'nextnews' ),
 'light' => esc_attr__( 'Light', 'nextnews' ),
