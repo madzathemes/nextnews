@@ -984,7 +984,7 @@ Kirki::add_field( 'mt_bar_menu_scheme', array(
 'section'     => 'colors_menu',
 'default'     => 'light',
 'transport'   => 'auto',
-'priority'    => 2
+'priority'    => 2,
 'choices'     => array(
 'dark' => esc_attr__( 'Dark', 'nextnews' ),
 'light' => esc_attr__( 'Light', 'nextnews' ),
