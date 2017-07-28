@@ -2027,7 +2027,7 @@ h2.heading span {
   background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.31) 100%);
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.31) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#b3000000',GradientType=0);
-
+  min-width: 100%;
 }
 .poster-large-cat span {
   position: relative;
