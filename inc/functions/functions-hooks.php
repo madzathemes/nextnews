@@ -168,10 +168,6 @@ function nextnews_css() {
 	if(!empty($options_in['hover'])){ $custom_styles .='.header-mt-container-wrap a:hover { color:'. esc_attr($options_in['hover']) .'!important; }'; }
 	if(!empty($options_in['bold'])){  $custom_styles .='.mt-top-followers strong { color:'. esc_attr($options_in['bold']) .'!important; }'; }
 
-	// Menu
- 	 $options_in = get_option("mt_colors_menu_bg");
- 	 if(!empty($options_in['in'])){ $custom_styles .='.header-menu { background-color:'. esc_attr($options_in['in']) .'!important; }'; }
-
 
 	 // Menu Links
 	$options_in = get_option("mt_colors_menu_link");

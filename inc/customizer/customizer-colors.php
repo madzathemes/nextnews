@@ -183,21 +183,6 @@ Kirki::add_field( 'mt_colors_header', array(
 ));
 
 
-Kirki::add_field( 'mt_colors_menu_bg', array(
-  'type'        => 'multicolor',
-  'settings'    => 'mt_colors_menu_bg',
-  'label'       => esc_attr__( 'Menu Background', 'nextnews' ),
-  'section'     => 'colors_menu',
-  'option_type' => 'option',
-  'priority'    => 2,
-  'choices'     => array(
-      'in'    => esc_attr__( 'Background', 'nextnews' ),
-  ),
-  'default'     => array(
-      'in'    => '',
-  ),
-));
-
 Kirki::add_field( 'mt_colors_menu_link', array(
   'type'        => 'multicolor',
   'settings'    => 'mt_colors_menu_link',
