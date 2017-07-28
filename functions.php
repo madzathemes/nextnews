@@ -162,6 +162,13 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo12/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo12/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
+        ),
+				array(
+            'import_file_name'             => esc_html__( 'Demo 13', 'nextnews' ),
+            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/import/demo13/demo.xml',
+            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo13/widgets.wie',
+            'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo13/customizer.dat',
+            'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
         )
     );
 }

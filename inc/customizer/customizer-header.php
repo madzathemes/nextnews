@@ -983,6 +983,7 @@ Kirki::add_field( 'mt_bar_menu_scheme', array(
 'label'       => esc_attr__( 'Row Color Sheme', 'nextnews' ),
 'section'     => 'nextnews_header_bar_menu',
 'default'     => 'light',
+'transport'   => 'auto',
 'priority'    => 10,
 'choices'     => array(
 'dark' => esc_attr__( 'Dark', 'nextnews' ),
