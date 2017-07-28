@@ -167,7 +167,7 @@ Kirki::add_field( 'mt_colors_header', array(
   'label'       => esc_attr__( 'Top Bar', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 2,
+  'priority'    => 4,
   'choices'     => array(
       'background'    => esc_attr__( 'Background', 'nextnews' ),
       'link'   => esc_attr__( 'Link', 'nextnews' ),
@@ -189,7 +189,7 @@ Kirki::add_field( 'mt_colors_menu_link', array(
   'label'       => esc_attr__( 'Menu Links', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 2,
+  'priority'    => 4,
   'choices'     => array(
       'text'    => esc_attr__( 'Links', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -208,7 +208,7 @@ Kirki::add_field( 'mt_colors_menu_link_sub', array(
   'label'       => esc_attr__( 'Menu Sub Links', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 2,
+  'priority'    => 4,
   'choices'     => array(
       'text'    => esc_attr__( 'Lines', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -229,7 +229,7 @@ Kirki::add_field( 'mt_colors_menu_button', array(
   'label'       => esc_attr__( 'Menu Smart Button', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 2,
+  'priority'    => 4,
   'choices'     => array(
       'text'    => esc_attr__( 'Lines', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -246,7 +246,7 @@ Kirki::add_field( 'mt_colors_menu_search', array(
   'label'       => esc_attr__( 'Menu Search', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 2,
+  'priority'    => 4,
   'choices'     => array(
       'text'    => esc_attr__( 'Text', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -447,7 +447,7 @@ function mytheme_kirki_fields( $fields ) {
     'settings'    => 'mt_bg_header_in',
     'label'       => esc_attr__( 'Header Bar Background', 'nextnews' ),
     'section'     => 'colors_menu',
-    'priority'    => 1,
+    'priority'    => 3,
     'choices'     => array(
         'top'    => esc_attr__( 'Top Bar', 'nextnews' ),
         'head'   => esc_attr__( 'Head Bar', 'nextnews' ),
@@ -482,7 +482,7 @@ function mytheme_kirki_fields( $fields ) {
     'settings'    => 'mt_bg_fixed',
     'label'       => esc_attr__( 'Fixed Menu Background', 'nextnews' ),
     'section'     => 'colors_menu',
-    'priority'    => 1,
+    'priority'    => 3,
     'output'    => array( array(
             'element'  => '.fixed-on .mt-bar.mt-menu-bar',
             'property' => 'background-color',
