@@ -5284,10 +5284,10 @@ img.mfp-img {
   color: white;
 }
 
-.mt-bar-dark { color: white; }
-.mt-bar-dark a { color: white; }
-.mt-bar-light { color: #222; }
-.mt-bar-light a { color: #222; }
+.mt-bar-dark { color: white !important; }
+.mt-bar-dark a { color: white !important; }
+.mt-bar-light { color: #222 !important; }
+.mt-bar-light a { color: #222 !important; }
 
 .fix-menu .mt-fx-dark { color: white; }
 .fix-menu .mt-fx-dark a { color: white; }
