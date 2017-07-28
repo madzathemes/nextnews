@@ -167,7 +167,7 @@ Kirki::add_field( 'mt_colors_header', array(
   'label'       => esc_attr__( 'Top Bar', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 1,
+  'priority'    => 2,
   'choices'     => array(
       'background'    => esc_attr__( 'Background', 'nextnews' ),
       'link'   => esc_attr__( 'Link', 'nextnews' ),
@@ -189,7 +189,7 @@ Kirki::add_field( 'mt_colors_menu_bg', array(
   'label'       => esc_attr__( 'Menu Background', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 1,
+  'priority'    => 2,
   'choices'     => array(
       'in'    => esc_attr__( 'Background', 'nextnews' ),
   ),
@@ -204,7 +204,7 @@ Kirki::add_field( 'mt_colors_menu_link', array(
   'label'       => esc_attr__( 'Menu Links', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 1,
+  'priority'    => 2,
   'choices'     => array(
       'text'    => esc_attr__( 'Links', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -223,7 +223,7 @@ Kirki::add_field( 'mt_colors_menu_link_sub', array(
   'label'       => esc_attr__( 'Menu Sub Links', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 1,
+  'priority'    => 2,
   'choices'     => array(
       'text'    => esc_attr__( 'Lines', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -244,7 +244,7 @@ Kirki::add_field( 'mt_colors_menu_button', array(
   'label'       => esc_attr__( 'Menu Smart Button', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 1,
+  'priority'    => 2,
   'choices'     => array(
       'text'    => esc_attr__( 'Lines', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
@@ -261,7 +261,7 @@ Kirki::add_field( 'mt_colors_menu_search', array(
   'label'       => esc_attr__( 'Menu Search', 'nextnews' ),
   'section'     => 'colors_menu',
   'option_type' => 'option',
-  'priority'    => 1,
+  'priority'    => 2,
   'choices'     => array(
       'text'    => esc_attr__( 'Text', 'nextnews' ),
       'text_hover'   => esc_attr__( 'Hover', 'nextnews' ),
