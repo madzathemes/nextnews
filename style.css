@@ -5345,7 +5345,6 @@ img.mfp-img {
 }
 .mt-tc-color .poster-data,
 .mt-tc-color .poster.normal .poster-data,
-.mt-tc-color .page-numbers:hover, .mt-tc-color .page-numbers.current, .mt-tc-color .page-numbers.current:hover,
 .mt-tc-color .pagination .page-numbers {
   background: rgba(0, 0, 0, 0.1);
   color: white;
