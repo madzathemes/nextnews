@@ -5350,7 +5350,8 @@ img.mfp-img {
   color: white;
 }
 .mt-tc-color .poster-cat span,
-.mt-tc-color .number.mt-theme-background {
+.mt-tc-color .number.mt-theme-background
+.mt-tc-color .page-numbers:hover, .mt-tc-color .page-numbers.current, .mt-tc-color .page-numbers.current:hover {
   background: white;
 }
 .mt-tc-color .mt-smart-menu {
@@ -5359,9 +5360,7 @@ img.mfp-img {
 
 .mt-tc-color .poster:hover h2,
 .mt-tc-color .poster-small:hover h4,
-.mt-tc-color .poster-small-bottom:hover h4,
-
-.mt-tc-color .page-numbers:hover, .mt-tc-color .page-numbers.current, .mt-tc-color .page-numbers.current:hover {
+.mt-tc-color .poster-small-bottom:hover h4 {
   background: rgba(0, 0, 0, 0.2);
 }
 .mt-tc-color .commentlist article.comment {
