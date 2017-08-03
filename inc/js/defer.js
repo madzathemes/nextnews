@@ -2,14 +2,35 @@
 var windowsz = jQuery(window);
 var bodyz = jQuery('body');
 
-jQuery(window).bind('mousewheel', function(event) {
-  'use strict';
-  if (event.originalEvent.wheelDelta >= 0) {
-    bodyz.removeClass('nav-up').addClass('nav-down');
-  } else {
-    bodyz.removeClass('nav-down').addClass('nav-up');
-  }
-});
+
+
+function repeatOften() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+  requestAnimationFrame(repeatOften);
+}
+requestAnimationFrame(repeatOften);
+
+function hasScrolled() {
+    var st = windowsz.scrollTop();
+
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop){
+        // Scroll Down
+        bodyz.removeClass('nav-down').addClass('nav-up');
+    } else {
+        bodyz.removeClass('nav-up').addClass('nav-down');
+    }
+
+    lastScrollTop = st;
+}
 
 
 jQuery(document).ready(function() {
