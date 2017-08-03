@@ -5326,7 +5326,8 @@ img.mfp-img {
 .mt-tc-color .comment-author .fn a,
 .mt-tc-color a,
 .mt-tc-color .tags,
-.mt-tc-color .mt-smart-menu .close:before {
+.mt-tc-color .mt-smart-menu .close:before,
+.mt-tc-color .mt-smart-menu .menu-item-has-children:after {
   color: white;
 }
 .mt-tc-color .single-head-info, .mt-tc-color .single-head-info a, .mt-tc-color .single-head-info a:before {
