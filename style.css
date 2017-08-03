@@ -5315,7 +5315,8 @@ img.mfp-img {
 .mt-tc-white input[type="text"],
 .mt-tc-white .entry-meta .author-info,
 .mt-tc-white .poster-data,
-.mt-tc-white .mt-post-tabs-nav { background: #f5f5f5; }
+.mt-tc-white .mt-post-tabs-nav,
+.mt-tc-white h2.heading span { background: #f5f5f5; }
 
 .mt-tc-color h2.heading span,
 .mt-lt p, .mt-lt h1, .mt-lt h2, .mt-lt h3, .mt-lt h4, .mt-lt h5, .mt-lt h6,
