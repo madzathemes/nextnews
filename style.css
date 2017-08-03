@@ -5350,7 +5350,7 @@ img.mfp-img {
   color: white;
 }
 .mt-tc-color .poster-cat span,
-.mt-tc-color .number.mt-theme-background
+.mt-tc-color .number.mt-theme-background,
 .mt-tc-color .page-numbers:hover, .mt-tc-color .page-numbers.current, .mt-tc-color .page-numbers.current:hover {
   background: white;
 }
