@@ -1127,4 +1127,18 @@ Kirki::add_field( 'nextnews_theme_options[menu_fixed]', array(
  ),
  ));
 
+ Kirki::add_field( 'mt_bar_fixed_padding', array(
+  'type'        => 'spacing',
+  'settings'    => 'mt_bar_fixed_padding',
+  'label'       => esc_attr__( 'Fixed Menu Padding', 'nextnews' ),
+  'section'     => 'nextnews_header_other',
+  'default'     => array(
+    'top'    => '0px',
+    'bottom' => '0px',
+    'left'   => '20px',
+    'right'  => '20px',
+  ),
+  'priority'    => 10,
+ ) );
+
 ?>
