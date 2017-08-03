@@ -2,6 +2,10 @@
 var windowsz = jQuery(window);
 var bodyz = jQuery('body');
 
+windowsz.scroll(function(event){
+    didScroll = true;
+
+});
 
 
 function repeatOften() {
