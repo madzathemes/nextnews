@@ -5350,6 +5350,9 @@ img.mfp-img {
 .mt-tc-color .number.mt-theme-background {
   background: white;
 }
+.mt-tc-color .mt-smart-menu {
+  background: #222;
+}
 .mt-tc-color .poster:hover h2,
 .mt-tc-color .poster-small:hover h4,
 .mt-tc-color .poster-small-bottom:hover h4 {
