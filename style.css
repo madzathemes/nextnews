@@ -5359,7 +5359,9 @@ img.mfp-img {
 
 .mt-tc-color .poster:hover h2,
 .mt-tc-color .poster-small:hover h4,
-.mt-tc-color .poster-small-bottom:hover h4 {
+.mt-tc-color .poster-small-bottom:hover h4,
+
+.mt-tc-color .page-numbers:hover, .mt-tc-color .page-numbers.current, .mt-tc-color .page-numbers.current:hover {
   background: rgba(0, 0, 0, 0.2);
 }
 .mt-tc-color .commentlist article.comment {
