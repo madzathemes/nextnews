@@ -180,10 +180,7 @@ h4,
 .mt-load-more,
 .nav-button .mt-m-cool-button-line:after,
 .nav-button .mt-m-cool-button-line:before,
-.nav-button .mt-m-cool-button-line,
-.mt-bar.box > div > div > div,
-.mt-bar.full > div,
-.mt-bar.stretched > div {
+.nav-button .mt-m-cool-button-line {
   -webkit-transition: all 200ms ease-in-out!important;
   -moz-transition: all 200ms ease-in-out!important;
   -ms-transition: all 200ms ease-in-out!important;
@@ -220,7 +217,8 @@ input,
   -o-transition: all 100ms ease-out!important;
   transition: all 100ms ease-out!important;
 }
-.video-icon, .post-icon {
+.video-icon, .post-icon,
+.mt-bar.box > div > div > div, .mt-bar.full > div, .mt-bar.stretched > div {
   -webkit-transition: all 200ms ease-out 0.1s!important;
   -moz-transition: all 200ms ease-out 0.1s!important;
   -ms-transition: all 200ms ease-out 0.1s!important;
