@@ -18,7 +18,7 @@ function nextnews_css() {
 
 
 	$p = get_theme_mod( 'mt_bar_fixed_padding', array('top' => '0px', 'bottom' => '0px', 'left' => '20px', 'right' => '20px',));
-	if($p["top"] != "0px" or $p["bottom"] != "0px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.fixed-on.fixed-padding  .mt-menu-bar.box .mt-bar-in,.fixed-on.fixed-padding  .mt-menu-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }
+	if($p["top"] != "0px" or $p["bottom"] != "0px" or $p["left"] != "20px" or $p["right"] != "20px"){ $custom_styles .='.fixed-on.fixed-padding  .mt-menu-bar.box .mt-bar-in, .fixed-on.fixed-padding  .mt-menu-bar.ful .container { padding: '. esc_attr($p['top']) .' '. esc_attr($p['right']) .' '. esc_attr($p['bottom']) .' '. esc_attr($p['left']) .' } '; }
 
 
 	if(get_theme_mod( 'mt_bar_top_margin_top', '0px') != "0px"){ $custom_styles .='.mt-top-bar { padding-top: '. get_theme_mod( 'mt_bar_top_margin_top', '0px') .' } '; }
