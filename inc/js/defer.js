@@ -48,6 +48,7 @@ jQuery(document).ready(function() {
   var h_menu_bar = jQuery('.mt-menu-bar').css('padding-top');
   var h_menu_bar = parseInt(h_menu_bar);
   var header_height = + h_admin_bar + h_header_bar + h_tob_bar + h_menu_bar;
+  var fixed_height = + h_admin_bar + h_header_bar + h_tob_bar + h_menu_bar + 100;
 
   jQuery('.mt-header').css('top',  + h_admin_bar - h_header_bar - h_tob_bar - h_menu_bar)
 
@@ -107,6 +108,11 @@ jQuery(document).ready(function() {
 		} else {
       body.removeClass("fix-menu");
       body.removeClass("fixed-on");
+		}
+    if (windows.scrollTop() > fixed_height) {
+      body.addClass("fixed-padding");
+		} else {
+      body.removeClass("fixed-padding");
 		}
     return false;
 	});
