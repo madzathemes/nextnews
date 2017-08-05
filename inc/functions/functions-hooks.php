@@ -72,8 +72,6 @@ function nextnews_css() {
 			$custom_styles .=' background: '. esc_attr($options_in['color']) .'; }';
 			if(!empty($options_in['textinbackground'])){
 				$custom_styles .=' .footer-scroll-to-top:before,
-				.top-nav a:hover,
-				.sf-menu > li.current_page_item > a,
 				.poster.size-normal .poster-cat span, .poster.trending-normal .poster-cat span, .poster.trending-carousel .poster-cat span { color: '. esc_attr($options_in['textinbackground']) .'!important; }';
 			}
 	 }
