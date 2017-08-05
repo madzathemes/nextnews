@@ -66,7 +66,8 @@ function nextnews_css() {
 			.mt-subscribe-footer input.mt-s-b:hover,
 			.poster:hover h2, .poster-small:hover h4, .poster-small-bottom:hover h4,
 			.mt-tc-color .poster-cat span,
-			.poster-cat span {';
+			.poster-cat span,
+			.poster.size-normal .poster-cat span, .poster.trending-normal .poster-cat span, .poster.trending-carousel .poster-cat span  {';
 			if(!empty($options_in['textinbackground'])){
 				$custom_styles .=' color: '. esc_attr($options_in['textinbackground']) .'!important; ';
 			}
@@ -74,7 +75,7 @@ function nextnews_css() {
 			if(!empty($options_in['textinbackground'])){
 				$custom_styles .=' .footer-scroll-to-top:before,
 
-				.poster.size-normal .poster-cat span, .poster.trending-normal .poster-cat span, .poster.trending-carousel .poster-cat span { color: '. esc_attr($options_in['textinbackground']) .'!important; }';
+				{ color: '. esc_attr($options_in['textinbackground']) .'!important; }';
 			}
 	 }
 	} else {
