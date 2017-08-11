@@ -85,7 +85,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo1/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo1/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews01.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews01.png',
 						'preview_url'                => 'https://nextnews01.madzathemes.com/',
         ),
 				array(
@@ -94,7 +94,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo2/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo2/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews02.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews02.png',
 						'preview_url'                => 'https://nextnews02.madzathemes.com/',
         ),
 				array(
@@ -103,7 +103,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo3/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo3/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews03.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews03.png',
 						'preview_url'                => 'https://nextnews03.madzathemes.com/',
         ),
 				array(
@@ -112,7 +112,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo4/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo4/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews04.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews04.png',
 						'preview_url'                => 'https://nextnews04.madzathemes.com/',
         ),
 				array(
@@ -121,7 +121,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo5/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo5/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews05.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews05.png',
 						'preview_url'                => 'https://nextnews05.madzathemes.com/',
         ),
 				array(
@@ -130,7 +130,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo6/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo6/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews06.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews06.png',
 						'preview_url'                => 'https://nextnews06.madzathemes.com/',
         ),
 				array(
@@ -139,7 +139,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo7/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo7/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews07.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews07.png',
 						'preview_url'                => 'https://nextnews07.madzathemes.com/',
         ),
 				array(
@@ -148,7 +148,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo8/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo8/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews08.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews08.png',
 						'preview_url'                => 'https://nextnews08.madzathemes.com/',
         ),
 				array(
@@ -157,7 +157,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo9/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo9/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews09.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews09.png',
 						'preview_url'                => 'https://nextnews09.madzathemes.com/',
         ),
 				array(
@@ -166,7 +166,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo10/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo10/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews10.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews10.png',
 						'preview_url'                => 'https://nextnews10.madzathemes.com/',
         ),
 				array(
@@ -175,7 +175,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo11/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo11/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews11.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews11.png',
 						'preview_url'                => 'https://nextnews11.madzathemes.com/',
         ),
 				array(
@@ -184,7 +184,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo12/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo12/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews12.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews12.png',
 						'preview_url'                => 'https://nextnews12.madzathemes.com/',
         ),
 				array(
@@ -193,7 +193,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo13/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo13/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews13.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews13.png',
 						'preview_url'                => 'https://nextnews13.madzathemes.com/',
         ),
 				array(
@@ -202,7 +202,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo14/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo14/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews14.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews14.png',
 						'preview_url'                => 'https://nextnews14.madzathemes.com/',
         ),
 				array(
@@ -211,7 +211,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo15/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo15/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews15.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews15.png',
 						'preview_url'                => 'https://nextnews15.madzathemes.com/',
         ),
 				array(
@@ -220,7 +220,7 @@ function nextnews_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/import/demo16/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'inc/import/demo16/customizer.dat',
             'import_notice'                => esc_html__( 'Customize this theme from Appearance/Customize', 'nextnews' ),
-						'import_preview_image_url'   => trailingslashit( get_template_directory() ) . 'inc/import/img/nextnews16.png',
+						'import_preview_image_url'   => 'http://nextnews01.madzathemes.staging.wpengine.com/wp-content/uploads/sites/10/2017/08/nextnews16.png',
 						'preview_url'                => 'https://nextnews16.madzathemes.com/',
         )
     );
