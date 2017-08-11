@@ -5394,14 +5394,15 @@ img.mfp-img {
 .mtc-demo{
   display: inline-block;
   text-align: center;
-  height: 400px;
+  height: 245px;
   overflow: hidden;
   border: 2px solid #f0f0f0;
   border-radius: 0px;
   margin: 20px;
+  width: 400px
 }
 .mtc-soon {
-  width: 310px;
+  width: 400px;
   font-size: 21px;
   position: relative;
 }
