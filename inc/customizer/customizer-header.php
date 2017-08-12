@@ -478,53 +478,6 @@ Kirki::add_field( 'nextnews_mobile_logo_size', array(
   'priority'    => 21,
 ) );
 
-Kirki::add_field( 'nextnews_theme_options[line_2]', array(
-  'type'        => 'custom',
-  'settings'    => 'nextnews_theme_options[line_2]',
-  'section'     => 'nextnews_logo',
-  'default'     => '<div style="margin: 20px 0; border-top: 1px solid silver"></div>',
-  'priority'    => 23,
-) );
-
-Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo]', array(
-  'type'        => 'image',
-  'settings'    => 'nextnews_theme_options',
-  'label'       => esc_html__( 'Mobile Menu Logo', 'nextnews' ),
-  'section'     => 'nextnews_logo',
-  'default'     => '',
-  'option_type' => 'option',
-  'priority'    => 24,
-) );
-Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo_w]', array(
-  'type'        => 'dimension',
-  'settings'    => 'nextnews_theme_options[mobile_menu_logo_w]',
-  'label'       => esc_html__( 'Mobile Menu Logo Width', 'nextnews' ),
-  'section'     => 'nextnews_logo',
-  'option_type' => 'option',
-  'default'     => '200px',
-  'priority'    => 25,
-) );
-Kirki::add_field( 'nextnews_theme_options[mobile_menu_logo_h]', array(
-  'type'        => 'dimension',
-  'settings'    => 'nextnews_theme_options[mobile_menu_logo_h]',
-  'label'       => esc_html__( 'Mobile Menu Logo Height', 'nextnews' ),
-  'section'     => 'nextnews_logo',
-  'option_type' => 'option',
-  'default'     => '40px',
-  'priority'    => 25,
-) );
-Kirki::add_field( 'nextnews_mobile_menu_logo_size', array(
-  'type'        => 'spacing',
-  'settings'    => 'nextnews_mobile_menu_logo_size',
-  'label'       => esc_html__( 'Mobile Menu Logo Space', 'nextnews' ),
-  'section'     => 'nextnews_logo',
-  'option_type' => 'option',
-  'default'     => array(
-    'top'   => '10px',
-    'bottom'  => '10px',
-  ),
-  'priority'    => 26,
-) );
 
 Kirki::add_field( 'nextnews_theme_options[line_4]', array(
   'type'        => 'custom',
