@@ -1094,4 +1094,13 @@ Kirki::add_field( 'nextnews_theme_options[menu_fixed]', array(
   'priority'    => 10,
  ) );
 
+ Kirki::add_field( 'mt_bar_fixed_height', array(
+   'type'        => 'dimension',
+   'settings'    => 'mt_bar_fixed_height',
+   'label'       => esc_attr__( 'FIX (Header height before fixed menu)', 'nextnews' ),
+   'section'     => 'nextnews_header_other',
+   'default'     => '57px',
+   'priority'    => 11,
+ ) );
+
 ?>

@@ -31,6 +31,8 @@ function nextnews_css() {
 	if(get_theme_mod( 'mt_fixed_menu_logo_w', '200px') != "200px") { $custom_styles .='.fix-menu.fixed-logo-active .mt-menu-bar-brand-hidde.mt-menu-bar-brand > a.logo-fixed > img { width: '.get_theme_mod( 'mt_fixed_menu_logo_w', '200px').' !important; }'; }
 
 
+	if(get_theme_mod( 'mt_bar_fixed_height', '57px') != "0px"){ $custom_styles .='.mt-header-sticky { top: -'. get_theme_mod( 'mt_bar_fixed_height', '57px') .' } '; }
+
 	$options_in = get_option("mt_colors_default");
 	if(!empty($options_in)){
 		if(!empty($options_in['color'])){
