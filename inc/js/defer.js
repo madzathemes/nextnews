@@ -1,4 +1,5 @@
 // Hide Header on on scroll down
+var didScroll;
 var windowsz = jQuery(window);
 var bodyz = jQuery('body');
 
