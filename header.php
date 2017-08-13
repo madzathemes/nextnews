@@ -26,10 +26,22 @@ if(!empty($style)){
 ?>
 <?php if(is_single() and $body_class == "8") { ?>
 	<div class="background-image lazyload" style="background-image:url('<?php echo get_the_post_thumbnail_url(get_the_ID(),"full"); ?>');"></div>
-<?php } else if(!empty($bg_post)) { ?>
-	<div class="background-image lazyload" style="background-image:url('<?php echo esc_url($bg_post); ?>');"></div>
-<?php } else if(!empty($option['background_image'])) { ?>
-	<div class="background-image lazyload" style="background-image:url('<?php echo esc_url($option['background_image']); ?>');"></div>
+<?php } else if(!empty($bg_post)) {
+	// Fix for SSL
+		$bg = esc_url($bg_post);
+		if(is_ssl() and 'http' == parse_url($bg, PHP_URL_SCHEME) ){
+				$bg = str_replace('http://', 'https://', $bg);
+		}
+	 ?>
+	<div class="background-image lazyload" style="background-image:url('<?php echo esc_url($bg); ?>');"></div>
+<?php } else if(!empty($option['background_image'])) {
+	// Fix for SSL
+		$bg = esc_url($option['background_image']);
+		if(is_ssl() and 'http' == parse_url($bg, PHP_URL_SCHEME) ){
+				$bg = str_replace('http://', 'https://', $bg);
+		}
+	 ?>
+	<div class="background-image lazyload" style="background-image:url('<?php echo esc_url($bg); ?>');"></div>
 <?php } ?>
 <div class="mt-smart-menu-out"></div>
 <?php if ( function_exists( 'magazine_themes_bar' ) ) { magazine_themes_bar(); } ?>
