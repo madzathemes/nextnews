@@ -3483,7 +3483,9 @@ opacity: 0.7
   .poster.trending-carousel {
     width: 540px;
   }
-
+  .mt-slide-1-title.nr-1 h2 {
+    font-size: 42px!important;
+  }
 }
 
 /* Responsive */
@@ -3592,7 +3594,9 @@ opacity: 0.7
   .mt-bar-mobile {
     display: block;
   }
-
+  .mt-slide-1-title.nr-1 h2 {
+    font-size: 36px!important;
+  }
 
 }
 
@@ -3764,6 +3768,9 @@ opacity: 0.7
   }
   .footer-social {
     padding-bottom: 0px;
+  }
+  .mt-slide-1-title.nr-1 h2 {
+    font-size: 28px !important;
   }
 
 }
