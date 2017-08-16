@@ -3869,11 +3869,10 @@ opacity: 0.7
     width: 100%;
     text-align: center;
   }
-  .mt-slide-simple .mt-slide-1-title.nr-1 { width: 100%!important; }
   .mt-slide-1-title.nr-2,
   .mt-slide-1-title.nr-3,
   .mt-slide-1-title.nr-4 { display: none }
-
+  .mt-cool-slider-big-title, 
   .mt-slide-simple .mt-slide-1-title.nr-1 {
     width: 100%!important;
   }
@@ -3977,9 +3976,6 @@ opacity: 0.7
     position: relative;
     float:none;
   }
-  .mt-slide-1-title.nr-1 {
-    width: 80%!important;
-  }
 
 }
 @media all and (max-width: 445px) {
@@ -4014,7 +4010,6 @@ opacity: 0.7
     margin-left: -22px;
   }
   .socials a span{
-    ul.share li span
     font-size: 12px;
   }
   .social-text {
