@@ -3968,7 +3968,7 @@ opacity: 0.7
   }
   .poster.normal .poster-data {
     margin: 10px 0px 0px 0px;
-    display: block;
+    display: inline-block;
   }
   .single-title {
     padding-bottom: 5px;
