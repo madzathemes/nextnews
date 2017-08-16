@@ -1,3 +1,7 @@
+
+// Add Better Scroll Performance
+document.addEventListener('touchstart', onTouchStart, {passive: true});
+
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
