@@ -3865,7 +3865,7 @@ opacity: 0.7
     width: 100%;
     text-align: center;
   }
-  .mt-slide-simple .mt-slide-1-title.nr-1 { width: 100%!important; }
+  .mt-slide-1-title.nr-1 { width: 100%!important; }
   .mt-slide-1-title.nr-2,
   .mt-slide-1-title.nr-3,
   .mt-slide-1-title.nr-4 { display: none }
