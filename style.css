@@ -3865,8 +3865,15 @@ opacity: 0.7
     width: 100%;
   }
   .post-carousel .slick-slide {
+    padding-right: 0px !important;
+  }
+  .poster-carousel-trending .post-carousel .slick-slide {
     padding-left: 20px !important;
     padding-right: 0px;
+    padding:  0 0 10px 20px !important;
+  }
+  .poster-carousel-trending .poster-content-wrap {
+    padding-top: 10px;
   }
   .post-carousel {
     padding-left: 0px !important;
