@@ -30,7 +30,7 @@ function nextnews_paging_nav() {
 }
 endif;
 
-$navigation_speed = "4.9";
+$navigation_speed = "5.1";
 
 
 if ( ! function_exists( 'nextnews_entry_meta' ) ) {
