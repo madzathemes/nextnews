@@ -3865,7 +3865,8 @@ opacity: 0.7
     width: 100%;
   }
   .post-carousel .slick-slide {
-    padding-right: 0px !important;
+    padding-left: 20px !important;
+    padding-right: 0px;
   }
   .post-carousel {
     padding-left: 0px !important;
