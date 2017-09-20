@@ -36,7 +36,12 @@ else if (is_search()) {
    	if ( is_active_sidebar( 'sidebar-search-widget-area' ) ) {
 
     	dynamic_sidebar( 'sidebar-search-widget-area' );
-	}
+
+		} else if ( is_active_sidebar( 'sidebar-widget-area-1' ) ) {
+
+			dynamic_sidebar( 'sidebar-widget-area-1' );
+
+		}
 }
 
 else if (is_category() or is_tag()) {
@@ -44,13 +49,24 @@ else if (is_category() or is_tag()) {
 	if ( is_active_sidebar( 'sidebar-blog-widget-area' ) ) {
 
 		dynamic_sidebar( 'sidebar-blog-widget-area' );
+
+	} else if ( is_active_sidebar( 'sidebar-widget-area-1' ) ) {
+
+		dynamic_sidebar( 'sidebar-widget-area-1' );
+
 	}
 } else if (is_author()) {
 
 	if ( is_active_sidebar( 'sidebar-author-widget-area' ) ) {
 
 		dynamic_sidebar( 'sidebar-author-widget-area' );
+
+	} else if ( is_active_sidebar( 'sidebar-widget-area-1' ) ) {
+
+		dynamic_sidebar( 'sidebar-widget-area-1' );
+
 	}
+
 }
 
 
