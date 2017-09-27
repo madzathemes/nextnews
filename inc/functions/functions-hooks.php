@@ -377,6 +377,7 @@ add_action( 'wp_enqueue_scripts', 'nextnews_css');
 function nextnews_header_script() {
 
 		$option = get_option("nextnews_theme_options");
+		wp_enqueue_script( 'mt-defer', get_template_directory_uri(). '/inc/js/defer.js', array( 'jquery'),  '1.0', true );
 
 		wp_enqueue_script( 'nextnews_script', get_template_directory_uri(). '/inc/js/scripts.js', array( 'jquery'), '', true );
 		wp_localize_script( 'nextnews_script', 'ajax_posts', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ), 'noposts' => esc_html__('No older posts found', 'nextnews'), ));
